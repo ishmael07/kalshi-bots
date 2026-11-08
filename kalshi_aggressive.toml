@@ -1,0 +1,71 @@
+# AGGRESSIVE account: same markets, model and entry rules as kalshi.toml; bigger bets and a bigger
+# per-city-day cap. Replay grid ($75, 17 months, 32 variants, all reported in the commit):
+#   bet 5%, cap 12%, <=24h: $75 -> $6.6k (maxDD 41%) | paying 1c more per fill: $2.9k (maxDD 47%)
+#   cap 20% got WORSE under the +1c stress (x18-30, maxDD 67-72%): past that point it is overbetting.
+#   The 12h window lost to 24h at every size (fewer chances, idle cash).
+# Expect drawdowns around half the account. Virtual money only.
+[bot]
+label = "Aggressive"
+series = ["KXHIGHNY", "KXHIGHCHI", "KXHIGHMIA", "KXHIGHAUS", "KXHIGHLAX", "KXHIGHDEN", "KXHIGHPHIL",
+          # 15 more cities (2026-11-07): the 7-city model made +3.0%/bet out-of-sample on them
+          # (+1.6% at +1c, 26/37 weeks up; python3 -m kalshi citycheck --db data/kalshi_new.db)
+          "KXHIGHTDC", "KXHIGHTATL", "KXHIGHTMIN", "KXHIGHTDAL", "KXHIGHTSFO", "KXHIGHTHOU", "KXHIGHTLV",
+          "KXHIGHTOKC", "KXHIGHTBOS", "KXHIGHTSEA", "KXHIGHTSATX", "KXHIGHTPHX",
+          "KXLOWTMIN", "KXLOWTMIA", "KXLOWTLAX",
+          # 18 established thinner markets (2026-11-08): +3.2%/bet out-of-sample (+1.8% at +1c).
+          # 8 young ones (<20 weeks old: TTN, EWR, SDF, low SAN, high SAN) lost -4.0% and are skipped.
+          "KXHIGHTNOLA", "KXLOWTNYC", "KXLOWTPHIL", "KXLOWTATL", "KXLOWTDC", "KXLOWTBOS", "KXLOWTCHI",
+          "KXLOWTDAL", "KXLOWTSATX", "KXLOWTHOU", "KXLOWTNOLA", "KXLOWTAUS", "KXLOWTOKC", "KXLOWTPHX",
+          "KXLOWTDEN", "KXLOWTLV", "KXLOWTSEA", "KXLOWTSFO",
+          "KXJOBLESSCLAIMS", "KXCPIYOY", "KXCPI", "KXPAYROLLS", "KXU3", "KXFEDDECISION", "KXFED", "KXGDP",
+          "KXAAAGASD", "KXTSAW"]
+start_equity = 75.0
+margin = 0.03
+kelly_mult = 0.25
+max_frac = 0.10
+fill_share = 0.25
+min_ttc_s = 120
+max_ttc_s = 86400
+sizing = "fixed"
+fixed_frac = 0.05      # 5% of equity per bet (steady: 1%)
+group_cap_frac = 0.12  # 12% per city-day / release day (steady: 5%)
+open_cap_frac = 0.95
+max_order_dollars = 1000000.0   # the fractions above are the real limits
+max_open_dollars = 1000000.0
+max_event_dollars = 1000000.0
+daily_loss_halt = 1000000.0     # no daily halt, same as the replay
+max_books_per_step = 200  # ~250 markets with 50 series: every book refreshed within ~2 cycles
+veto_gap = 0.20
+out_dir = "data/bot_aggr"
+
+[api]
+rps = 5                # shares Kalshi's rate limit with the steady account
+
+[model]
+path = "data/cell_model.json"
+
+[news]                 # breakers only; the steady account carries the full news set
+cooldown_s = 600
+rss = false
+bluesky = false
+nws_discussions = false
+
+[signals]
+calendar = true
+pause_before_s = 0
+pause_after_s = 1800
+nowcasts = false
+weather_forecast = false
+gas = true             # locks / exits from published AAA numbers
+tsa = true             # locks / exits from published TSA days
+equities = true
+polymarket = false
+
+[x]
+enabled = false
+
+[spot]
+products = []
+
+[notify]
+enabled = false

@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kalshi Bot</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f6f7f9; --card: #ffffff; --ink: #0f1115; --muted: #6b7280; --line: #e7e9ee; --soft: #f2f4f7;
+    --accent: #2a78d6; --accent-soft: #eaf2fc; --win: #047857; --win-soft: #e7f6ef;
+    --loss: #c62828; --loss-soft: #fdecec; --warn: #92400e; --warn-soft: #fff7e6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #111113; --card: #1a1a19; --ink: #f0efec; --muted: #a3a29b; --line: #2c2c2a; --soft: #232321;
+      --accent: #3987e5; --accent-soft: #1d2a3b; --win: #34d399; --win-soft: #12291f;
+      --loss: #f87171; --loss-soft: #2f1717; --warn: #fbbf24; --warn-soft: #2d2410;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font-family: Inter, -apple-system, system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+  a { color: inherit; text-decoration: none; }
+  a:hover .mk-title, a.hl:hover { text-decoration: underline; text-underline-offset: 3px; }
+  main { max-width: 1240px; margin: 0 auto; padding: 40px 24px 80px; }
+  header { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+           margin-bottom: 28px; }
+  h1 { font-size: 28px; font-weight: 650; margin: 0; letter-spacing: -0.02em; }
+  .pill { font-size: 15px; font-weight: 600; padding: 8px 16px; border-radius: 999px;
+          background: var(--accent-soft); color: var(--accent); display: inline-flex; align-items: center; gap: 8px; }
+  .pill .live { width: 8px; height: 8px; border-radius: 50%; background: currentColor; }
+  .pill.halt { background: var(--loss-soft); color: var(--loss); }
+  .hdr-right { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+  .seg { display: inline-flex; background: var(--soft); border-radius: 999px; padding: 4px; gap: 4px; }
+  .seg button { font: inherit; font-size: 15px; font-weight: 600; border: 0; background: transparent; color: var(--muted);
+                padding: 8px 16px; border-radius: 999px; cursor: pointer; display: inline-flex; gap: 8px; align-items: baseline; }
+  .seg button.on { background: var(--card); color: var(--ink); box-shadow: 0 1px 3px rgba(0,0,0,.12); }
+  .seg button span { font-weight: 500; font-size: 14px; font-variant-numeric: tabular-nums; }
+  .hero { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 16px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 20px; padding: 24px; min-width: 0; }
+  .label { font-size: 15px; color: var(--muted); font-weight: 500; margin-bottom: 8px; }
+  .big { font-size: 40px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.1; }
+  .sub { font-size: 15px; color: var(--muted); margin-top: 6px; }
+  .win { color: var(--win); } .loss { color: var(--loss); }
+  .layout { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 16px; align-items: start; }
+  .col { display: grid; gap: 16px; min-width: 0; }
+  h2 { font-size: 18px; font-weight: 650; margin: 0; }
+  .head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 14px; }
+  .count { font-size: 15px; color: var(--muted); }
+  .empty { color: var(--muted); font-size: 16px; padding: 8px 0; }
+
+  /* trades */
+  .trade { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 16px; padding: 14px 0;
+           border-top: 1px solid var(--line); }
+  .trade:first-child { border-top: 0; }
+  .mk-title { font-size: 16px; font-weight: 550; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: block; }
+  .mk-meta { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; font-size: 14px; color: var(--muted); }
+  .side { font-weight: 700; font-size: 13px; padding: 3px 9px; border-radius: 999px; background: var(--soft); color: var(--ink); }
+  .side.yes { background: var(--accent-soft); color: var(--accent); }
+  .money { text-align: right; font-size: 16px; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .money .sub { margin-top: 2px; font-weight: 500; font-size: 14px; }
+  .badge { font-size: 13px; font-weight: 650; padding: 3px 9px; border-radius: 999px; }
+  .badge.won { background: var(--win-soft); color: var(--win); }
+  .badge.lost { background: var(--loss-soft); color: var(--loss); }
+  .ext { font-size: 13px; color: var(--accent); font-weight: 600; }
+  .pl { font-size: 20px; font-weight: 700; letter-spacing: -0.01em; text-align: right; font-variant-numeric: tabular-nums;
+        border-radius: 8px; padding: 0 4px; transition: background-color .6s; }
+  .pl.flash-up { background: var(--win-soft); } .pl.flash-down { background: var(--loss-soft); }
+  .flat { color: var(--muted); }
+
+  /* chart */
+  .chart { position: relative; height: 220px; }
+  .chart svg { width: 100%; height: 100%; display: block; overflow: visible; }
+  .axis { font-size: 12px; fill: var(--muted); }
+  .tip { position: absolute; pointer-events: none; background: var(--card); border: 1px solid var(--line);
+         border-radius: 12px; padding: 8px 12px; font-size: 14px; box-shadow: 0 4px 16px rgba(0,0,0,.08);
+         white-space: nowrap; display: none; }
+  .tip b { font-size: 16px; }
+
+  /* news */
+  .chips { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; }
+  .chip { font: inherit; font-size: 14px; font-weight: 550; padding: 6px 12px; border-radius: 999px; cursor: pointer;
+          border: 1px solid var(--line); background: var(--card); color: var(--muted); }
+  .chip.on { background: var(--ink); color: var(--card); border-color: var(--ink); }
+  .news { padding: 12px 0; border-top: 1px solid var(--line); }
+  .news:first-child { border-top: 0; }
+  .news .hl { font-size: 15px; line-height: 1.45; display: block; }
+  .news .mk-meta { margin-top: 4px; font-size: 13px; }
+  .tag { font-size: 12px; font-weight: 600; padding: 2px 8px; border-radius: 999px; background: var(--soft); color: var(--muted); }
+  .tag.trip { background: var(--warn-soft); color: var(--warn); }
+
+  /* side panels */
+  .row { display: flex; justify-content: space-between; gap: 12px; padding: 11px 0; border-top: 1px solid var(--line); font-size: 15px; }
+  .row:first-child { border-top: 0; }
+  .row .t { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+  .row .v { color: var(--muted); text-align: right; flex-shrink: 0; max-width: 55%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 9px; background: var(--win); }
+  .dot.bad { background: var(--loss); }
+  .alert { background: var(--warn-soft); color: var(--warn); border-radius: 14px; padding: 12px 16px; font-size: 15px; margin-bottom: 8px; }
+  @media (max-width: 980px) { .layout { grid-template-columns: 1fr; } .hero { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 520px) { main { padding: 24px 16px 60px; } .big { font-size: 32px; } .card { padding: 18px; } }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Kalshi Bot</h1>
+    <div class="hdr-right"><div class="seg" id="acct"></div><span class="pill" id="mode"><span class="live"></span>Connecting</span></div>
+  </header>
+  <div id="alerts"></div>
+  <section class="hero">
+    <div class="card"><div class="label">Equity</div><div class="big" id="equity">—</div><div class="sub" id="equity-sub"></div></div>
+    <div class="card"><div class="label">Today</div><div class="big" id="today">—</div><div class="sub" id="today-sub"></div></div>
+    <div class="card"><div class="label">Total P/L</div><div class="big" id="pnl">—</div><div class="sub" id="pnl-sub"></div></div>
+    <div class="card"><div class="label">Record</div><div class="big" id="record">—</div><div class="sub" id="record-sub"></div></div>
+  </section>
+  <div class="layout">
+    <div class="col">
+      <div class="card">
+        <div class="head"><h2>Equity</h2><span class="count" id="curve-note"></span></div>
+        <div class="chart" id="chart"><svg id="svg" role="img" aria-label="Equity over time"></svg><div class="tip" id="tip"></div></div>
+      </div>
+      <div class="card">
+        <div class="head"><h2>Open bets</h2><span class="count" id="open-count"></span></div>
+        <div id="open-list"></div>
+      </div>
+      <div class="card">
+        <div class="head"><h2>Waiting to fill</h2><span class="count" id="rest-count"></span></div>
+        <div id="rest-list"></div>
+      </div>
+      <div class="card">
+        <div class="head"><h2>Settled</h2><span class="count" id="settled-count"></span></div>
+        <div id="settled-list"></div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <div class="head"><h2>News</h2><span class="count" id="news-count"></span></div>
+        <div class="chips" id="chips"></div>
+        <div id="news-list"></div>
+      </div>
+      <div class="card"><div class="head"><h2>Coming up</h2></div><div id="calendar"></div></div>
+      <div class="card"><div class="head"><h2>Data disagrees</h2></div><div id="vetoes"></div></div>
+      <div class="card"><div class="head"><h2>Data feeds</h2><span class="count" id="feeds-count"></span></div><div id="feeds"></div></div>
+    </div>
+  </div>
+</main>
+<script>
+const $ = (id) => document.getElementById(id);
+const money = (x) => (x < 0 ? "−$" : "$") + Math.abs(x).toFixed(2);
+const signed = (x) => (x > 0 ? "+" : "") + money(x);
+const pct = (x) => Math.round(x * 100) + "%";
+const cents = (x) => x == null ? "—" : Math.round(x * 100) + "¢";
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const safeUrl = (u) => /^https?:\/\//i.test(u || "") ? u : null;
+const now = () => Date.now() / 1000;
+const ago = (t) => { const a = now() - t; return a < 90 ? "just now" : a < 5400 ? Math.round(a / 60) + "m ago" : a < 129600 ? Math.round(a / 3600) + "h ago" : Math.round(a / 86400) + "d ago"; };
+const until = (t) => { const a = t - now(); if (a <= 0) return "closed, settling"; return a < 5400 ? "closes in " + Math.round(a / 60) + "m" : a < 172800 ? "closes in " + Math.round(a / 3600) + "h" : "closes in " + Math.round(a / 86400) + "d"; };
+const when = (t) => new Date(t * 1000).toLocaleString([], {weekday: "short", month: "short", day: "numeric", hour: "numeric", minute: "2-digit"});
+const empty = (msg) => `<div class="empty">${msg}</div>`;
+const city = {KXHIGHNY: "New York", KXHIGHCHI: "Chicago", KXHIGHMIA: "Miami", KXHIGHAUS: "Austin", KXHIGHLAX: "Los Angeles",
+              KXHIGHDEN: "Denver", KXHIGHPHIL: "Philadelphia",
+              KXHIGHTDC: "Washington DC", KXHIGHTATL: "Atlanta", KXHIGHTMIN: "Minneapolis", KXHIGHTDAL: "Dallas",
+              KXHIGHTSFO: "San Francisco", KXHIGHTHOU: "Houston", KXHIGHTLV: "Las Vegas", KXHIGHTOKC: "Oklahoma City",
+              KXHIGHTBOS: "Boston", KXHIGHTSEA: "Seattle", KXHIGHTSATX: "San Antonio", KXHIGHTPHX: "Phoenix",
+              KXLOWTMIN: "Minneapolis low", KXLOWTMIA: "Miami low", KXLOWTLAX: "Los Angeles low",
+              KXHIGHTNOLA: "New Orleans", KXLOWTNYC: "New York low", KXLOWTPHIL: "Philadelphia low",
+              KXLOWTATL: "Atlanta low", KXLOWTDC: "Washington DC low", KXLOWTBOS: "Boston low", KXLOWTCHI: "Chicago low",
+              KXLOWTDAL: "Dallas low", KXLOWTSATX: "San Antonio low", KXLOWTHOU: "Houston low",
+              KXLOWTNOLA: "New Orleans low", KXLOWTAUS: "Austin low", KXLOWTOKC: "Oklahoma City low",
+              KXLOWTPHX: "Phoenix low", KXLOWTDEN: "Denver low", KXLOWTLV: "Las Vegas low", KXLOWTSEA: "Seattle low",
+              KXLOWTSFO: "San Francisco low", KXAAAGASD: "Gas price", KXTSAW: "TSA travelers",
+              KXCPI: "CPI", KXCPIYOY: "CPI y/y", KXPAYROLLS: "Jobs", KXU3: "Unemployment", KXFED: "Fed rate",
+              KXFEDDECISION: "Fed decision", KXGDP: "GDP", KXJOBLESSCLAIMS: "Jobless claims"};
+
+function market(r) {
+  const url = safeUrl(r.url);
+  const meta = `<span class="side ${r.side}">${r.side.toUpperCase()}</span><span>${esc(r.sub || r.ticker)}</span>` +
+               (city[r.series] ? `<span>· ${city[r.series]}</span>` : "") +
+               (url ? `<a class="ext" href="${esc(url)}" target="_blank" rel="noopener">Kalshi ↗</a>` : "");
+  const title = `<span class="mk-title">${esc(r.title)}</span>`;
+  return (url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${title}</a>` : title) +
+         `<div class="mk-meta">${meta}</div>`;
+}
+
+function renderTrades(d) {
+  const st = d.stats;
+  const tone = (x) => x > 0.004 ? "win" : x < -0.004 ? "loss" : "";
+  $("equity").textContent = money(st.equity_marked);
+  $("equity-sub").textContent = `virtual · started at ${money(st.start)}`;
+  $("today").textContent = signed(st.today); $("today").className = "big " + tone(st.today);
+  $("today-sub").textContent = `settled ${signed(st.today_realized)} · open bets ${signed(st.unrealized)}`;
+  $("pnl").textContent = signed(st.total); $("pnl").className = "big " + tone(st.total);
+  $("pnl-sub").textContent = `${(st.total / st.start * 100).toFixed(1)}% · settled ${signed(st.realized)}`;
+  $("record").textContent = `${st.wins}–${st.losses}`;
+  $("record-sub").textContent = st.settled ? `${pct(st.wins / st.settled)} won` + (st.today_settled ? ` · ${st.today_wins}–${st.today_settled - st.today_wins} today` : "") : "Nothing settled yet";
+
+  $("open-count").textContent = d.open.length ? `${d.open.length} bets · ${money(st.staked)} staked · ${signed(st.unrealized)}` : "";
+  $("open-list").innerHTML = d.open.length ? d.open.map((r) => {
+    const key = r.ticker + r.side, prev = lastPl[key], has = r.pnl != null;
+    const flash = has && prev != null && Math.abs(r.pnl - prev) > 0.004 ? (r.pnl > prev ? " flash-up" : " flash-down") : "";
+    if (has) lastPl[key] = r.pnl;
+    const closed = r.close_ts && r.close_ts <= now();
+    return `<div class="trade"><div>${market(r)}
+      <div class="mk-meta" style="margin-top:4px">${r.contracts} @ ${cents(r.price)} · ${money(r.cost)} staked${r.q ? ` · bot's estimate ${pct(r.q)}` : ""}${r.close_ts ? ` · ${until(r.close_ts)}` : ""}</div></div>
+      <div><div class="pl ${has ? tone(r.pnl) : "flat"}${flash}">${has ? signed(r.pnl) : closed ? "settling" : "—"}</div>
+        <div class="money"><div class="sub">${has ? `${cents(r.price)} → ${cents(r.mark)}` : ""}</div></div></div>
+    </div>`;
+  }).join("") : empty("No open bets right now");
+
+  $("rest-count").textContent = d.resting.length || "";
+  $("rest-list").innerHTML = d.resting.length ? d.resting.map((o) => `
+    <div class="trade"><div>${market(o)}</div>
+      <div class="money">${o.count} @ ${cents(o.price)}<div class="sub">${money(o.count * o.price)}</div></div></div>`).join("")
+    : empty("No bids resting. The bot only bids when its model sees an edge.");
+
+  $("settled-count").textContent = d.settled.length || "";
+  $("settled-list").innerHTML = d.settled.length ? d.settled.slice(0, 60).map((r) => `
+    <div class="trade"><div>${market(r)}
+      <div class="mk-meta" style="margin-top:4px"><span class="badge ${r.status === "sold" ? "lost" : r.status}">${r.status === "won" ? "✓ Won" : r.status === "sold" ? "↘ Sold early" : "✕ Lost"}</span>${r.contracts} @ ${cents(r.price)} · ${when(r.settled)}</div></div>
+      <div><div class="pl ${tone(r.pnl)}">${signed(r.pnl)}</div><div class="money"><div class="sub">${money(r.cost)} staked</div></div></div></div>`).join("")
+    : empty("Weather bets settle each morning");
+  drawCurve(d.curve);
+}
+
+function drawCurve(pts) {
+  const svg = $("svg"), box = $("chart").getBoundingClientRect();
+  const W = box.width, H = box.height, L = 48, R = 12, T = 12, B = 26;
+  if (!pts || pts.length < 2 || !W) { svg.innerHTML = ""; return; }
+  const xs = pts.map((p) => p.ts), ys = pts.map((p) => p.equity);
+  const x0 = Math.min(...xs), x1 = Math.max(...xs);
+  let y0 = Math.min(...ys), y1 = Math.max(...ys); const pad = Math.max(0.5, (y1 - y0) * 0.15); y0 -= pad; y1 += pad;
+  const X = (t) => L + (t - x0) / (x1 - x0 || 1) * (W - L - R), Y = (v) => T + (1 - (v - y0) / (y1 - y0)) * (H - T - B);
+  const start = pts[0].equity;
+  const ticks = [y0 + pad, (y0 + y1) / 2, y1 - pad];
+  // settled history moves in steps; live minute marks move continuously
+  const path = pts.map((p, i) => i ? `H${X(p.ts).toFixed(1)} V${Y(p.equity).toFixed(1)}` : `M${X(p.ts).toFixed(1)} ${Y(p.equity).toFixed(1)}`).join(" ");
+  const last = pts[pts.length - 1];
+  const css = getComputedStyle(document.documentElement), c = (v) => css.getPropertyValue(v).trim();
+  svg.innerHTML = `
+    ${ticks.map((v) => `<line x1="${L}" x2="${W - R}" y1="${Y(v)}" y2="${Y(v)}" stroke="${c("--line")}" stroke-width="1"/>
+      <text class="axis" x="${L - 8}" y="${Y(v) + 4}" text-anchor="end">$${v.toFixed(1)}</text>`).join("")}
+    <line x1="${L}" x2="${W - R}" y1="${Y(start)}" y2="${Y(start)}" stroke="${c("--muted")}" stroke-width="1" stroke-dasharray="4 4"/>
+    <text class="axis" x="${L}" y="${H - 6}">${new Date(x0 * 1000).toLocaleDateString([], {month: "short", day: "numeric"})}</text>
+    <text class="axis" x="${W - R}" y="${H - 6}" text-anchor="end">now</text>
+    <path d="${path}" fill="none" stroke="${c("--accent")}" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    <line id="xh" y1="${T}" y2="${H - B}" stroke="${c("--muted")}" stroke-width="1" visibility="hidden"/>
+    <circle id="xd" r="5" fill="${c("--accent")}" stroke="${c("--card")}" stroke-width="2" visibility="hidden"/>
+    <circle cx="${X(last.ts)}" cy="${Y(last.equity)}" r="9" fill="${c("--accent")}" opacity=".18"><animate attributeName="r" values="5;11;5" dur="2s" repeatCount="indefinite"/></circle>
+    <circle cx="${X(last.ts)}" cy="${Y(last.equity)}" r="4" fill="${c("--accent")}"/>
+    <rect x="${L}" y="0" width="${W - L - R}" height="${H}" fill="transparent" id="hit"/>`;
+  $("curve-note").textContent = `${money(last.equity)} now · dashed line = ${money(start)} start`;
+  const tip = $("tip"), xh = $("xh"), xd = $("xd");
+  const show = (e) => {
+    const mx = e.clientX - svg.getBoundingClientRect().left;
+    let best = 0; pts.forEach((p, i) => { if (Math.abs(X(p.ts) - mx) < Math.abs(X(pts[best].ts) - mx)) best = i; });
+    const p = pts[best], px = X(p.ts), py = Y(p.equity);
+    xh.setAttribute("x1", px); xh.setAttribute("x2", px); xh.setAttribute("visibility", "visible");
+    xd.setAttribute("cx", px); xd.setAttribute("cy", py); xd.setAttribute("visibility", "visible");
+    tip.innerHTML = `<b>${money(p.equity)}</b><br>${p.live ? "now" : when(p.ts)}`;
+    tip.style.display = "block";
+    tip.style.left = Math.min(Math.max(px - tip.offsetWidth / 2, 0), W - tip.offsetWidth) + "px";
+    tip.style.top = Math.max(py - tip.offsetHeight - 12, 0) + "px";
+  };
+  const hide = () => { tip.style.display = "none"; xh.setAttribute("visibility", "hidden"); xd.setAttribute("visibility", "hidden"); };
+  $("hit").addEventListener("pointermove", show);
+  $("hit").addEventListener("pointerleave", hide);
+}
+
+const GROUPS = {All: null, Wires: ["alpaca", "finnhub", "bluesky", "gnews", "marketwatch", "cnbc", "x"],
+                Official: ["fed", "bea", "bls", "dol", "eia"], Weather: ["nws_afd", "nhc"]};
+let group = "All", lastState = null;
+function renderNews(s) {
+  $("chips").innerHTML = Object.keys(GROUPS).map((g) => `<button class="chip${g === group ? " on" : ""}" data-g="${g}">${g}</button>`).join("");
+  const all = s.news || [];
+  const items = all.slice().sort((a, b) => (b.ts || 0) - (a.ts || 0))
+    .filter((n) => !GROUPS[group] || GROUPS[group].includes(n.source)).slice(0, 25);
+  $("news-count").textContent = all.length ? `${all.length} recent` : "";
+  $("news-list").innerHTML = items.length ? items.map((n) => {
+    const url = safeUrl(n.url), h = esc(n.headline);
+    const tags = (n.cats || []).map((c) => `<span class="tag">${esc(c.replace("Climate and Weather", "Weather"))}</span>`).join("");
+    const trip = n.sev === "high" && n.fresh ? `<span class="tag trip">Paused trading</span>` : "";
+    return `<div class="news">${url ? `<a class="hl" href="${esc(url)}" target="_blank" rel="noopener">${h}</a>` : `<span class="hl">${h}</span>`}
+      <div class="mk-meta"><span>${esc(n.by || n.label || n.source)}</span>${n.ts ? `<span>· ${ago(n.ts)}</span>` : ""}${trip}${tags}</div></div>`;
+  }).join("") : empty("Nothing in this group yet");
+}
+$("chips").addEventListener("click", (e) => { const g = e.target.dataset && e.target.dataset.g; if (g) { group = g; if (lastState) renderNews(lastState); } });
+
+const KIND = {cpi: "CPI", jobs: "Jobs report", gdp: "GDP", claims: "Jobless claims", fomc: "Fed decision"};
+function renderState(s, a) {
+  lastState = s;
+  a = a || s;
+  const stale = !a.ts || now() - (a.written || a.ts) > (STATIC ? 1200 : 150);
+  $("mode").innerHTML = `<span class="live"></span>${a.halted ? "Halted" : stale ? "Not running" : a.mode === "shadow" ? `Shadow · watching ${a.markets_watched} markets` : "Live"}`;
+  $("mode").className = "pill" + (a.halted || stale ? " halt" : "");
+  $("alerts").innerHTML = Object.entries(a.breakers || {}).map(([c, why]) => `<div class="alert">Paused ${esc(city[c] || c)} · ${esc(why)}</div>`).join("");
+  renderNews(s);
+  const cal = s.calendar || [];
+  $("calendar").innerHTML = cal.length ? cal.map((c) => `<div class="row"><span class="t">${KIND[c.kind] || esc(c.kind)}</span><span class="v">${when(c.ts)}</span></div>`).join("") : empty("Loading release calendar");
+  $("vetoes").innerHTML = (s.vetoes || []).length ? s.vetoes.map((v) => `<div class="row"><span class="t" title="${esc(v.why)}">${esc(city[v.ticker.split("-")[0]] || "")} ${esc(v.ticker.split("-").slice(-1)[0])} · ${v.side.toUpperCase()} @ ${cents(v.price)}</span><span class="v ${v.enforced ? "loss" : ""}" title="${esc(v.why)}">data says ${pct(v.p)}${v.enforced ? " · blocked" : ""}</span></div>`).join("")
+    : empty("No disagreements. The market and the data agree.");
+  const feeds = s.data_feeds || [];
+  $("feeds-count").textContent = feeds.length ? `${feeds.filter((f) => f.ok).length}/${feeds.length} live` : "";
+  $("feeds").innerHTML = feeds.map((f) => `<div class="row"><span class="t"><span class="dot${f.ok ? "" : " bad"}"></span>${esc(f.name)}</span><span class="v" title="${esc(f.detail)}">${esc(f.detail)}</span></div>`).join("");
+}
+
+let acct = "steady";
+try { acct = localStorage.getItem("kalshi-acct") || "steady"; } catch {}
+// Served by `kalshi dash` locally, or as static files on GitHub Pages (`kalshi export`, refreshed every few minutes).
+const STATIC = !/^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname);
+function route(u) {
+  if (!STATIC) return u;
+  const m = u.match(/^\/(state|trades|accounts)(?:\?acct=(\w+))?/);
+  return m[1] === "accounts" ? "data/accounts.json" : `data/${m[1]}_${m[2] || "steady"}.json`;
+}
+const getJSON = async (u) => (await fetch(route(u) + (STATIC ? `?t=${Date.now()}` : ""), {cache: "no-store"})).json();
+async function tickState() {
+  try {
+    const s = await getJSON("/state");                 // news, feeds, calendar: shared
+    const a = acct === "steady" ? s : await getJSON(`/state?acct=${acct}`);
+    if (s && s.ts) renderState(s, a);
+  } catch {}
+}
+async function tickAccounts() {
+  try {
+    const acc = await getJSON("/accounts");
+    const names = Object.keys(acc).length ? Object.keys(acc) : ["steady"];
+    if (!names.includes("aggressive")) names.push("aggressive");
+    $("acct").innerHTML = names.map((n) => {
+      const x = acc[n];
+      const pnl = x && x.equity != null ? x.equity - x.start : null;
+      return `<button class="${n === acct ? "on" : ""}" data-a="${n}">${n === "steady" ? "Steady" : "Aggressive"}` +
+             (pnl != null ? ` <span class="${pnl > 0.004 ? "win" : pnl < -0.004 ? "loss" : ""}">${signed(pnl)}</span>` : "") + `</button>`;
+    }).join("");
+  } catch {}
+}
+$("acct").addEventListener("click", (e) => {
+  const b = e.target.closest("button"); if (!b || b.dataset.a === acct) return;
+  acct = b.dataset.a; try { localStorage.setItem("kalshi-acct", acct); } catch {}
+  for (const k in lastPl) delete lastPl[k];
+  haveTrades = false; tickAccounts(); tickState(); tickTrades();
+});
+let haveTrades = false; const lastPl = {};
+async function tickTrades() { try { renderTrades(await getJSON(`/trades?acct=${acct}`)); haveTrades = true; } catch { if (!haveTrades) setTimeout(tickTrades, 1500); } }
+tickAccounts(); tickState(); tickTrades();
+setInterval(tickState, 3000); setInterval(tickTrades, 5000); setInterval(tickAccounts, 5000);
+let rz; addEventListener("resize", () => { clearTimeout(rz); rz = setTimeout(tickTrades, 200); });
+</script>
+</body>
+</html>

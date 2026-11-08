@@ -1,0 +1,48 @@
+name: kalshi-bots
+# Shadow (paper) Kalshi bots, 24/7. GitHub caps a job at 6h, so each job runs ~5h40m and saves state; the cron
+# fires every 30 min and all runs share one concurrency group (one runs, at most one waits), so the next job
+# starts as soon as the last one ends. Every 6 min the dashboard is exported to docs/ (GitHub Pages) and committed.
+on:
+  schedule:
+    - cron: "7,37 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kalshi-bots
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main          # latest state from the job before, not the trigger-time commit
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install --quiet requests certifi
+      - name: Run bots
+        env:
+          ALPACA_KEY_ID: ${{ secrets.ALPACA_KEY_ID }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          publish() {
+            python -m kalshi export docs || true
+            git add data docs
+            git diff --cached --quiet || { git commit -q -m "bot state"; git push -q || { git pull -q --rebase -X theirs && git push -q; }; } || true
+          }
+          # SIGTERM makes each bot finish its current cycle, save, and exit
+          (timeout -s TERM 338m python -u -m kalshi run --interval 30 2>&1 | sed -u 's/^/[steady] /') &
+          (timeout -s TERM 338m python -u -m kalshi run --config kalshi_aggressive.toml --interval 30 2>&1 | sed -u 's/^/[aggr] /') &
+          sleep 90; publish
+          while [ -n "$(jobs -r)" ]; do sleep 360; publish; done
+          wait
+          publish
