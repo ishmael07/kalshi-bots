@@ -2583,3 +2583,8 @@
 {"kind": "exit", "ts": 1794205768.664067, "ticker": "KXCEONVDA-01JAN33-01JAN27", "side": "no", "price": 0.82, "contracts": 9.0, "fee": 0.03, "reason": "scalp", "trip": 1794205468}
 {"kind": "cancel", "ts": 1794205827.0250995, "ticker": "KXMARMAD-27-CONN", "reason": "time stop"}
 {"kind": "exit", "ts": 1794205827.0250995, "ticker": "KXMARMAD-27-CONN", "side": "yes", "price": 0.11, "contracts": 12.0, "fee": 0.09, "pnl": -0.102, "reason": "time stop", "trip": 1794204922}
+{"kind": "fill", "ts": 1794206063.6014163, "fee": 0.03, "trip": 1794206102, "ticker": "KXCEONVDA-01JAN33-01JAN27", "side": "no", "price": 0.81, "contracts": 10.0, "fill_ts": 1794206102.603637}
+{"kind": "fill", "ts": 1794206063.6014163, "fee": 0.02, "trip": 1794206102, "ticker": "KXCEONVDA-01JAN33-01JAN27", "side": "no", "price": 0.81, "contracts": 4.0, "fill_ts": 1794206102.603637}
+{"kind": "fill", "ts": 1794206248.5610192, "fee": 0.01, "trip": 1794206241, "ticker": "KXTESTMATCH-26NOV042230WIBAN-WI", "side": "no", "price": 0.77, "contracts": 1.0, "fill_ts": 1794206241.377887}
+{"kind": "fill", "ts": 1794206248.5610192, "fee": 0.01, "trip": 1794206241, "ticker": "KXTESTMATCH-26NOV042230WIBAN-WI", "side": "no", "price": 0.77, "contracts": 1.0, "fill_ts": 1794206241.377887}
+{"kind": "fill", "ts": 1794206248.5610192, "fee": 0.05, "trip": 1794206241, "ticker": "KXTESTMATCH-26NOV042230WIBAN-WI", "side": "no", "price": 0.77, "contracts": 13.0, "fill_ts": 1794206241.377887}
