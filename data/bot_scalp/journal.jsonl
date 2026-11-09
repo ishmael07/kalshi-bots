@@ -3381,3 +3381,8 @@
 {"kind": "exit", "ts": 1794236616.854208, "ticker": "KXTRUMPADMINLEAVE-26DEC31-PHEG", "side": "no", "price": 0.569, "contracts": 16.0, "fee": 0.07, "reason": "scalp", "trip": 1794236588}
 {"kind": "fill", "ts": 1794236686.855078, "fee": 0.07, "trip": 1794236687, "ticker": "KXTRUMPADMINLEAVE-26DEC31-PHEG", "side": "no", "price": 0.551, "contracts": 16.0, "fill_ts": 1794236687.233459}
 {"kind": "exit", "ts": 1794236716.8554327, "ticker": "KXTRUMPADMINLEAVE-26DEC31-PHEG", "side": "no", "price": 0.559, "contracts": 16.0, "fee": 0.07, "reason": "scalp", "trip": 1794236687}
+{"kind": "fill", "ts": 1794237027.6985867, "fee": 0.02, "trip": 1794237024, "ticker": "KXTRUMPADMINLEAVE-26DEC31-PHEG", "side": "yes", "price": 0.441, "contracts": 4.41, "fill_ts": 1794237024.482879}
+{"kind": "fill", "ts": 1794237027.6985867, "fee": 0.06, "trip": 1794237024, "ticker": "KXTRUMPADMINLEAVE-26DEC31-PHEG", "side": "yes", "price": 0.441, "contracts": 11.59, "fill_ts": 1794237024.482879}
+{"kind": "exit", "ts": 1794237067.6990578, "ticker": "KXTRUMPADMINLEAVE-26DEC31-PHEG", "side": "yes", "price": 0.459, "contracts": 1.86, "fee": 0.01, "reason": "scalp", "trip": 1794237024}
+{"kind": "fill", "ts": 1794237182.355863, "fee": 0.02, "trip": 1794237174, "ticker": "KXVENEZUELALEADER-26DEC31-DROD", "side": "no", "price": 0.881, "contracts": 7.84, "fill_ts": 1794237174.988674}
+{"kind": "fill", "ts": 1794237318.8303213, "fee": 0.03, "trip": 1794237310, "ticker": "KXCEONVDA-01JAN33-01JAN27", "side": "no", "price": 0.84, "contracts": 10.0, "fill_ts": 1794237310.68879}
