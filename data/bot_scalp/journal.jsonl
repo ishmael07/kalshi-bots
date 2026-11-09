@@ -2569,3 +2569,7 @@
 {"kind": "fill", "ts": 1794205193.6995516, "fee": 0.01, "trip": 1794205198, "ticker": "KXNCAAMBSPREAD-26NOV08WICHUSC-USC3", "side": "no", "price": 0.11, "contracts": 2.0, "fill_ts": 1794205198.420386}
 {"kind": "fill", "ts": 1794205193.6995516, "fee": 0.01, "trip": 1794205198, "ticker": "KXNCAAMBSPREAD-26NOV08WICHUSC-USC3", "side": "no", "price": 0.11, "contracts": 0.42, "fill_ts": 1794205198.420386}
 {"kind": "fill", "ts": 1794205193.6995516, "fee": 0.02, "trip": 1794205198, "ticker": "KXNCAAMBSPREAD-26NOV08WICHUSC-USC3", "side": "no", "price": 0.11, "contracts": 10.58, "fill_ts": 1794205198.420386}
+{"kind": "exit", "ts": 1794205261.8960037, "ticker": "KXNCAAMBSPREAD-26NOV08WICHUSC-USC3", "side": "no", "price": 0.18, "contracts": 13.0, "fee": 0.04, "reason": "scalp", "trip": 1794205198}
+{"kind": "exit", "ts": 1794205382.9552612, "ticker": "KXCEONVDA-01JAN33-01JAN27", "side": "yes", "price": 0.19, "contracts": 5.78, "fee": 0.02, "reason": "scalp", "trip": 1794204645}
+{"kind": "exit", "ts": 1794205415.286281, "ticker": "KXCEONVDA-01JAN33-01JAN27", "side": "yes", "price": 0.19, "contracts": 6.22, "fee": 0.02, "reason": "scalp", "trip": 1794204645}
+{"kind": "fill", "ts": 1794205456.7551706, "fee": 0.04, "trip": 1794205468, "ticker": "KXCEONVDA-01JAN33-01JAN27", "side": "no", "price": 0.81, "contracts": 14.0, "fill_ts": 1794205468.551862}
