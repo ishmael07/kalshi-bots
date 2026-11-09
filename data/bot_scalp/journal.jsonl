@@ -3242,3 +3242,6 @@
 {"kind": "fill", "ts": 1794231260.6862164, "fee": 0.04, "trip": 1794231310, "ticker": "KXIMPEACH-29-JAN20", "side": "yes", "price": 0.751, "contracts": 12.0, "fill_ts": 1794231310.841176}
 {"kind": "exit", "ts": 1794231467.2855911, "ticker": "KXIMPEACH-29-JAN20", "side": "yes", "price": 0.769, "contracts": 2.45, "fee": 0.01, "reason": "scalp", "trip": 1794231310}
 {"kind": "fill", "ts": 1794231498.1832087, "fee": 0.08, "trip": 1794231492, "ticker": "KXTRUMPADMINLEAVE-26DEC31-PHEG", "side": "no", "price": 0.541, "contracts": 17.0, "fill_ts": 1794231492.582294}
+{"kind": "exit", "ts": 1794231659.052402, "ticker": "KXIMPEACH-29-JAN20", "side": "yes", "price": 0.769, "contracts": 9.55, "fee": 0.03, "reason": "scalp", "trip": 1794231310}
+{"kind": "fill", "ts": 1794231679.0525715, "fee": 0.03, "trip": 1794231675, "ticker": "KXNFLNEXTTEAM-26JTAYLOR28-NYG", "side": "no", "price": 0.7, "contracts": 7.57, "fill_ts": 1794231675.168217}
+{"kind": "exit", "ts": 1794231840.8537154, "ticker": "KXTRUMPADMINLEAVE-26DEC31-PHEG", "side": "no", "price": 0.569, "contracts": 17.0, "fee": 0.08, "reason": "scalp", "trip": 1794231492}
