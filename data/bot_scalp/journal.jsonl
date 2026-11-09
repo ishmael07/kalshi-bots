@@ -6830,3 +6830,17 @@
 {"kind": "exit", "ts": 1794261043.4850059, "ticker": "KXAPFDDHGAME-26NOV09SSLRUB-TIE", "side": "yes", "price": 0.89, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794261039}
 {"kind": "fill", "ts": 1794261063.4852638, "fee": 0.01, "trip": 1794261055, "ticker": "KXWTAGTOTAL-26NOV09SABMUC-23", "side": "yes", "price": 0.81, "contracts": 1.0, "fill_ts": 1794261055.64722}
 {"kind": "exit", "ts": 1794261073.4853873, "ticker": "KXWTAGTOTAL-26NOV09SABMUC-23", "side": "yes", "price": 0.8, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794261055}
+{"kind": "fill", "ts": 1794261174.8224223, "fee": 0.01, "trip": 1794261177, "ticker": "KXNEXTPRESSECPERM-29JAN20-DALV", "side": "yes", "price": 0.18, "contracts": 1.0, "fill_ts": 1794261177.907224}
+{"kind": "fill", "ts": 1794261188.255623, "fee": 0.01, "trip": 1794261183, "ticker": "KXLIGAFTOTAL-26NOV09DEPVAL-3", "side": "yes", "price": 0.19, "contracts": 1.0, "fill_ts": 1794261183.825069}
+{"kind": "exit", "ts": 1794261198.2557528, "ticker": "KXLIGAFTOTAL-26NOV09DEPVAL-3", "side": "yes", "price": 0.2, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794261183}
+{"kind": "fill", "ts": 1794261278.2568746, "fee": 0.01, "trip": 1794261269, "ticker": "KXLIGAFTOTAL-26NOV09DEPVAL-3", "side": "yes", "price": 0.17, "contracts": 1.0, "fill_ts": 1794261269.762695}
+{"kind": "exit", "ts": 1794261288.2569997, "ticker": "KXLIGAFTOTAL-26NOV09DEPVAL-3", "side": "yes", "price": 0.16, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794261269}
+{"kind": "fill", "ts": 1794261318.2573571, "fee": 0.01, "trip": 1794261311, "ticker": "KXLIGAFTOTAL-26NOV09DEPVAL-3", "side": "no", "price": 0.8, "contracts": 1.0, "fill_ts": 1794261311.590679}
+{"kind": "exit", "ts": 1794261318.2573571, "ticker": "KXLIGAFTOTAL-26NOV09DEPVAL-3", "side": "no", "price": 0.83, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794261311}
+{"kind": "exit", "ts": 1794261338.2575955, "ticker": "KXNFLNEXTTEAM-26JTAYLOR28-NE", "side": "no", "price": 0.75, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794260615}
+{"kind": "exit", "ts": 1794261338.2575955, "ticker": "KXNFLNEXTTEAM-26JTAYLOR28-NE", "side": "no", "price": 0.75, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794260615}
+{"kind": "fill", "ts": 1794261368.2579446, "fee": 0.01, "trip": 1794261363, "ticker": "KXLIGAFTOTAL-26NOV09DEPVAL-3", "side": "yes", "price": 0.15, "contracts": 1.0, "fill_ts": 1794261363.02137}
+{"kind": "exit", "ts": 1794261368.2579446, "ticker": "KXLIGAFTOTAL-26NOV09DEPVAL-3", "side": "yes", "price": 0.19, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794261363}
+{"kind": "fill", "ts": 1794261428.2586427, "fee": 0.01, "trip": 1794261429, "ticker": "KXHEGSETHOUT-26APR-27JAN01", "side": "no", "price": 0.6, "contracts": 2.0, "fill_ts": 1794261429.492334}
+{"kind": "fill", "ts": 1794261458.2589996, "fee": 0.01, "trip": 1794261450, "ticker": "KXLIGAFTOTAL-26NOV09DEPVAL-3", "side": "no", "price": 0.81, "contracts": 1.0, "fill_ts": 1794261450.061175}
+{"kind": "exit", "ts": 1794261458.2589996, "ticker": "KXLIGAFTOTAL-26NOV09DEPVAL-3", "side": "no", "price": 0.87, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794261450}
