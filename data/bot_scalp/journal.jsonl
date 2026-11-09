@@ -6294,3 +6294,33 @@
 {"kind": "exit", "ts": 1794253547.4802155, "ticker": "KXECULPGAME-26NOV09MURDSC-MUR", "side": "yes", "price": 0.2, "contracts": 3.0, "fee": 0.01, "reason": "scalp", "trip": 1794253540}
 {"kind": "fill", "ts": 1794253557.480336, "fee": 0.01, "trip": 1794253550, "ticker": "KXECULPGAME-26NOV09MURDSC-MUR", "side": "yes", "price": 0.17, "contracts": 3.0, "fill_ts": 1794253550.744219}
 {"kind": "exit", "ts": 1794253557.480336, "ticker": "KXECULPGAME-26NOV09MURDSC-MUR", "side": "yes", "price": 0.19, "contracts": 3.0, "fee": 0.01, "reason": "scalp", "trip": 1794253550}
+{"kind": "fill", "ts": 1794253568.804342, "fee": 0.01, "trip": 1794253569, "ticker": "KXECULPGAME-26NOV09MURDSC-MUR", "side": "no", "price": 0.8, "contracts": 0.13, "fill_ts": 1794253569.7904}
+{"kind": "fill", "ts": 1794253568.804342, "fee": 0.01, "trip": 1794253569, "ticker": "KXECULPGAME-26NOV09MURDSC-MUR", "side": "no", "price": 0.8, "contracts": 0.47, "fill_ts": 1794253569.7904}
+{"kind": "fill", "ts": 1794253568.804342, "fee": 0.01, "trip": 1794253569, "ticker": "KXECULPGAME-26NOV09MURDSC-MUR", "side": "no", "price": 0.8, "contracts": 1.0, "fill_ts": 1794253569.7904}
+{"kind": "fill", "ts": 1794253568.804342, "fee": 0.01, "trip": 1794253569, "ticker": "KXECULPGAME-26NOV09MURDSC-MUR", "side": "no", "price": 0.8, "contracts": 1.0, "fill_ts": 1794253569.7904}
+{"kind": "fill", "ts": 1794253568.804342, "fee": 0.01, "trip": 1794253569, "ticker": "KXECULPGAME-26NOV09MURDSC-MUR", "side": "no", "price": 0.8, "contracts": 0.4, "fill_ts": 1794253569.7904}
+{"kind": "exit", "ts": 1794253578.8044763, "ticker": "KXECULPGAME-26NOV09MURDSC-MUR", "side": "no", "price": 0.8, "contracts": 3.0, "fee": 0.01, "reason": "scalp", "trip": 1794253569}
+{"kind": "fill", "ts": 1794253588.8046143, "fee": 0.01, "trip": 1794253583, "ticker": "KXECULPGAME-26NOV09MURDSC-MUR", "side": "yes", "price": 0.19, "contracts": 3.0, "fill_ts": 1794253583.930868}
+{"kind": "fill", "ts": 1794253598.8047314, "fee": 0.01, "trip": 1794253590, "ticker": "KXECULPTOTAL-26NOV09MURDSC-3", "side": "no", "price": 0.62, "contracts": 0.1, "fill_ts": 1794253590.50172}
+{"kind": "fill", "ts": 1794253598.8047314, "fee": 0.02, "trip": 1794253590, "ticker": "KXECULPTOTAL-26NOV09MURDSC-3", "side": "no", "price": 0.62, "contracts": 3.9, "fill_ts": 1794253590.50172}
+{"kind": "fill", "ts": 1794253598.8047314, "fee": 0.01, "trip": 1794253589, "ticker": "KXELITESERIENGAME-26NOV09KBKVIF-KBK", "side": "no", "price": 0.1, "contracts": 3.0, "fill_ts": 1794253589.080406}
+{"kind": "exit", "ts": 1794253598.8047314, "ticker": "KXELITESERIENGAME-26NOV09KBKVIF-KBK", "side": "no", "price": 0.13, "contracts": 3.0, "fee": 0.01, "reason": "scalp", "trip": 1794253589}
+{"kind": "exit", "ts": 1794253610.3787422, "ticker": "KXECULPTOTAL-26NOV09MURDSC-3", "side": "no", "price": 0.66, "contracts": 0.1, "fee": 0.01, "reason": "scalp", "trip": 1794253590}
+{"kind": "exit", "ts": 1794253610.3787422, "ticker": "KXECULPTOTAL-26NOV09MURDSC-3", "side": "no", "price": 0.66, "contracts": 3.9, "fee": 0.02, "reason": "scalp", "trip": 1794253590}
+{"kind": "exit", "ts": 1794253622.9713228, "ticker": "KXECULPGAME-26NOV09MURDSC-MUR", "side": "yes", "price": 0.16, "contracts": 0.34, "fee": 0.01, "reason": "scalp", "trip": 1794253583}
+{"kind": "exit", "ts": 1794253622.9713228, "ticker": "KXECULPGAME-26NOV09MURDSC-MUR", "side": "yes", "price": 0.16, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794253583}
+{"kind": "exit", "ts": 1794253622.9713228, "ticker": "KXECULPGAME-26NOV09MURDSC-MUR", "side": "yes", "price": 0.16, "contracts": 1.66, "fee": 0.01, "reason": "scalp", "trip": 1794253583}
+{"kind": "fill", "ts": 1794253622.9713228, "fee": 0.02, "trip": 1794253618, "ticker": "KXECULPTOTAL-26NOV09MURDSC-3", "side": "yes", "price": 0.31, "contracts": 4.0, "fill_ts": 1794253618.154658}
+{"kind": "fill", "ts": 1794253632.9714634, "fee": 0.01, "trip": 1794253628, "ticker": "KXELITESERIENGAME-26NOV09KBKVIF-KBK", "side": "no", "price": 0.1, "contracts": 0.22, "fill_ts": 1794253628.722044}
+{"kind": "fill", "ts": 1794253632.9714634, "fee": 0.01, "trip": 1794253628, "ticker": "KXELITESERIENGAME-26NOV09KBKVIF-KBK", "side": "no", "price": 0.1, "contracts": 2.78, "fill_ts": 1794253628.768438}
+{"kind": "exit", "ts": 1794253632.9714634, "ticker": "KXELITESERIENGAME-26NOV09KBKVIF-KBK", "side": "no", "price": 0.12, "contracts": 0.6, "fee": 0.01, "reason": "scalp", "trip": 1794253628}
+{"kind": "exit", "ts": 1794253632.9714634, "ticker": "KXELITESERIENGAME-26NOV09KBKVIF-KBK", "side": "no", "price": 0.12, "contracts": 1.93, "fee": 0.01, "reason": "scalp", "trip": 1794253628}
+{"kind": "exit", "ts": 1794253632.9714634, "ticker": "KXELITESERIENGAME-26NOV09KBKVIF-KBK", "side": "no", "price": 0.12, "contracts": 0.47, "fee": 0.01, "reason": "scalp", "trip": 1794253628}
+{"kind": "exit", "ts": 1794253652.9716983, "ticker": "KXECULPTOTAL-26NOV09MURDSC-3", "side": "yes", "price": 0.31, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794253618}
+{"kind": "exit", "ts": 1794253652.9716983, "ticker": "KXECULPTOTAL-26NOV09MURDSC-3", "side": "yes", "price": 0.31, "contracts": 1.4, "fee": 0.01, "reason": "scalp", "trip": 1794253618}
+{"kind": "exit", "ts": 1794253652.9716983, "ticker": "KXECULPTOTAL-26NOV09MURDSC-3", "side": "yes", "price": 0.31, "contracts": 1.6, "fee": 0.01, "reason": "scalp", "trip": 1794253618}
+{"kind": "cancel", "ts": 1794253863.5879006, "ticker": "KXSENATEDEMLEAD-28JAN01-CHOL", "reason": "time stop"}
+{"kind": "exit", "ts": 1794253863.5879006, "ticker": "KXSENATEDEMLEAD-28JAN01-CHOL", "side": "no", "price": 0.87, "contracts": 3.0, "fee": 0.03, "pnl": -0.033, "reason": "time stop", "trip": 1794252962}
+{"kind": "fill", "ts": 1794253883.5881498, "fee": 0.01, "trip": 1794253878, "ticker": "KXT20MATCH-26NOV091230ARTBGUJCC-ARTB", "side": "no", "price": 0.23, "contracts": 1.0, "fill_ts": 1794253878.790009}
+{"kind": "fill", "ts": 1794253883.5881498, "fee": 0.01, "trip": 1794253878, "ticker": "KXT20MATCH-26NOV091230ARTBGUJCC-ARTB", "side": "no", "price": 0.23, "contracts": 2.0, "fill_ts": 1794253878.790009}
+{"kind": "exit", "ts": 1794253893.5882697, "ticker": "KXT20MATCH-26NOV091230ARTBGUJCC-ARTB", "side": "no", "price": 0.37, "contracts": 3.0, "fee": 0.02, "reason": "scalp", "trip": 1794253878}
