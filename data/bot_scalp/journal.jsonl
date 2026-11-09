@@ -3009,3 +3009,12 @@
 {"kind": "exit", "ts": 1794227739.8703136, "ticker": "KXATPMATCH-26NOV09MICHAN-MIC", "side": "yes", "price": 0.91, "contracts": 10.0, "fee": 0.02, "reason": "scalp", "trip": 1794227634}
 {"kind": "cancel", "ts": 1794227739.8703136, "ticker": "KXNFLNFCEAST-27-NYG", "reason": "time stop"}
 {"kind": "exit", "ts": 1794227739.8703136, "ticker": "KXNFLNFCEAST-27-NYG", "side": "no", "price": 0.38, "contracts": 8.06, "fee": 0.14, "pnl": -0.14, "reason": "time stop", "trip": 1794226835}
+{"kind": "fill", "ts": 1794227856.1875303, "fee": 0.01, "trip": 1794227857, "ticker": "KXTRUMPMENTION-26NOV08-IMPE", "side": "yes", "price": 0.12, "contracts": 2.0, "fill_ts": 1794227857.192841}
+{"kind": "fill", "ts": 1794227856.1875303, "fee": 0.02, "trip": 1794227857, "ticker": "KXTRUMPMENTION-26NOV08-IMPE", "side": "yes", "price": 0.12, "contracts": 9.0, "fill_ts": 1794227857.192841}
+{"kind": "fill", "ts": 1794227876.535056, "fee": 0.04, "trip": 1794227873, "ticker": "KXHEGSETHOUT-26AUG-26DEC01", "side": "yes", "price": 0.25, "contracts": 11.36, "fill_ts": 1794227873.840749}
+{"kind": "exit", "ts": 1794227910.638774, "ticker": "KXTRUMPMENTION-26NOV08-IMPE", "side": "yes", "price": 0.12, "contracts": 7.25, "fee": 0.02, "reason": "scalp", "trip": 1794227857}
+{"kind": "cancel", "ts": 1794227974.9985871, "ticker": "KXCEONVDA-01JAN33-01JAN27", "reason": "time stop"}
+{"kind": "exit", "ts": 1794227974.9985871, "ticker": "KXCEONVDA-01JAN33-01JAN27", "side": "yes", "price": 0.13, "contracts": 11.0, "fee": 0.09, "pnl": -0.09, "reason": "time stop", "trip": 1794227064}
+{"kind": "exit", "ts": 1794228004.9989622, "ticker": "KXTRUMPMENTION-26NOV08-IMPE", "side": "yes", "price": 0.12, "contracts": 3.62, "fee": 0.01, "reason": "scalp", "trip": 1794227857}
+{"kind": "exit", "ts": 1794228069.6133542, "ticker": "KXTRUMPMENTION-26NOV08-IMPE", "side": "yes", "price": 0.12, "contracts": 0.13, "fee": 0.01, "reason": "scalp", "trip": 1794227857}
+{"kind": "fill", "ts": 1794228210.2614787, "fee": 0.03, "trip": 1794228204, "ticker": "KXNEXTPRESSECPERM-29JAN20-DALV", "side": "no", "price": 0.82, "contracts": 11.0, "fill_ts": 1794228204.614469}
