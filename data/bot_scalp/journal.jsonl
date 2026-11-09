@@ -2707,3 +2707,11 @@
 {"kind": "exit", "ts": 1794211340.9108746, "ticker": "KXTESTMATCH-26NOV082330SRIPAK-TIE", "side": "no", "price": 0.56, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794210978}
 {"kind": "exit", "ts": 1794211340.9108746, "ticker": "KXTESTMATCH-26NOV082330SRIPAK-TIE", "side": "no", "price": 0.56, "contracts": 2.0, "fee": 0.01, "reason": "scalp", "trip": 1794210978}
 {"kind": "exit", "ts": 1794211381.6374218, "ticker": "KXHEGSETHOUT-26AUG-26DEC01", "side": "no", "price": 0.75, "contracts": 6.47, "fee": 0.03, "reason": "scalp", "trip": 1794211329}
+{"kind": "fill", "ts": 1794211587.3994362, "fee": 0.06, "trip": 1794211551, "ticker": "KXT20MATCH-26NOV090145KYAPAV-KYA", "side": "yes", "price": 0.29, "contracts": 16.0, "fill_ts": 1794211551.297903}
+{"kind": "exit", "ts": 1794211587.3994362, "ticker": "KXT20MATCH-26NOV090145KYAPAV-KYA", "side": "yes", "price": 0.31, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794211551}
+{"kind": "exit", "ts": 1794211587.3994362, "ticker": "KXT20MATCH-26NOV090145KYAPAV-KYA", "side": "yes", "price": 0.31, "contracts": 15.0, "fee": 0.06, "reason": "scalp", "trip": 1794211551}
+{"kind": "exit", "ts": 1794211703.9967945, "ticker": "KXHOUSERACE-NC03-26-R", "side": "yes", "price": 0.159, "contracts": 13.0, "fee": 0.04, "reason": "scalp", "trip": 1794210857}
+{"kind": "cancel", "ts": 1794211883.1655655, "ticker": "KXTESTMATCH-26NOV082330SRIPAK-TIE", "reason": "time stop"}
+{"kind": "exit", "ts": 1794211883.1655655, "ticker": "KXTESTMATCH-26NOV082330SRIPAK-TIE", "side": "no", "price": 0.59, "contracts": 8.0, "fee": 0.14, "pnl": 0.02, "reason": "time stop", "trip": 1794210978}
+{"kind": "exit", "ts": 1794211894.4467673, "ticker": "KXTESTMATCH-26NOV082330SRIPAK-TIE", "side": "no", "price": 0.59, "contracts": 8.0, "fee": 0.14, "pnl": 0.02, "reason": "time stop", "trip": 1794210978}
+{"kind": "exit", "ts": 1794211905.423705, "ticker": "KXTESTMATCH-26NOV082330SRIPAK-TIE", "side": "no", "price": 0.58, "contracts": 1.0, "fee": 0.02, "pnl": -0.01, "reason": "time stop", "trip": 1794210978}
