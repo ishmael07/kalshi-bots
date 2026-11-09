@@ -2573,3 +2573,13 @@
 {"kind": "exit", "ts": 1794205382.9552612, "ticker": "KXCEONVDA-01JAN33-01JAN27", "side": "yes", "price": 0.19, "contracts": 5.78, "fee": 0.02, "reason": "scalp", "trip": 1794204645}
 {"kind": "exit", "ts": 1794205415.286281, "ticker": "KXCEONVDA-01JAN33-01JAN27", "side": "yes", "price": 0.19, "contracts": 6.22, "fee": 0.02, "reason": "scalp", "trip": 1794204645}
 {"kind": "fill", "ts": 1794205456.7551706, "fee": 0.04, "trip": 1794205468, "ticker": "KXCEONVDA-01JAN33-01JAN27", "side": "no", "price": 0.81, "contracts": 14.0, "fill_ts": 1794205468.551862}
+{"kind": "exit", "ts": 1794205738.6637137, "ticker": "KXNFLNEXTTEAM-26JTAYLOR28-NYG", "side": "no", "price": 0.6, "contracts": 16.0, "fee": 0.07, "reason": "scalp", "trip": 1794205082}
+{"kind": "fill", "ts": 1794205748.663824, "fee": 0.03, "trip": 1794205739, "ticker": "KXNCAAMBTOTAL-26NOV08WICHUSC-178", "side": "no", "price": 0.1, "contracts": 13.0, "fill_ts": 1794205739.177532}
+{"kind": "exit", "ts": 1794205748.663824, "ticker": "KXNCAAMBTOTAL-26NOV08WICHUSC-178", "side": "no", "price": 0.13, "contracts": 13.0, "fee": 0.03, "reason": "scalp", "trip": 1794205739}
+{"kind": "fill", "ts": 1794205758.6639473, "fee": 0.01, "trip": 1794205748, "ticker": "KXNCAAMBSPREAD-26NOV08WICHUSC-USC6", "side": "yes", "price": 0.79, "contracts": 2.76, "fill_ts": 1794205748.712539}
+{"kind": "fill", "ts": 1794205758.6639473, "fee": 0.04, "trip": 1794205748, "ticker": "KXNCAAMBSPREAD-26NOV08WICHUSC-USC6", "side": "yes", "price": 0.79, "contracts": 11.24, "fill_ts": 1794205748.838827}
+{"kind": "exit", "ts": 1794205758.6639473, "ticker": "KXNCAAMBSPREAD-26NOV08WICHUSC-USC6", "side": "yes", "price": 0.88, "contracts": 14.0, "fee": 0.03, "reason": "scalp", "trip": 1794205748}
+{"kind": "exit", "ts": 1794205768.664067, "ticker": "KXCEONVDA-01JAN33-01JAN27", "side": "no", "price": 0.82, "contracts": 5.0, "fee": 0.02, "reason": "scalp", "trip": 1794205468}
+{"kind": "exit", "ts": 1794205768.664067, "ticker": "KXCEONVDA-01JAN33-01JAN27", "side": "no", "price": 0.82, "contracts": 9.0, "fee": 0.03, "reason": "scalp", "trip": 1794205468}
+{"kind": "cancel", "ts": 1794205827.0250995, "ticker": "KXMARMAD-27-CONN", "reason": "time stop"}
+{"kind": "exit", "ts": 1794205827.0250995, "ticker": "KXMARMAD-27-CONN", "side": "yes", "price": 0.11, "contracts": 12.0, "fee": 0.09, "pnl": -0.102, "reason": "time stop", "trip": 1794204922}
