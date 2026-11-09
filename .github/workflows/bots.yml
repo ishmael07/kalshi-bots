@@ -25,7 +25,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install --quiet requests certifi
+      - run: pip install --quiet requests certifi cryptography
       - name: Run bots
         env:
           ALPACA_KEY_ID: ${{ secrets.ALPACA_KEY_ID }}
@@ -46,3 +46,5 @@ jobs:
           while [ -n "$(jobs -r)" ]; do sleep 360; publish; done
           wait
           publish
+          # a crash at startup must show as a failed run, not a green one
+          if [ "$SECONDS" -lt 1800 ]; then echo "bots exited after ${SECONDS}s"; exit 1; fi
