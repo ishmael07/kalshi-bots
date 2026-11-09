@@ -3030,3 +3030,12 @@
 {"kind": "exit", "ts": 1794228703.412215, "ticker": "KXTRUMPMENTION-26NOV08-IMPE", "side": "yes", "price": 0.08, "contracts": 10.0, "fee": 0.02, "reason": "scalp", "trip": 1794228695}
 {"kind": "exit", "ts": 1794228794.5611444, "ticker": "KXTRUMPADMINLEAVE-26DEC31-PHEG", "side": "no", "price": 0.549, "contracts": 1.11, "fee": 0.01, "reason": "scalp", "trip": 1794228399}
 {"kind": "exit", "ts": 1794228834.7995594, "ticker": "KXTRUMPADMINLEAVE-26DEC31-PHEG", "side": "no", "price": 0.549, "contracts": 2.23, "fee": 0.01, "reason": "scalp", "trip": 1794228399}
+{"kind": "fill", "ts": 1794229051.198481, "fee": 0.01, "trip": 1794229046, "ticker": "KXVENEZUELALEADER-26DEC31-DROD", "side": "no", "price": 0.881, "contracts": 0.54, "fill_ts": 1794229046.710901}
+{"kind": "fill", "ts": 1794229061.1985795, "fee": 0.03, "trip": 1794229056, "ticker": "KXHOUSERACE-NC03-26-D", "side": "yes", "price": 0.841, "contracts": 11.0, "fill_ts": 1794229056.372249}
+{"kind": "cancel", "ts": 1794229104.7068465, "ticker": "KXNEXTPRESSECPERM-29JAN20-DALV", "reason": "time stop"}
+{"kind": "exit", "ts": 1794229104.7068465, "ticker": "KXNEXTPRESSECPERM-29JAN20-DALV", "side": "no", "price": 0.81, "contracts": 11.0, "fee": 0.12, "pnl": -0.23, "reason": "time stop", "trip": 1794228204}
+{"kind": "cancel", "ts": 1794229174.9459534, "ticker": "KXHEISMAN-27-DMENS", "reason": "time stop"}
+{"kind": "exit", "ts": 1794229174.9459534, "ticker": "KXHEISMAN-27-DMENS", "side": "yes", "price": 0.24, "contracts": 13.0, "fee": 0.17, "pnl": -0.17, "reason": "time stop", "trip": 1794228265}
+{"kind": "fill", "ts": 1794229235.8459582, "fee": 0.03, "trip": 1794229234, "ticker": "KXCEONVDA-01JAN33-01JAN27", "side": "no", "price": 0.85, "contracts": 11.0, "fill_ts": 1794229234.452814}
+{"kind": "cancel", "ts": 1794229308.802399, "ticker": "KXTRUMPADMINLEAVE-26DEC31-PHEG", "reason": "time stop"}
+{"kind": "exit", "ts": 1794229308.802399, "ticker": "KXTRUMPADMINLEAVE-26DEC31-PHEG", "side": "no", "price": 0.54, "contracts": 14.66, "fee": 0.26, "pnl": 0.0185, "reason": "time stop", "trip": 1794228399}
