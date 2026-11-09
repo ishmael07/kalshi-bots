@@ -3357,3 +3357,7 @@
 {"kind": "fill", "ts": 1794235041.2429504, "fee": 0.08, "trip": 1794235037, "ticker": "KXTRUMPADMINLEAVE-26DEC31-PHEG", "side": "no", "price": 0.511, "contracts": 17.0, "fill_ts": 1794235037.911183}
 {"kind": "fill", "ts": 1794235111.243984, "fee": 0.02, "trip": 1794235101, "ticker": "KXT20MATCH-26NOV090615KGOCRH-CRH", "side": "no", "price": 0.87, "contracts": 10.0, "fill_ts": 1794235101.535393}
 {"kind": "exit", "ts": 1794235111.243984, "ticker": "KXT20MATCH-26NOV090615KGOCRH-CRH", "side": "no", "price": 0.89, "contracts": 10.0, "fee": 0.02, "reason": "scalp", "trip": 1794235101}
+{"kind": "fill", "ts": 1794235211.2452402, "fee": 0.01, "trip": 1794235202, "ticker": "KXT20MATCH-26NOV090615KGOCRH-CRH", "side": "no", "price": 0.8, "contracts": 1.0, "fill_ts": 1794235202.741227}
+{"kind": "fill", "ts": 1794235211.2452402, "fee": 0.01, "trip": 1794235202, "ticker": "KXT20MATCH-26NOV090615KGOCRH-CRH", "side": "no", "price": 0.8, "contracts": 2.0, "fill_ts": 1794235202.741227}
+{"kind": "fill", "ts": 1794235211.2452402, "fee": 0.03, "trip": 1794235202, "ticker": "KXT20MATCH-26NOV090615KGOCRH-CRH", "side": "no", "price": 0.8, "contracts": 8.0, "fill_ts": 1794235202.741227}
+{"kind": "exit", "ts": 1794235261.2459679, "ticker": "KXT20MATCH-26NOV090615KGOCRH-CRH", "side": "no", "price": 0.79, "contracts": 11.0, "fee": 0.04, "reason": "scalp", "trip": 1794235202}
