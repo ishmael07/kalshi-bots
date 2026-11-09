@@ -3245,3 +3245,9 @@
 {"kind": "exit", "ts": 1794231659.052402, "ticker": "KXIMPEACH-29-JAN20", "side": "yes", "price": 0.769, "contracts": 9.55, "fee": 0.03, "reason": "scalp", "trip": 1794231310}
 {"kind": "fill", "ts": 1794231679.0525715, "fee": 0.03, "trip": 1794231675, "ticker": "KXNFLNEXTTEAM-26JTAYLOR28-NYG", "side": "no", "price": 0.7, "contracts": 7.57, "fill_ts": 1794231675.168217}
 {"kind": "exit", "ts": 1794231840.8537154, "ticker": "KXTRUMPADMINLEAVE-26DEC31-PHEG", "side": "no", "price": 0.569, "contracts": 17.0, "fee": 0.08, "reason": "scalp", "trip": 1794231492}
+{"kind": "exit", "ts": 1794231862.594394, "ticker": "KXNFLNEXTTEAM-26JTAYLOR28-NYG", "side": "no", "price": 0.71, "contracts": 7.57, "fee": 0.03, "reason": "scalp", "trip": 1794231675}
+{"kind": "fill", "ts": 1794231862.594394, "fee": 0.01, "trip": 1794231946, "ticker": "KXIMPEACH-29-JAN20", "side": "no", "price": 0.231, "contracts": 0.44, "fill_ts": 1794231946.020408}
+{"kind": "fill", "ts": 1794231862.594394, "fee": 0.01, "trip": 1794231946, "ticker": "KXIMPEACH-29-JAN20", "side": "no", "price": 0.231, "contracts": 0.83, "fill_ts": 1794231946.020408}
+{"kind": "cancel", "ts": 1794231987.8341546, "ticker": "KXVENEZUELALEADER-26DEC31-DROD", "reason": "time stop"}
+{"kind": "exit", "ts": 1794231987.8341546, "ticker": "KXVENEZUELALEADER-26DEC31-DROD", "side": "no", "price": 0.88, "contracts": 10.0, "fee": 0.08, "pnl": -0.09, "reason": "time stop", "trip": 1794231082}
+{"kind": "exit", "ts": 1794232123.9949253, "ticker": "KXIMPEACH-29-JAN20", "side": "no", "price": 0.249, "contracts": 1.27, "fee": 0.01, "reason": "scalp", "trip": 1794231946}
