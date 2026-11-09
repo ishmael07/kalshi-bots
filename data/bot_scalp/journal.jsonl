@@ -6338,3 +6338,5 @@
 {"kind": "exit", "ts": 1794254282.606215, "ticker": "KXT20MATCH-26NOV091230ARTBGUJCC-ARTB", "side": "no", "price": 0.27, "contracts": 3.0, "fee": 0.02, "reason": "scalp", "trip": 1794254230}
 {"kind": "exit", "ts": 1794254362.6072373, "ticker": "KXNFLNEXTTEAM-26JTAYLOR28-NE", "side": "no", "price": 0.81, "contracts": 3.0, "fee": 0.01, "reason": "scalp", "trip": 1794254164}
 {"kind": "exit", "ts": 1794254634.9747708, "ticker": "KXSENATEDEMLEAD-28JAN01-CHOL", "side": "no", "price": 0.879, "contracts": 3.0, "fee": 0.01, "reason": "scalp", "trip": 1794254206}
+{"kind": "fill", "ts": 1794254644.9749022, "fee": 0.01, "trip": 1794254664, "ticker": "KXHORMUZNORM-26MAR17-B270101", "side": "yes", "price": 0.101, "contracts": 1.0, "fill_ts": 1794254664.543671}
+{"kind": "fill", "ts": 1794254644.9749022, "fee": 0.01, "trip": 1794254664, "ticker": "KXHORMUZNORM-26MAR17-B270101", "side": "yes", "price": 0.101, "contracts": 2.0, "fill_ts": 1794254664.543671}
