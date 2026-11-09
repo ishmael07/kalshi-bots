@@ -2775,3 +2775,12 @@
 {"kind": "exit", "ts": 1794215831.011561, "ticker": "KXTRUMPMENTION-26NOV08-IMPE", "side": "yes", "price": 0.11, "contracts": 5.0, "fee": 0.01, "reason": "scalp", "trip": 1794215577}
 {"kind": "exit", "ts": 1794215831.011561, "ticker": "KXTRUMPMENTION-26NOV08-IMPE", "side": "yes", "price": 0.11, "contracts": 8.0, "fee": 0.02, "reason": "scalp", "trip": 1794215577}
 {"kind": "fill", "ts": 1794215881.0120554, "fee": 0.03, "trip": 1794215876, "ticker": "KXTRUMPMENTION-26NOV08-IMPE", "side": "no", "price": 0.87, "contracts": 13.0, "fill_ts": 1794215876.462626}
+{"kind": "fill", "ts": 1794215901.0122626, "fee": 0.08, "trip": 1794215901, "ticker": "KXNFLNFCEAST-27-NYG", "side": "no", "price": 0.39, "contracts": 19.0, "fill_ts": 1794215901.286417}
+{"kind": "fill", "ts": 1794215996.647162, "fee": 0.02, "trip": 1794215994, "ticker": "KXTESTMATCH-26NOV082330SRIPAK-PAK", "side": "no", "price": 0.65, "contracts": 3.07, "fill_ts": 1794215994.773427}
+{"kind": "fill", "ts": 1794215996.647162, "fee": 0.01, "trip": 1794215994, "ticker": "KXTESTMATCH-26NOV082330SRIPAK-PAK", "side": "no", "price": 0.65, "contracts": 1.0, "fill_ts": 1794215994.773427}
+{"kind": "fill", "ts": 1794215996.647162, "fee": 0.06, "trip": 1794215994, "ticker": "KXTESTMATCH-26NOV082330SRIPAK-PAK", "side": "no", "price": 0.65, "contracts": 12.93, "fill_ts": 1794215994.773427}
+{"kind": "fill", "ts": 1794216066.6478994, "fee": 0.01, "trip": 1794216065, "ticker": "KXT20MATCH-26NOV090145KYAPAV-KYA", "side": "yes", "price": 0.12, "contracts": 1.0, "fill_ts": 1794216065.127578}
+{"kind": "fill", "ts": 1794216066.6478994, "fee": 0.01, "trip": 1794216065, "ticker": "KXT20MATCH-26NOV090145KYAPAV-KYA", "side": "yes", "price": 0.12, "contracts": 3.0, "fill_ts": 1794216065.127578}
+{"kind": "fill", "ts": 1794216066.6478994, "fee": 0.02, "trip": 1794216065, "ticker": "KXT20MATCH-26NOV090145KYAPAV-KYA", "side": "yes", "price": 0.12, "contracts": 9.0, "fill_ts": 1794216065.127578}
+{"kind": "exit", "ts": 1794216076.6480265, "ticker": "KXT20MATCH-26NOV090145KYAPAV-KYA", "side": "yes", "price": 0.06, "contracts": 5.1, "fee": 0.01, "reason": "scalp", "trip": 1794216065}
+{"kind": "exit", "ts": 1794216097.760598, "ticker": "KXT20MATCH-26NOV090145KYAPAV-KYA", "side": "yes", "price": 0.05, "contracts": 7.9, "fee": 0.01, "reason": "scalp", "trip": 1794216065}
