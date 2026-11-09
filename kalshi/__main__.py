@@ -10,6 +10,7 @@
   export    static dashboard for GitHub Pages (docs/)
   wxcheck   would a weather-forecast veto have helped? (stored fills vs day-ahead forecasts)
   citycheck does the model make money on cities it never saw? (out-of-sample)
+  scalpcheck replay a two-sided scalper over stored tapes at our reaction speed
 """
 import sys
 
@@ -24,6 +25,7 @@ COMMANDS = {
     "export": ("kalshi.run_bot", "cmd_export"),
     "wxcheck": ("kalshi.wx_check", "main"),
     "citycheck": ("kalshi.city_check", "main"),
+    "scalpcheck": ("kalshi.scalp_check", "main"),
 }
 
 
