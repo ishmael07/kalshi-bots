@@ -6324,3 +6324,15 @@
 {"kind": "fill", "ts": 1794253883.5881498, "fee": 0.01, "trip": 1794253878, "ticker": "KXT20MATCH-26NOV091230ARTBGUJCC-ARTB", "side": "no", "price": 0.23, "contracts": 1.0, "fill_ts": 1794253878.790009}
 {"kind": "fill", "ts": 1794253883.5881498, "fee": 0.01, "trip": 1794253878, "ticker": "KXT20MATCH-26NOV091230ARTBGUJCC-ARTB", "side": "no", "price": 0.23, "contracts": 2.0, "fill_ts": 1794253878.790009}
 {"kind": "exit", "ts": 1794253893.5882697, "ticker": "KXT20MATCH-26NOV091230ARTBGUJCC-ARTB", "side": "no", "price": 0.37, "contracts": 3.0, "fee": 0.02, "reason": "scalp", "trip": 1794253878}
+{"kind": "exit", "ts": 1794253955.2201145, "ticker": "KXNFLNEXTTEAM-26JTAYLOR28-NE", "side": "no", "price": 0.79, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794253538}
+{"kind": "exit", "ts": 1794253955.2201145, "ticker": "KXNFLNEXTTEAM-26JTAYLOR28-NE", "side": "no", "price": 0.79, "contracts": 2.0, "fee": 0.01, "reason": "scalp", "trip": 1794253538}
+{"kind": "fill", "ts": 1794253965.220231, "fee": 0.01, "trip": 1794253958, "ticker": "KXELITESERIENGAME-26NOV09KBKVIF-KBK", "side": "no", "price": 0.08, "contracts": 3.0, "fill_ts": 1794253958.905884}
+{"kind": "fill", "ts": 1794254035.2211382, "fee": 0.01, "trip": 1794254103, "ticker": "KXHOUSEPOPVOTEMARGIN-27NOV03-B13", "side": "no", "price": 0.851, "contracts": 3.0, "fill_ts": 1794254103.344338}
+{"kind": "fill", "ts": 1794254035.2211382, "fee": 0.01, "trip": 1794254054, "ticker": "KXRAIN-26NOV09-MIA", "side": "no", "price": 0.77, "contracts": 3.0, "fill_ts": 1794254054.832946}
+{"kind": "fill", "ts": 1794254171.7743452, "fee": 0.01, "trip": 1794254164, "ticker": "KXNFLNEXTTEAM-26JTAYLOR28-NE", "side": "no", "price": 0.78, "contracts": 3.0, "fill_ts": 1794254164.168779}
+{"kind": "exit", "ts": 1794254185.6151352, "ticker": "KXRAIN-26NOV09-MIA", "side": "no", "price": 0.76, "contracts": 3.0, "fee": 0.01, "reason": "scalp", "trip": 1794254054}
+{"kind": "fill", "ts": 1794254205.6153772, "fee": 0.01, "trip": 1794254206, "ticker": "KXSENATEDEMLEAD-28JAN01-CHOL", "side": "no", "price": 0.871, "contracts": 3.0, "fill_ts": 1794254206.1576}
+{"kind": "cancel", "ts": 1794254215.6155317, "ticker": "KXNEXTPRESSECPERM-29JAN20-DALV", "reason": "time stop"}
+{"kind": "exit", "ts": 1794254215.6155317, "ticker": "KXNEXTPRESSECPERM-29JAN20-DALV", "side": "no", "price": 0.79, "contracts": 3.0, "fee": 0.04, "pnl": -0.07, "reason": "time stop", "trip": 1794253308}
+{"kind": "fill", "ts": 1794254235.6157691, "fee": 0.01, "trip": 1794254230, "ticker": "KXT20MATCH-26NOV091230ARTBGUJCC-ARTB", "side": "no", "price": 0.25, "contracts": 3.0, "fill_ts": 1794254230.997786}
+{"kind": "exit", "ts": 1794254282.606215, "ticker": "KXT20MATCH-26NOV091230ARTBGUJCC-ARTB", "side": "no", "price": 0.27, "contracts": 3.0, "fee": 0.02, "reason": "scalp", "trip": 1794254230}
