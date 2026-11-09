@@ -29534,3 +29534,116 @@
 {"kind": "blocked", "ts": 1794188002.1409082, "ticker": "KXHIGHMIA-26NOV08-B81.5", "reason": "event KXHIGHMIA-26NOV08 $3.62 > max $3.56"}
 {"kind": "blocked", "ts": 1794188002.1409082, "ticker": "KXHIGHMIA-26NOV08-T81", "reason": "event KXHIGHMIA-26NOV08 $3.62 > max $3.56"}
 {"kind": "blocked", "ts": 1794188002.1409082, "ticker": "KXHIGHTATL-26NOV08-T66", "reason": "event KXHIGHTATL-26NOV08 $3.59 > max $3.56"}
+{"kind": "quote", "ts": 1794188002.1409082, "ticker": "KXLOWTBOS-26NOV08-B44.5", "side": "no", "price": 0.96, "count": 0.74, "q": 0.9979, "improved": true}
+{"kind": "quote", "ts": 1794188002.1409082, "ticker": "KXLOWTBOS-26NOV08-B46.5", "side": "no", "price": 0.79, "count": 0.9, "q": 0.8222, "improved": true}
+{"kind": "fill", "ts": 1794188040.2541363, "ticker": "KXLOWTNYC-26NOV08-B47.5", "side": "no", "price": 0.93, "contracts": 0.77, "fill_ts": 1794188039.542669}
+{"kind": "fill", "ts": 1794188040.2541363, "ticker": "KXAAAGASD-26NOV09-4.0100", "side": "no", "price": 0.75, "contracts": 0.95, "fill_ts": 1794188028.805479}
+{"kind": "cancel", "ts": 1794188040.2541363, "ticker": "KXLOWTDEN-26NOV08-B36.5", "side": "yes", "price": 0.95, "reason": "requote"}
+{"kind": "quote", "ts": 1794188040.2541363, "ticker": "KXLOWTMIN-26NOV08-B38.5", "side": "no", "price": 0.76, "count": 0.94, "q": 0.8162, "improved": true}
+{"kind": "cancel", "ts": 1794188040.2541363, "ticker": "KXLOWTMIN-26NOV08-B38.5", "side": "no", "price": 0.77, "reason": "requote"}
+{"kind": "blocked", "ts": 1794188040.2541363, "ticker": "KXLOWTNYC-26NOV08-B47.5", "reason": "event KXLOWTNYC-26NOV08 $3.58 > max $3.56"}
+{"kind": "quote", "ts": 1794188040.2541363, "ticker": "KXLOWTSEA-26NOV08-B44.5", "side": "no", "price": 0.52, "count": 1.37, "q": 0.5615, "improved": true}
+{"kind": "cancel", "ts": 1794188040.2541363, "ticker": "KXLOWTSEA-26NOV08-B44.5", "side": "no", "price": 0.68, "reason": "requote"}
+{"kind": "blocked", "ts": 1794188040.2541363, "ticker": "KXAAAGASD-26NOV09-4.0100", "reason": "event Economics|20766 $3.58 > max $3.56"}
+{"kind": "quote", "ts": 1794188040.2541363, "ticker": "KXHIGHAUS-26NOV08-T64", "side": "yes", "price": 0.91, "count": 0.78, "q": 0.9653, "improved": true}
+{"kind": "blocked", "ts": 1794188040.2541363, "ticker": "KXHIGHMIA-26NOV08-B81.5", "reason": "event KXHIGHMIA-26NOV08 $3.62 > max $3.56"}
+{"kind": "blocked", "ts": 1794188040.2541363, "ticker": "KXHIGHMIA-26NOV08-T81", "reason": "event KXHIGHMIA-26NOV08 $3.62 > max $3.56"}
+{"kind": "blocked", "ts": 1794188040.2541363, "ticker": "KXHIGHTATL-26NOV08-T66", "reason": "event KXHIGHTATL-26NOV08 $3.59 > max $3.56"}
+{"kind": "news", "ts": 1794188080.3283772, "source": "nws_afd", "headline": "Philadelphia: 1. Breezy conditions will continue across the area through Monday. 2. A coastal storm/nor'easter is forecast to impact the region Thursday through Friday night.", "cats": [], "sev": "none"}
+{"kind": "fill", "ts": 1794188080.3283772, "ticker": "KXLOWTNYC-26NOV08-B49.5", "side": "yes", "price": 0.93, "contracts": 0.11, "fill_ts": 1794188078.588273}
+{"kind": "fill", "ts": 1794188080.3283772, "ticker": "KXLOWTNYC-26NOV08-B49.5", "side": "yes", "price": 0.93, "contracts": 0.66, "fill_ts": 1794188078.588273}
+{"kind": "fill", "ts": 1794188080.3283772, "ticker": "KXLOWTSEA-26NOV08-B44.5", "side": "no", "price": 0.52, "contracts": 0.05, "fill_ts": 1794188060.858212}
+{"kind": "fill", "ts": 1794188080.3283772, "ticker": "KXLOWTSEA-26NOV08-B44.5", "side": "no", "price": 0.52, "contracts": 0.04, "fill_ts": 1794188060.858212}
+{"kind": "fill", "ts": 1794188080.3283772, "ticker": "KXLOWTSEA-26NOV08-B44.5", "side": "no", "price": 0.52, "contracts": 0.05, "fill_ts": 1794188060.858212}
+{"kind": "fill", "ts": 1794188080.3283772, "ticker": "KXLOWTSEA-26NOV08-B44.5", "side": "no", "price": 0.52, "contracts": 1.23, "fill_ts": 1794188060.858212}
+{"kind": "quote", "ts": 1794188080.3283772, "ticker": "KXLOWTAUS-26NOV08-B56.5", "side": "no", "price": 0.87, "count": 0.82, "q": 0.9223, "improved": true}
+{"kind": "cancel", "ts": 1794188080.3283772, "ticker": "KXLOWTAUS-26NOV08-B56.5", "side": "no", "price": 0.86, "reason": "requote"}
+{"kind": "cancel", "ts": 1794188080.3283772, "ticker": "KXLOWTBOS-26NOV08-B44.5", "side": "no", "price": 0.96, "reason": "requote"}
+{"kind": "cancel", "ts": 1794188080.3283772, "ticker": "KXLOWTBOS-26NOV08-B46.5", "side": "no", "price": 0.79, "reason": "requote"}
+{"kind": "quote", "ts": 1794188080.3283772, "ticker": "KXLOWTBOS-26NOV08-B48.5", "side": "yes", "price": 0.77, "count": 0.92, "q": 0.8182, "improved": true}
+{"kind": "quote", "ts": 1794188080.3283772, "ticker": "KXLOWTMIN-26NOV08-B38.5", "side": "no", "price": 0.78, "count": 0.91, "q": 0.8202, "improved": true}
+{"kind": "cancel", "ts": 1794188080.3283772, "ticker": "KXLOWTMIN-26NOV08-B38.5", "side": "no", "price": 0.76, "reason": "requote"}
+{"kind": "blocked", "ts": 1794188080.3283772, "ticker": "KXLOWTNYC-26NOV08-B47.5", "reason": "event KXLOWTNYC-26NOV08 $3.58 > max $3.56"}
+{"kind": "blocked", "ts": 1794188080.3283772, "ticker": "KXLOWTNYC-26NOV08-B49.5", "reason": "event KXLOWTNYC-26NOV08 $3.58 > max $3.56"}
+{"kind": "blocked", "ts": 1794188080.3283772, "ticker": "KXAAAGASD-26NOV09-4.0100", "reason": "event Economics|20766 $3.58 > max $3.56"}
+{"kind": "blocked", "ts": 1794188080.3283772, "ticker": "KXHIGHMIA-26NOV08-B81.5", "reason": "event KXHIGHMIA-26NOV08 $3.62 > max $3.56"}
+{"kind": "blocked", "ts": 1794188080.3283772, "ticker": "KXHIGHMIA-26NOV08-T81", "reason": "event KXHIGHMIA-26NOV08 $3.62 > max $3.56"}
+{"kind": "news", "ts": 1794188121.2461123, "source": "bluesky", "headline": "This travel giant is caught in the AI selloff. Here's why I'm buying", "cats": ["Financials"], "sev": "low"}
+{"kind": "news", "ts": 1794188121.2461123, "source": "bluesky", "headline": "Stock futures rise slightly as investors eye AI trade, brace for more data and earnings: Live updates", "cats": ["Financials"], "sev": "low"}
+{"kind": "blocked", "ts": 1794188121.2461123, "ticker": "KXHIGHTATL-26NOV08-T66", "reason": "event KXHIGHTATL-26NOV08 $3.59 > max $3.56"}
+{"kind": "quote", "ts": 1794188121.2461123, "ticker": "KXLOWTBOS-26NOV08-B48.5", "side": "yes", "price": 0.79, "count": 0.9, "q": 0.8222, "improved": true}
+{"kind": "cancel", "ts": 1794188121.2461123, "ticker": "KXLOWTBOS-26NOV08-B48.5", "side": "yes", "price": 0.77, "reason": "requote"}
+{"kind": "blocked", "ts": 1794188121.2461123, "ticker": "KXLOWTNYC-26NOV08-B47.5", "reason": "event KXLOWTNYC-26NOV08 $3.58 > max $3.56"}
+{"kind": "blocked", "ts": 1794188121.2461123, "ticker": "KXLOWTNYC-26NOV08-B49.5", "reason": "event KXLOWTNYC-26NOV08 $3.58 > max $3.56"}
+{"kind": "quote", "ts": 1794188121.2461123, "ticker": "KXLOWTSATX-26NOV08-B57.5", "side": "no", "price": 0.86, "count": 0.83, "q": 0.9207, "improved": true}
+{"kind": "cancel", "ts": 1794188121.2461123, "ticker": "KXLOWTSATX-26NOV08-B57.5", "side": "no", "price": 0.87, "reason": "requote"}
+{"kind": "quote", "ts": 1794188121.2461123, "ticker": "KXLOWTSEA-26NOV08-B44.5", "side": "no", "price": 0.55, "count": 1.29, "q": 0.6169, "improved": true}
+{"kind": "fill", "ts": 1794188160.7950764, "ticker": "KXHIGHAUS-26NOV08-B64.5", "side": "no", "price": 0.93, "contracts": 0.77, "fill_ts": 1794188145.465474}
+{"kind": "blocked", "ts": 1794188160.7950764, "ticker": "KXAAAGASD-26NOV09-4.0100", "reason": "event Economics|20766 $3.58 > max $3.56"}
+{"kind": "blocked", "ts": 1794188160.7950764, "ticker": "KXHIGHMIA-26NOV08-B81.5", "reason": "event KXHIGHMIA-26NOV08 $3.62 > max $3.56"}
+{"kind": "blocked", "ts": 1794188160.7950764, "ticker": "KXHIGHMIA-26NOV08-T81", "reason": "event KXHIGHMIA-26NOV08 $3.62 > max $3.56"}
+{"kind": "blocked", "ts": 1794188160.7950764, "ticker": "KXHIGHTATL-26NOV08-T66", "reason": "event KXHIGHTATL-26NOV08 $3.59 > max $3.56"}
+{"kind": "quote", "ts": 1794188160.7950764, "ticker": "KXLOWTBOS-26NOV08-B44.5", "side": "no", "price": 0.96, "count": 0.74, "q": 0.9979, "improved": true}
+{"kind": "cancel", "ts": 1794188160.7950764, "ticker": "KXLOWTBOS-26NOV08-B48.5", "side": "yes", "price": 0.79, "reason": "requote"}
+{"kind": "quote", "ts": 1794188160.7950764, "ticker": "KXLOWTMIN-26NOV08-B38.5", "side": "no", "price": 0.76, "count": 0.94, "q": 0.8162, "improved": true}
+{"kind": "cancel", "ts": 1794188160.7950764, "ticker": "KXLOWTMIN-26NOV08-B38.5", "side": "no", "price": 0.78, "reason": "requote"}
+{"kind": "news", "ts": 1794188200.4152033, "source": "bluesky", "headline": "An unorthodox union links U.S. taxpayers with billionaire Alejandro Betancourt \u2014 anointed by the Trump administration to be Venezuela\u2019s new petroleum king \u2014 who offered a glimpse of the venture, lifti", "cats": ["Commodities"], "sev": "low"}
+{"kind": "news", "ts": 1794188200.4152033, "source": "nws_afd", "headline": "Miami: Updated at 612 PM EST Sun Nov 8 2026 - Drier conditions will push across most of South Florida through the rest of the weekend and into early this week. - Minor coastal flooding will continue a", "cats": [], "sev": "none"}
+{"kind": "blocked", "ts": 1794188200.4152033, "ticker": "KXLOWTNYC-26NOV08-B47.5", "reason": "event KXLOWTNYC-26NOV08 $3.58 > max $3.56"}
+{"kind": "blocked", "ts": 1794188200.4152033, "ticker": "KXLOWTNYC-26NOV08-B49.5", "reason": "event KXLOWTNYC-26NOV08 $3.58 > max $3.56"}
+{"kind": "blocked", "ts": 1794188200.4152033, "ticker": "KXHIGHMIA-26NOV08-B81.5", "reason": "event KXHIGHMIA-26NOV08 $3.62 > max $3.56"}
+{"kind": "blocked", "ts": 1794188200.4152033, "ticker": "KXHIGHMIA-26NOV08-T81", "reason": "event KXHIGHMIA-26NOV08 $3.62 > max $3.56"}
+{"kind": "blocked", "ts": 1794188200.4152033, "ticker": "KXHIGHTATL-26NOV08-T66", "reason": "event KXHIGHTATL-26NOV08 $3.59 > max $3.56"}
+{"kind": "quote", "ts": 1794188200.4152033, "ticker": "KXLOWTAUS-26NOV08-B56.5", "side": "no", "price": 0.88, "count": 0.81, "q": 0.9238, "improved": true}
+{"kind": "cancel", "ts": 1794188200.4152033, "ticker": "KXLOWTAUS-26NOV08-B56.5", "side": "no", "price": 0.87, "reason": "requote"}
+{"kind": "fill", "ts": 1794188239.1416476, "ticker": "KXLOWTAUS-26NOV08-B56.5", "side": "no", "price": 0.88, "contracts": 0.81, "fill_ts": 1794188232.482126}
+{"kind": "fill", "ts": 1794188239.1416476, "ticker": "KXLOWTMIA-26NOV08-B73.5", "side": "no", "price": 0.93, "contracts": 0.77, "fill_ts": 1794188236.099052}
+{"kind": "fill", "ts": 1794188239.1416476, "ticker": "KXLOWTMIA-26NOV08-T74", "side": "yes", "price": 0.93, "contracts": 0.77, "fill_ts": 1794188236.106917}
+{"kind": "quote", "ts": 1794188239.1416476, "ticker": "KXLOWTMIA-26NOV08-B73.5", "side": "no", "price": 0.92, "count": 0.77, "q": 0.9663, "improved": true}
+{"kind": "quote", "ts": 1794188239.1416476, "ticker": "KXLOWTMIA-26NOV08-T74", "side": "yes", "price": 0.92, "count": 0.77, "q": 0.9663, "improved": true}
+{"kind": "blocked", "ts": 1794188239.1416476, "ticker": "KXLOWTNYC-26NOV08-B47.5", "reason": "event KXLOWTNYC-26NOV08 $3.58 > max $3.56"}
+{"kind": "blocked", "ts": 1794188239.1416476, "ticker": "KXLOWTNYC-26NOV08-B49.5", "reason": "event KXLOWTNYC-26NOV08 $3.58 > max $3.56"}
+{"kind": "quote", "ts": 1794188239.1416476, "ticker": "KXLOWTSATX-26NOV08-B57.5", "side": "no", "price": 0.87, "count": 0.82, "q": 0.9223, "improved": true}
+{"kind": "cancel", "ts": 1794188239.1416476, "ticker": "KXLOWTSATX-26NOV08-B57.5", "side": "no", "price": 0.86, "reason": "requote"}
+{"kind": "quote", "ts": 1794188239.1416476, "ticker": "KXLOWTSEA-26NOV08-B44.5", "side": "no", "price": 0.57, "count": 1.25, "q": 0.6172, "improved": true}
+{"kind": "cancel", "ts": 1794188239.1416476, "ticker": "KXLOWTSEA-26NOV08-B44.5", "side": "no", "price": 0.55, "reason": "requote"}
+{"kind": "blocked", "ts": 1794188239.1416476, "ticker": "KXAAAGASD-26NOV09-4.0100", "reason": "event Economics|20766 $3.58 > max $3.56"}
+{"kind": "blocked", "ts": 1794188239.1416476, "ticker": "KXHIGHAUS-26NOV08-T64", "reason": "event KXHIGHAUS-26NOV08 $3.60 > max $3.56"}
+{"kind": "cancel", "ts": 1794188239.1416476, "ticker": "KXHIGHAUS-26NOV08-T64", "side": "yes", "price": 0.91, "reason": "requote"}
+{"kind": "blocked", "ts": 1794188239.1416476, "ticker": "KXHIGHMIA-26NOV08-B81.5", "reason": "event KXHIGHMIA-26NOV08 $3.62 > max $3.56"}
+{"kind": "blocked", "ts": 1794188239.1416476, "ticker": "KXHIGHMIA-26NOV08-T81", "reason": "event KXHIGHMIA-26NOV08 $3.62 > max $3.56"}
+{"kind": "blocked", "ts": 1794188239.1416476, "ticker": "KXHIGHTATL-26NOV08-T66", "reason": "event KXHIGHTATL-26NOV08 $3.59 > max $3.56"}
+{"kind": "news", "ts": 1794188277.4111464, "source": "gnews", "headline": "Wall St futures mixed amid AI spending concerns; inflation data awaited - Yahoo Finance Singapore", "cats": ["Economics"], "sev": "low"}
+{"kind": "news", "ts": 1794188277.4111464, "source": "gnews", "headline": "China's inflation down from 0.9% to 0.7% in October - Breakingthenews.net", "cats": ["Economics"], "sev": "low"}
+{"kind": "news", "ts": 1794188277.4111464, "source": "gnews", "headline": "US dollar holds onto payrolls gains, NZ dollar rises after election - AOL.com", "cats": ["Economics"], "sev": "low"}
+{"kind": "news", "ts": 1794188277.4111464, "source": "gnews", "headline": "US dollar holds onto payrolls gains, NZ dollar rises after election - TradingView", "cats": ["Economics"], "sev": "low"}
+{"kind": "news", "ts": 1794188277.4111464, "source": "gnews", "headline": "China's CPI up 0.7% in October - China Daily", "cats": ["Economics", "Financials"], "sev": "low"}
+{"kind": "news", "ts": 1794188277.4111464, "source": "gnews", "headline": "WEEKAHEAD-Indian rupee tracks AI volatility, oil; inflation data next test for bonds - marketscreener.com", "cats": ["Commodities", "Economics"], "sev": "low"}
+{"kind": "news", "ts": 1794188277.4111464, "source": "gnews", "headline": "Gold rebounds above $4,100 as traders await U.S. inflation data after jobs beat By Investing.com - Investing.com India", "cats": ["Commodities", "Economics"], "sev": "low"}
+{"kind": "news", "ts": 1794188277.4111464, "source": "gnews", "headline": "RBA expects artificial intelligence to affect jobs, but be inflation neutral - AFR", "cats": ["Economics"], "sev": "low"}
+{"kind": "news", "ts": 1794188277.4111464, "source": "gnews", "headline": "Aig-Imoukhuede: Inflation, Broader Economic Uncertainty Continue to Influence Investor Behaviour - THISDAYLIVE", "cats": ["Economics"], "sev": "low"}
+{"kind": "news", "ts": 1794188277.4111464, "source": "gnews", "headline": "Dear snow, with inflation, skiing is getting more and more expensive. The ski pass boom - la Repubblica", "cats": ["Economics"], "sev": "low"}
+{"kind": "fill", "ts": 1794188277.4111464, "ticker": "KXLOWTSATX-26NOV08-B57.5", "side": "no", "price": 0.87, "contracts": 0.57, "fill_ts": 1794188273.817487}
+{"kind": "fill", "ts": 1794188277.4111464, "ticker": "KXLOWTSATX-26NOV08-B57.5", "side": "no", "price": 0.87, "contracts": 0.25, "fill_ts": 1794188273.817487}
+{"kind": "quote", "ts": 1794188277.4111464, "ticker": "KXLOWTAUS-26NOV08-B56.5", "side": "no", "price": 0.88, "count": 0.81, "q": 0.9238, "improved": true}
+{"kind": "cancel", "ts": 1794188277.4111464, "ticker": "KXLOWTBOS-26NOV08-B44.5", "side": "no", "price": 0.96, "reason": "requote"}
+{"kind": "quote", "ts": 1794188277.4111464, "ticker": "KXLOWTBOS-26NOV08-B48.5", "side": "yes", "price": 0.74, "count": 0.96, "q": 0.8159, "improved": true}
+{"kind": "weather_lock", "ts": 1794188277.4111464, "ticker": "KXLOWTNOLA-26NOV08-T56", "locked": "no", "dead": "yes"}
+{"kind": "quote", "ts": 1794188277.4111464, "ticker": "KXLOWTNOLA-26NOV08-T56", "side": "no", "price": 0.97, "count": 0.73, "q": 0.99, "improved": true}
+{"kind": "blocked", "ts": 1794188277.4111464, "ticker": "KXLOWTNYC-26NOV08-B47.5", "reason": "open $57.26 > max $56.93"}
+{"kind": "blocked", "ts": 1794188277.4111464, "ticker": "KXLOWTNYC-26NOV08-B49.5", "reason": "open $57.26 > max $56.93"}
+{"kind": "blocked", "ts": 1794188277.4111464, "ticker": "KXLOWTSATX-26NOV08-B57.5", "reason": "open $57.26 > max $56.93"}
+{"kind": "cancel", "ts": 1794188277.4111464, "ticker": "KXLOWTSEA-26NOV08-B44.5", "side": "no", "price": 0.57, "reason": "requote"}
+{"kind": "quote", "ts": 1794188277.4111464, "ticker": "KXHIGHAUS-26NOV08-T64", "side": "yes", "price": 0.93, "count": 0.77, "q": 0.9673, "improved": true}
+{"kind": "blocked", "ts": 1794188277.4111464, "ticker": "KXHIGHMIA-26NOV08-B81.5", "reason": "open $57.26 > max $56.93"}
+{"kind": "blocked", "ts": 1794188277.4111464, "ticker": "KXHIGHMIA-26NOV08-T81", "reason": "open $57.26 > max $56.93"}
+{"kind": "news", "ts": 1794188345.215465, "source": "nws_afd", "headline": "Chicago: - Dry conditions and warmer temperatures are expected through Tuesday. - Precipitation chances and cooler temperatures return mid to late week.", "cats": [], "sev": "none"}
+{"kind": "fill", "ts": 1794188345.215465, "ticker": "KXHIGHAUS-26NOV08-T64", "side": "yes", "price": 0.93, "contracts": 0.14, "fill_ts": 1794188315.929481}
+{"kind": "blocked", "ts": 1794188345.215465, "ticker": "KXHIGHTATL-26NOV08-T66", "reason": "open $57.26 > max $56.93"}
+{"kind": "blocked", "ts": 1794188345.215465, "ticker": "KXLOWTAUS-26NOV08-T57", "reason": "open $57.26 > max $56.93"}
+{"kind": "blocked", "ts": 1794188345.215465, "ticker": "KXLOWTBOS-26NOV08-B48.5", "reason": "open $57.26 > max $56.93"}
+{"kind": "cancel", "ts": 1794188345.215465, "ticker": "KXLOWTBOS-26NOV08-B48.5", "side": "yes", "price": 0.74, "reason": "requote"}
+{"kind": "blocked", "ts": 1794188345.215465, "ticker": "KXLOWTNYC-26NOV08-B47.5", "reason": "event KXLOWTNYC-26NOV08 $3.58 > max $3.56"}
+{"kind": "blocked", "ts": 1794188345.215465, "ticker": "KXLOWTNYC-26NOV08-B49.5", "reason": "event KXLOWTNYC-26NOV08 $3.58 > max $3.56"}
+{"kind": "quote", "ts": 1794188345.215465, "ticker": "KXLOWTSATX-26NOV08-B57.5", "side": "no", "price": 0.89, "count": 0.8, "q": 0.9253, "improved": true}
+{"kind": "fill", "ts": 1794188384.872141, "ticker": "KXLOWTDEN-26NOV08-B34.5", "side": "no", "price": 0.95, "contracts": 0.75, "fill_ts": 1794188390.797735}
