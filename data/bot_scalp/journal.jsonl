@@ -2848,3 +2848,9 @@
 {"kind": "exit", "ts": 1794223311.9778905, "ticker": "KXKBLGAME-26NOV090500SONTHU-THU", "side": "no", "price": 0.54, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794222941}
 {"kind": "exit", "ts": 1794223311.9778905, "ticker": "KXKBLGAME-26NOV090500SONTHU-THU", "side": "no", "price": 0.54, "contracts": 12.78, "fee": 0.06, "reason": "scalp", "trip": 1794222941}
 {"kind": "exit", "ts": 1794223311.9778905, "ticker": "KXKBLGAME-26NOV090500SONTHU-THU", "side": "no", "price": 0.54, "contracts": 4.22, "fee": 0.02, "reason": "scalp", "trip": 1794222941}
+{"kind": "cancel", "ts": 1794223797.6215563, "ticker": "KXISRAELPM-26OCT27-BNET", "reason": "time stop"}
+{"kind": "exit", "ts": 1794223797.6215563, "ticker": "KXISRAELPM-26OCT27-BNET", "side": "yes", "price": 0.11, "contracts": 12.0, "fee": 0.09, "pnl": -0.09, "reason": "time stop", "trip": 1794222890}
+{"kind": "cancel", "ts": 1794223902.1079822, "ticker": "KXUCL-27-PSG", "reason": "time stop"}
+{"kind": "exit", "ts": 1794223902.1079822, "ticker": "KXUCL-27-PSG", "side": "no", "price": 0.8, "contracts": 13.0, "fee": 0.15, "pnl": -0.28, "reason": "time stop", "trip": 1794222990}
+{"kind": "cancel", "ts": 1794224085.7790556, "ticker": "KXRT-AVE-85", "reason": "time stop"}
+{"kind": "exit", "ts": 1794224085.7790556, "ticker": "KXRT-AVE-85", "side": "no", "price": 0.56, "contracts": 6.03, "fee": 0.11, "pnl": -0.1703, "reason": "time stop", "trip": 1794223153}
