@@ -2739,3 +2739,4 @@
 {"kind": "settle", "ts": 1794214305.8445945, "ticker": "KXNCAAMBSPREAD-26NOV08UTAHAW-HAW7", "result": "yes", "pnl": -1.21, "equity": 114.3499}
 {"kind": "cancel", "ts": 1794214415.0079625, "ticker": "KXTESTMATCH-26NOV082330SRIPAK-TIE", "reason": "time stop"}
 {"kind": "exit", "ts": 1794214415.0079625, "ticker": "KXTESTMATCH-26NOV082330SRIPAK-TIE", "side": "no", "price": 0.55, "contracts": 20.0, "fee": 0.35, "pnl": -0.55, "reason": "time stop", "trip": 1794213507}
+{"kind": "fill", "ts": 1794215137.787705, "fee": 0.04, "trip": 1794215136, "ticker": "KXHOUSERACE-NC03-26-R", "side": "no", "price": 0.841, "contracts": 13.0, "fill_ts": 1794215136.492887}
