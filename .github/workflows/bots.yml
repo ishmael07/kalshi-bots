@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: kalshi-bots
@@ -31,20 +32,33 @@ jobs:
           ALPACA_KEY_ID: ${{ secrets.ALPACA_KEY_ID }}
           ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+          GH_TOKEN: ${{ github.token }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           publish() {
             python -m kalshi export docs || true
             git add data docs
-            git diff --cached --quiet || { git commit -q -m "bot state"; git push -q || { git pull -q --rebase -X theirs && git push -q; }; } || true
+            git diff --cached --quiet || git commit -q -m "bot state"
+            # --autostash: the bots keep writing files, and a dirty tree would block every later push
+            git push -q || { git pull -q --rebase --autostash -X theirs origin main && git push -q; }
           }
           # SIGTERM makes each bot finish its current cycle, save, and exit
           (timeout -s TERM 338m python -u -m kalshi run --interval 30 2>&1 | sed -u 's/^/[steady] /') &
+          P1=$!
           (timeout -s TERM 338m python -u -m kalshi run --config kalshi_aggressive.toml --interval 30 2>&1 | sed -u 's/^/[aggr] /') &
-          sleep 90; publish
-          while [ -n "$(jobs -r)" ]; do sleep 360; publish; done
-          wait
-          publish
+          P2=$!
+          sleep 90; publish || echo "publish failed"
+          queued=""
+          while kill -0 "$P1" 2>/dev/null || kill -0 "$P2" 2>/dev/null; do
+            sleep 360; publish || echo "publish failed"
+            # queue the next run once this one has proved healthy (it waits in the concurrency group), so the
+            # chain doesn't depend on GitHub's cron, which often fires hours late; a crash can't loop this way
+            if [ -z "$queued" ] && [ "$SECONDS" -gt 600 ]; then
+              gh workflow run kalshi-bots -R "$GITHUB_REPOSITORY" --ref main && queued=1 || echo "queue failed"
+            fi
+          done
+          wait || true
+          publish || echo "publish failed"
           # a crash at startup must show as a failed run, not a green one
           if [ "$SECONDS" -lt 1800 ]; then echo "bots exited after ${SECONDS}s"; exit 1; fi
