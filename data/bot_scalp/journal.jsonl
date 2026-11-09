@@ -2588,3 +2588,10 @@
 {"kind": "fill", "ts": 1794206248.5610192, "fee": 0.01, "trip": 1794206241, "ticker": "KXTESTMATCH-26NOV042230WIBAN-WI", "side": "no", "price": 0.77, "contracts": 1.0, "fill_ts": 1794206241.377887}
 {"kind": "fill", "ts": 1794206248.5610192, "fee": 0.01, "trip": 1794206241, "ticker": "KXTESTMATCH-26NOV042230WIBAN-WI", "side": "no", "price": 0.77, "contracts": 1.0, "fill_ts": 1794206241.377887}
 {"kind": "fill", "ts": 1794206248.5610192, "fee": 0.05, "trip": 1794206241, "ticker": "KXTESTMATCH-26NOV042230WIBAN-WI", "side": "no", "price": 0.77, "contracts": 13.0, "fill_ts": 1794206241.377887}
+{"kind": "exit", "ts": 1794206323.490175, "ticker": "KXTESTMATCH-26NOV042230WIBAN-WI", "side": "no", "price": 0.78, "contracts": 2.0, "fee": 0.01, "reason": "scalp", "trip": 1794206241}
+{"kind": "exit", "ts": 1794206323.490175, "ticker": "KXTESTMATCH-26NOV042230WIBAN-WI", "side": "no", "price": 0.78, "contracts": 2.0, "fee": 0.01, "reason": "scalp", "trip": 1794206241}
+{"kind": "exit", "ts": 1794206387.7491128, "ticker": "KXTESTMATCH-26NOV042230WIBAN-WI", "side": "no", "price": 0.8, "contracts": 11.0, "fee": 0.04, "reason": "scalp", "trip": 1794206241}
+{"kind": "fill", "ts": 1794206432.5407062, "fee": 0.04, "trip": 1794206438, "ticker": "KXTESTMATCH-26NOV042230WIBAN-WI", "side": "yes", "price": 0.18, "contracts": 14.0, "fill_ts": 1794206438.662827}
+{"kind": "exit", "ts": 1794206515.1585064, "ticker": "KXTESTMATCH-26NOV042230WIBAN-WI", "side": "yes", "price": 0.18, "contracts": 5.0, "fee": 0.02, "reason": "scalp", "trip": 1794206438}
+{"kind": "exit", "ts": 1794206515.1585064, "ticker": "KXTESTMATCH-26NOV042230WIBAN-WI", "side": "yes", "price": 0.18, "contracts": 5.0, "fee": 0.02, "reason": "scalp", "trip": 1794206438}
+{"kind": "exit", "ts": 1794206575.1591637, "ticker": "KXTESTMATCH-26NOV042230WIBAN-WI", "side": "yes", "price": 0.18, "contracts": 4.0, "fee": 0.02, "reason": "scalp", "trip": 1794206438}
