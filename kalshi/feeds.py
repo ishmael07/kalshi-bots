@@ -137,7 +137,7 @@ class FinnhubSource:
         self.last = now
         out = []
         for cat in ("general", "crypto"):
-            r = self.s.get(self.URL, params={"category": cat, "token": self.key}, timeout=10)
+            r = self.s.get(self.URL, params={"category": cat}, headers={"X-Finnhub-Token": self.key}, timeout=10)   # header: a URL would leak into error text
             r.raise_for_status()
             out += [{"id": n["id"], "ts": float(n.get("datetime", now)), "headline": n.get("headline", ""),
                      "url": n.get("url")} for n in r.json()]
