@@ -2608,3 +2608,32 @@
 {"kind": "exit", "ts": 1794207400.3087785, "ticker": "KXITFWMATCH-26NOV08NUGMIY-MIY", "side": "no", "price": 0.72, "contracts": 5.0, "fee": 0.02, "reason": "scalp", "trip": 1794207390}
 {"kind": "exit", "ts": 1794207400.3087785, "ticker": "KXITFWMATCH-26NOV08NUGMIY-MIY", "side": "no", "price": 0.72, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794207390}
 {"kind": "exit", "ts": 1794207400.3087785, "ticker": "KXITFWMATCH-26NOV08NUGMIY-MIY", "side": "no", "price": 0.72, "contracts": 11.0, "fee": 0.04, "reason": "scalp", "trip": 1794207390}
+{"kind": "fill", "ts": 1794207575.4308894, "fee": 0.01, "trip": 1794207570, "ticker": "KXITFWMATCH-26NOV08NUGMIY-MIY", "side": "no", "price": 0.7, "contracts": 0.5, "fill_ts": 1794207570.333399}
+{"kind": "fill", "ts": 1794207575.4308894, "fee": 0.07, "trip": 1794207570, "ticker": "KXITFWMATCH-26NOV08NUGMIY-MIY", "side": "no", "price": 0.7, "contracts": 16.5, "fill_ts": 1794207570.333399}
+{"kind": "exit", "ts": 1794207599.3928208, "ticker": "KXITFWMATCH-26NOV08NUGMIY-MIY", "side": "no", "price": 0.68, "contracts": 17.0, "fee": 0.07, "reason": "scalp", "trip": 1794207570}
+{"kind": "fill", "ts": 1794207609.3929543, "fee": 0.05, "trip": 1794207601, "ticker": "KXATPCHALLENGERMATCH-26NOV08HARKUS-KUS", "side": "yes", "price": 0.22, "contracts": 15.0, "fill_ts": 1794207601.445223}
+{"kind": "exit", "ts": 1794207609.3929543, "ticker": "KXATPCHALLENGERMATCH-26NOV08HARKUS-KUS", "side": "yes", "price": 0.24, "contracts": 8.0, "fee": 0.03, "reason": "scalp", "trip": 1794207601}
+{"kind": "exit", "ts": 1794207609.3929543, "ticker": "KXATPCHALLENGERMATCH-26NOV08HARKUS-KUS", "side": "yes", "price": 0.24, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794207601}
+{"kind": "exit", "ts": 1794207609.3929543, "ticker": "KXATPCHALLENGERMATCH-26NOV08HARKUS-KUS", "side": "yes", "price": 0.24, "contracts": 2.0, "fee": 0.01, "reason": "scalp", "trip": 1794207601}
+{"kind": "exit", "ts": 1794207609.3929543, "ticker": "KXATPCHALLENGERMATCH-26NOV08HARKUS-KUS", "side": "yes", "price": 0.24, "contracts": 4.0, "fee": 0.02, "reason": "scalp", "trip": 1794207601}
+{"kind": "fill", "ts": 1794207654.5752473, "fee": 0.01, "trip": 1794207653, "ticker": "KXITFWMATCH-26NOV08NUGMIY-MIY", "side": "yes", "price": 0.31, "contracts": 1.0, "fill_ts": 1794207653.480522}
+{"kind": "fill", "ts": 1794207654.5752473, "fee": 0.01, "trip": 1794207653, "ticker": "KXITFWMATCH-26NOV08NUGMIY-MIY", "side": "yes", "price": 0.31, "contracts": 1.0, "fill_ts": 1794207653.480522}
+{"kind": "fill", "ts": 1794207654.5752473, "fee": 0.06, "trip": 1794207653, "ticker": "KXITFWMATCH-26NOV08NUGMIY-MIY", "side": "yes", "price": 0.31, "contracts": 15.0, "fill_ts": 1794207653.480522}
+{"kind": "exit", "ts": 1794207665.5925586, "ticker": "KXITFWMATCH-26NOV08NUGMIY-MIY", "side": "yes", "price": 0.32, "contracts": 8.68, "fee": 0.04, "reason": "scalp", "trip": 1794207653}
+{"kind": "exit", "ts": 1794207665.5925586, "ticker": "KXITFWMATCH-26NOV08NUGMIY-MIY", "side": "yes", "price": 0.32, "contracts": 8.32, "fee": 0.04, "reason": "scalp", "trip": 1794207653}
+{"kind": "fill", "ts": 1794207675.592681, "fee": 0.07, "trip": 1794207674, "ticker": "KXITFWMATCH-26NOV08NUGMIY-MIY", "side": "no", "price": 0.67, "contracts": 17.0, "fill_ts": 1794207674.447202}
+{"kind": "exit", "ts": 1794207686.6093256, "ticker": "KXITFWMATCH-26NOV08NUGMIY-MIY", "side": "no", "price": 0.67, "contracts": 17.0, "fee": 0.07, "reason": "scalp", "trip": 1794207674}
+{"kind": "fill", "ts": 1794207706.6095455, "fee": 0.02, "trip": 1794207706, "ticker": "KXATPCHALLENGERMATCH-26NOV08HARKUS-KUS", "side": "yes", "price": 0.18, "contracts": 5.0, "fill_ts": 1794207706.736429}
+{"kind": "fill", "ts": 1794207706.6095455, "fee": 0.02, "trip": 1794207706, "ticker": "KXATPCHALLENGERMATCH-26NOV08HARKUS-KUS", "side": "yes", "price": 0.18, "contracts": 5.0, "fill_ts": 1794207706.736429}
+{"kind": "fill", "ts": 1794207706.6095455, "fee": 0.02, "trip": 1794207706, "ticker": "KXATPCHALLENGERMATCH-26NOV08HARKUS-KUS", "side": "yes", "price": 0.18, "contracts": 4.0, "fill_ts": 1794207706.736429}
+{"kind": "exit", "ts": 1794207721.8219225, "ticker": "KXATPCHALLENGERMATCH-26NOV08HARKUS-KUS", "side": "yes", "price": 0.16, "contracts": 0.01, "fee": 0.01, "reason": "scalp", "trip": 1794207706}
+{"kind": "exit", "ts": 1794207721.8219225, "ticker": "KXATPCHALLENGERMATCH-26NOV08HARKUS-KUS", "side": "yes", "price": 0.16, "contracts": 13.99, "fee": 0.04, "reason": "scalp", "trip": 1794207706}
+{"kind": "cancel", "ts": 1794207721.8219225, "ticker": "KXNFLNEXTTEAM-26JTAYLOR28-MIN", "reason": "time stop"}
+{"kind": "exit", "ts": 1794207721.8219225, "ticker": "KXNFLNEXTTEAM-26JTAYLOR28-MIN", "side": "yes", "price": 0.08, "contracts": 13.0, "fee": 0.07, "pnl": -0.33, "reason": "time stop", "trip": 1794206807}
+{"kind": "fill", "ts": 1794207741.8221133, "fee": 0.04, "trip": 1794207737, "ticker": "KXITFWMATCH-26NOV08NUGMIY-MIY", "side": "yes", "price": 0.24, "contracts": 9.99, "fill_ts": 1794207737.249354}
+{"kind": "fill", "ts": 1794207741.8221133, "fee": 0.01, "trip": 1794207737, "ticker": "KXITFWMATCH-26NOV08NUGMIY-MIY", "side": "yes", "price": 0.24, "contracts": 0.01, "fill_ts": 1794207737.249354}
+{"kind": "fill", "ts": 1794207741.8221133, "fee": 0.02, "trip": 1794207737, "ticker": "KXITFWMATCH-26NOV08NUGMIY-MIY", "side": "yes", "price": 0.24, "contracts": 5.0, "fill_ts": 1794207737.250908}
+{"kind": "exit", "ts": 1794207794.7177474, "ticker": "KXITFWMATCH-26NOV08NUGMIY-MIY", "side": "yes", "price": 0.21, "contracts": 0.54, "fee": 0.01, "reason": "scalp", "trip": 1794207737}
+{"kind": "exit", "ts": 1794207794.7177474, "ticker": "KXITFWMATCH-26NOV08NUGMIY-MIY", "side": "yes", "price": 0.21, "contracts": 8.27, "fee": 0.03, "reason": "scalp", "trip": 1794207737}
+{"kind": "exit", "ts": 1794207794.7177474, "ticker": "KXITFWMATCH-26NOV08NUGMIY-MIY", "side": "yes", "price": 0.21, "contracts": 3.03, "fee": 0.01, "reason": "scalp", "trip": 1794207737}
+{"kind": "exit", "ts": 1794207794.7177474, "ticker": "KXITFWMATCH-26NOV08NUGMIY-MIY", "side": "yes", "price": 0.21, "contracts": 3.16, "fee": 0.01, "reason": "scalp", "trip": 1794207737}
