@@ -2717,3 +2717,5 @@
 {"kind": "exit", "ts": 1794211905.423705, "ticker": "KXTESTMATCH-26NOV082330SRIPAK-TIE", "side": "no", "price": 0.58, "contracts": 1.0, "fee": 0.02, "pnl": -0.01, "reason": "time stop", "trip": 1794210978}
 {"kind": "cancel", "ts": 1794212229.7002444, "ticker": "KXHEGSETHOUT-26AUG-26DEC01", "reason": "time stop"}
 {"kind": "exit", "ts": 1794212229.7002444, "ticker": "KXHEGSETHOUT-26AUG-26DEC01", "side": "no", "price": 0.74, "contracts": 8.53, "fee": 0.12, "pnl": -0.12, "reason": "time stop", "trip": 1794211329}
+{"kind": "fill", "ts": 1794212359.7018154, "fee": 0.04, "trip": 1794212354, "ticker": "KXHOUSERACE-NC03-26-R", "side": "no", "price": 0.841, "contracts": 13.0, "fill_ts": 1794212354.862325}
+{"kind": "exit", "ts": 1794212432.158748, "ticker": "KXHOUSERACE-NC03-26-R", "side": "no", "price": 0.859, "contracts": 13.0, "fee": 0.03, "reason": "scalp", "trip": 1794212354}
