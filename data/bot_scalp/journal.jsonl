@@ -2657,3 +2657,11 @@
 {"kind": "exit", "ts": 1794209270.9899385, "ticker": "KXNFLNFCEAST-27-NYG", "side": "no", "price": 0.39, "contracts": 9.65, "fee": 0.17, "pnl": 0.023, "reason": "time stop", "trip": 1794208364}
 {"kind": "exit", "ts": 1794209286.3840973, "ticker": "KXNFLNFCEAST-27-NYG", "side": "no", "price": 0.39, "contracts": 9.35, "fee": 0.16, "pnl": 0.027, "reason": "time stop", "trip": 1794208364}
 {"kind": "fill", "ts": 1794209297.3612764, "fee": 0.04, "trip": 1794209287, "ticker": "KXTRUMPMENTION-26NOV08-IMPE", "side": "yes", "price": 0.15, "contracts": 14.0, "fill_ts": 1794209287.567828}
+{"kind": "exit", "ts": 1794209320.6206985, "ticker": "KXTESTMATCH-26NOV042230WIBAN-WI", "side": "yes", "price": 0.12, "contracts": 4.1, "fee": 0.01, "reason": "scalp", "trip": 1794209225}
+{"kind": "exit", "ts": 1794209407.629402, "ticker": "KXTRUMPMENTION-26NOV08-IMPE", "side": "yes", "price": 0.15, "contracts": 0.04, "fee": 0.01, "reason": "scalp", "trip": 1794209287}
+{"kind": "exit", "ts": 1794209407.629402, "ticker": "KXTRUMPMENTION-26NOV08-IMPE", "side": "yes", "price": 0.15, "contracts": 6.89, "fee": 0.02, "reason": "scalp", "trip": 1794209287}
+{"kind": "exit", "ts": 1794209407.629402, "ticker": "KXTRUMPMENTION-26NOV08-IMPE", "side": "yes", "price": 0.15, "contracts": 0.47, "fee": 0.01, "reason": "scalp", "trip": 1794209287}
+{"kind": "exit", "ts": 1794209407.629402, "ticker": "KXTRUMPMENTION-26NOV08-IMPE", "side": "yes", "price": 0.15, "contracts": 0.13, "fee": 0.01, "reason": "scalp", "trip": 1794209287}
+{"kind": "exit", "ts": 1794209407.629402, "ticker": "KXTRUMPMENTION-26NOV08-IMPE", "side": "yes", "price": 0.15, "contracts": 6.47, "fee": 0.02, "reason": "scalp", "trip": 1794209287}
+{"kind": "exit", "ts": 1794209490.586677, "ticker": "KXTESTMATCH-26NOV042230WIBAN-WI", "side": "yes", "price": 0.11, "contracts": 8.9, "fee": 0.02, "reason": "scalp", "trip": 1794209225}
+{"kind": "fill", "ts": 1794209500.586763, "fee": 0.01, "trip": 1794209501, "ticker": "KXTESTMATCH-26NOV061700INANEW-TIE", "side": "yes", "price": 0.9, "contracts": 1.24, "fill_ts": 1794209501.149119}
