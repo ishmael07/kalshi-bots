@@ -3530,3 +3530,21 @@
 {"kind": "exit", "ts": 1794239492.3834794, "ticker": "KXITFMATCH-26NOV09DESLEN-LEN", "side": "no", "price": 0.86, "contracts": 5.14, "fee": 0.02, "reason": "scalp", "trip": 1794239464}
 {"kind": "cancel", "ts": 1794239607.343732, "ticker": "KXNEXTPRESSECPERM-29JAN20-DALV", "reason": "time stop"}
 {"kind": "exit", "ts": 1794239607.343732, "ticker": "KXNEXTPRESSECPERM-29JAN20-DALV", "side": "no", "price": 0.74, "contracts": 6.0, "fee": 0.09, "pnl": -0.09, "reason": "time stop", "trip": 1794238701}
+{"kind": "fill", "ts": 1794239697.3448431, "fee": 0.04, "trip": 1794239693, "ticker": "KXATPCHALLENGERMATCH-26NOV09SANDLF-SAN", "side": "no", "price": 0.24, "contracts": 11.0, "fill_ts": 1794239693.257468}
+{"kind": "fill", "ts": 1794239717.3450992, "fee": 0.01, "trip": 1794239711, "ticker": "KXITFMATCH-26NOV09DESLEN-LEN", "side": "no", "price": 0.9, "contracts": 6.02, "fill_ts": 1794239711.711812}
+{"kind": "fill", "ts": 1794239717.3450992, "fee": 0.01, "trip": 1794239711, "ticker": "KXITFMATCH-26NOV09DESLEN-LEN", "side": "no", "price": 0.9, "contracts": 2.98, "fill_ts": 1794239711.711812}
+{"kind": "exit", "ts": 1794239787.662048, "ticker": "KXVENEZUELALEADER-26DEC31-DROD", "side": "no", "price": 0.899, "contracts": 9.0, "fee": 0.02, "reason": "scalp", "trip": 1794238962}
+{"kind": "exit", "ts": 1794239821.024042, "ticker": "KXATPCHALLENGERMATCH-26NOV09SANDLF-SAN", "side": "no", "price": 0.15, "contracts": 0.01, "fee": 0.01, "reason": "scalp", "trip": 1794239693}
+{"kind": "exit", "ts": 1794239821.024042, "ticker": "KXATPCHALLENGERMATCH-26NOV09SANDLF-SAN", "side": "no", "price": 0.15, "contracts": 0.19, "fee": 0.01, "reason": "scalp", "trip": 1794239693}
+{"kind": "exit", "ts": 1794239821.024042, "ticker": "KXATPCHALLENGERMATCH-26NOV09SANDLF-SAN", "side": "no", "price": 0.15, "contracts": 0.8, "fee": 0.01, "reason": "scalp", "trip": 1794239693}
+{"kind": "exit", "ts": 1794239821.024042, "ticker": "KXATPCHALLENGERMATCH-26NOV09SANDLF-SAN", "side": "no", "price": 0.15, "contracts": 5.0, "fee": 0.02, "reason": "scalp", "trip": 1794239693}
+{"kind": "cancel", "ts": 1794239836.416534, "ticker": "KXNFLDPOTY-27-AREESE52", "reason": "time stop"}
+{"kind": "exit", "ts": 1794239836.416534, "ticker": "KXNFLDPOTY-27-AREESE52", "side": "no", "price": 0.86, "contracts": 10.0, "fee": 0.09, "pnl": 0.41, "reason": "time stop", "trip": 1794238935}
+{"kind": "exit", "ts": 1794239879.7778587, "ticker": "KXATPCHALLENGERMATCH-26NOV09SANDLF-SAN", "side": "no", "price": 0.18, "contracts": 0.01, "fee": 0.01, "reason": "scalp", "trip": 1794239693}
+{"kind": "exit", "ts": 1794239879.7778587, "ticker": "KXATPCHALLENGERMATCH-26NOV09SANDLF-SAN", "side": "no", "price": 0.18, "contracts": 0.01, "fee": 0.01, "reason": "scalp", "trip": 1794239693}
+{"kind": "exit", "ts": 1794239879.7778587, "ticker": "KXATPCHALLENGERMATCH-26NOV09SANDLF-SAN", "side": "no", "price": 0.18, "contracts": 4.98, "fee": 0.02, "reason": "scalp", "trip": 1794239693}
+{"kind": "exit", "ts": 1794239979.779127, "ticker": "KXITFMATCH-26NOV09DESLEN-LEN", "side": "no", "price": 0.86, "contracts": 9.0, "fee": 0.02, "reason": "scalp", "trip": 1794239711}
+{"kind": "fill", "ts": 1794239999.7793796, "fee": 0.01, "trip": 1794239998, "ticker": "KXITFMATCH-26NOV09DESLEN-LEN", "side": "no", "price": 0.85, "contracts": 4.0, "fill_ts": 1794239998.23826}
+{"kind": "fill", "ts": 1794239999.7793796, "fee": 0.01, "trip": 1794239998, "ticker": "KXITFMATCH-26NOV09DESLEN-LEN", "side": "no", "price": 0.85, "contracts": 0.01, "fill_ts": 1794239998.265438}
+{"kind": "fill", "ts": 1794239999.7793796, "fee": 0.01, "trip": 1794239998, "ticker": "KXITFMATCH-26NOV09DESLEN-LEN", "side": "no", "price": 0.85, "contracts": 0.28, "fill_ts": 1794239998.265438}
+{"kind": "fill", "ts": 1794239999.7793796, "fee": 0.01, "trip": 1794239998, "ticker": "KXITFMATCH-26NOV09DESLEN-LEN", "side": "no", "price": 0.85, "contracts": 0.56, "fill_ts": 1794239998.265438}
