@@ -294,11 +294,7 @@ $("chips").addEventListener("click", (e) => { const g = e.target.dataset && e.ta
 
 const KIND = {cpi: "CPI", jobs: "Jobs report", gdp: "GDP", claims: "Jobless claims", fomc: "Fed decision"};
 let updatedAt = null;
-function showUpdated() {
-  if (!updatedAt) { $("updated").textContent = ""; return; }
-  const left = STATIC ? updatedAt + 400 - now() : 0;      // Pages gets new data about every 6.5 minutes
-  $("updated").textContent = `Updated ${ago(updatedAt)}` + (left > 60 ? ` · next in ${Math.ceil(left / 60)}m` : STATIC ? " · next any moment" : "");
-}
+function showUpdated() { $("updated").textContent = updatedAt ? `Updated ${ago(updatedAt)}` : ""; }
 function renderState(s, a) {
   lastState = s;
   a = a || s;
@@ -326,7 +322,21 @@ function route(u) {
   const m = u.match(/^\/(state|trades|accounts)(?:\?acct=(\w+))?/);
   return m[1] === "accounts" ? "data/accounts.json" : `data/${m[1]}_${m[2] || "steady"}.json`;
 }
-const getJSON = async (u) => (await fetch(route(u) + (STATIC ? `?t=${Date.now()}` : ""), {cache: "no-store"})).json();
+// Refresh reads a one-minute-fresh bundle straight from GitHub; Pages itself only gets new data every ~6 minutes.
+const LIVE_URL = "https://api.github.com/repos/ishmael07/kalshi-bots/contents/live.json?ref=live";
+let live = null;
+async function fetchLive() {
+  const r = await fetch(`${LIVE_URL}&t=${Date.now()}`, {cache: "no-store", headers: {Accept: "application/vnd.github.raw"}});
+  if (!r.ok) throw new Error(r.status);
+  return r.json();
+}
+const getJSON = async (u) => {
+  if (live && now() - live.at < 420) {
+    const hit = live.data[route(u).replace(/^data\/|\.json$/g, "")];
+    if (hit) return hit;
+  }
+  return (await fetch(route(u) + (STATIC ? `?t=${Date.now()}` : ""), {cache: "no-store"})).json();
+};
 async function tickState() {
   try {
     const s = await getJSON("/state");                 // news, feeds, calendar: shared
@@ -358,8 +368,10 @@ async function tickTrades() { try { renderTrades(await getJSON(`/trades?acct=${a
 tickAccounts(); tickState(); tickTrades();
 $("refresh").addEventListener("click", async (e) => {
   const b = e.currentTarget, was = updatedAt; b.disabled = true; b.textContent = "Checking…";
+  let limited = false;
+  if (STATIC) { try { live = {at: now(), data: await fetchLive()}; } catch { limited = true; } }   // 60 clicks an hour per visitor
   await Promise.all([tickAccounts(), tickState(), tickTrades()]);
-  b.textContent = updatedAt !== was ? "New data" : "Up to date";
+  b.textContent = limited ? "Try again soon" : updatedAt !== was ? "New data" : "Up to date";
   setTimeout(() => { b.disabled = false; b.textContent = "Refresh"; }, 1800);
 });
 setInterval(showUpdated, 5000);

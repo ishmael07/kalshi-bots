@@ -43,6 +43,15 @@ jobs:
             # --autostash: the bots keep writing files, and a dirty tree would block every later push
             git push -q || { git pull -q --rebase --autostash -X theirs origin main && git push -q; }
           }
+          # one file, one orphan commit, force-pushed: Refresh reads it through the GitHub API (no Pages build, no history)
+          publish_live() {
+            local d="$RUNNER_TEMP/live"
+            rm -rf "$d" && mkdir -p "$d"
+            python -m kalshi livepack "$d/live.json" || return 1
+            ( cd "$d" && git init -q -b live && git add live.json && \
+              git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -q -m "live" && \
+              git push -qf "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" live )
+          }
           # SIGTERM makes each bot finish its current cycle, save, and exit
           (timeout -s TERM 338m python -u -m kalshi run --interval 30 2>&1 | sed -u 's/^/[steady] /') &
           P1=$!
@@ -52,8 +61,12 @@ jobs:
           P3=$!
           sleep 90; publish || echo "publish failed"
           queued=""
+          n=0
           while kill -0 "$P1" 2>/dev/null || kill -0 "$P2" 2>/dev/null || kill -0 "$P3" 2>/dev/null; do
-            sleep 360; publish || echo "publish failed"
+            sleep 60; n=$((n + 1))
+            publish_live || echo "live publish failed"
+            [ $((n % 6)) -eq 0 ] || continue
+            publish || echo "publish failed"
             # queue the next run once this one has proved healthy (it waits in the concurrency group), so the
             # chain doesn't depend on GitHub's cron, which often fires hours late; a crash can't loop this way
             if [ -z "$queued" ] && [ "$SECONDS" -gt 600 ]; then

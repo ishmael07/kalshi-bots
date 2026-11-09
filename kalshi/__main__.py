@@ -25,6 +25,7 @@ COMMANDS = {
     "dash": ("kalshi.run_bot", "cmd_dash"),
     "export": ("kalshi.run_bot", "cmd_export"),
     "scalp": ("kalshi.run_bot", "cmd_scalp"),
+    "livepack": ("kalshi.run_bot", "cmd_livepack"),
     "wxcheck": ("kalshi.wx_check", "main"),
     "citycheck": ("kalshi.city_check", "main"),
     "scalpcheck": ("kalshi.scalp_check", "main"),

@@ -43,3 +43,16 @@ def test_sold_early_row(tmp_path):
     d = build(j, dict(start_equity=75.0, ts=9), Titles(tmp_path / "t.json", per_call=0))
     r = d["settled"][0]
     assert r["status"] == "sold" and r["pnl"] == round(2 * 0.05 - 0.01 - 1.2, 2) and not d["open"]
+
+
+def test_live_bundle_has_every_file_the_dashboard_reads(tmp_path):
+    import json
+    from kalshi.run_bot import live_bundle
+    (tmp_path / "steady").mkdir()
+    st = dict(ts=1.0, written=2.0, start_equity=75.0, equity=75.0, equity_marked=76.0, label="Steady", catalog={})
+    (tmp_path / "steady" / "state.json").write_text(json.dumps(st))
+    (tmp_path / "steady" / "titles.json").write_text("{}")
+    (tmp_path / "steady" / "journal.jsonl").write_text("")
+    b = live_bundle({"steady": tmp_path / "steady", "missing": tmp_path / "nope"})
+    assert set(b) == {"accounts", "state_steady", "trades_steady"}
+    assert b["accounts"]["steady"]["equity"] == 76.0 and b["state_steady"]["written"] == 2.0

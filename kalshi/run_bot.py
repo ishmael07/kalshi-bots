@@ -191,22 +191,36 @@ def accounts_summary(accounts) -> dict:
     return out
 
 
-def cmd_export(argv):
-    """Write the dashboard as static files (for GitHub Pages): <out>/index.html + <out>/data/*.json."""
+def live_bundle(accounts) -> dict:
+    """Everything the dashboard reads, keyed by its file name (state_steady, trades_steady, ..., accounts)."""
     import json
-    import shutil
     from .dash import Titles, build
-    out = Path(argv[0] if argv else "docs")
-    (out / "data").mkdir(parents=True, exist_ok=True)
-    titles = Titles(ACCOUNT_DIRS["steady"] / "titles.json")
-    for name, d in ACCOUNT_DIRS.items():
+    titles = Titles(accounts["steady"] / "titles.json")
+    out = {"accounts": accounts_summary(accounts)}
+    for name, d in accounts.items():
         try:
             st = json.loads((d / "state.json").read_text())
         except (OSError, ValueError):
             continue
-        (out / "data" / f"state_{name}.json").write_text(json.dumps(st))
-        (out / "data" / f"trades_{name}.json").write_text(json.dumps(build(d / "journal.jsonl", st, titles)))
-    (out / "data" / "accounts.json").write_text(json.dumps(accounts_summary(ACCOUNT_DIRS)))
+        out[f"state_{name}"] = st
+        out[f"trades_{name}"] = build(d / "journal.jsonl", st, titles)
+    return out
+
+
+def cmd_livepack(argv):
+    """One file with all accounts, force-pushed to the `live` branch every minute for the Refresh button."""
+    import json
+    Path(argv[0]).write_text(json.dumps(live_bundle(ACCOUNT_DIRS), separators=(",", ":")))
+
+
+def cmd_export(argv):
+    """Write the dashboard as static files (for GitHub Pages): <out>/index.html + <out>/data/*.json."""
+    import json
+    import shutil
+    out = Path(argv[0] if argv else "docs")
+    (out / "data").mkdir(parents=True, exist_ok=True)
+    for key, value in live_bundle(ACCOUNT_DIRS).items():
+        (out / "data" / f"{key}.json").write_text(json.dumps(value))
     shutil.copy(Path(__file__).parent / "dashboard.html", out / "index.html")
     (out / ".nojekyll").write_text("")
 
