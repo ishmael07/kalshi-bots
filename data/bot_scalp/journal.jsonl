@@ -3522,3 +3522,11 @@
 {"kind": "exit", "ts": 1794239072.6345701, "ticker": "KXNFLNEXTTEAM-26JTAYLOR28-IND", "side": "yes", "price": 0.23, "contracts": 0.99, "fee": 0.01, "reason": "scalp", "trip": 1794238950}
 {"kind": "exit", "ts": 1794239092.6348283, "ticker": "KXNEXTPRESSECPERM-29JAN20-DALV", "side": "no", "price": 0.75, "contracts": 5.0, "fee": 0.02, "reason": "scalp", "trip": 1794238701}
 {"kind": "fill", "ts": 1794239210.9296317, "fee": 0.04, "trip": 1794239208, "ticker": "KXNFLNEXTTEAM-26JTAYLOR28-IND", "side": "no", "price": 0.73, "contracts": 11.0, "fill_ts": 1794239208.958346}
+{"kind": "exit", "ts": 1794239270.9304035, "ticker": "KXNFLNEXTTEAM-26JTAYLOR28-IND", "side": "no", "price": 0.73, "contracts": 11.0, "fee": 0.04, "reason": "scalp", "trip": 1794239208}
+{"kind": "fill", "ts": 1794239460.932625, "fee": 0.01, "trip": 1794239464, "ticker": "KXITFMATCH-26NOV09DESLEN-LEN", "side": "no", "price": 0.87, "contracts": 0.13, "fill_ts": 1794239464.109096}
+{"kind": "fill", "ts": 1794239460.932625, "fee": 0.01, "trip": 1794239464, "ticker": "KXITFMATCH-26NOV09DESLEN-LEN", "side": "no", "price": 0.87, "contracts": 0.01, "fill_ts": 1794239464.109096}
+{"kind": "fill", "ts": 1794239460.932625, "fee": 0.02, "trip": 1794239464, "ticker": "KXITFMATCH-26NOV09DESLEN-LEN", "side": "no", "price": 0.87, "contracts": 6.0, "fill_ts": 1794239464.109096}
+{"kind": "exit", "ts": 1794239492.3834794, "ticker": "KXITFMATCH-26NOV09DESLEN-LEN", "side": "no", "price": 0.86, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794239464}
+{"kind": "exit", "ts": 1794239492.3834794, "ticker": "KXITFMATCH-26NOV09DESLEN-LEN", "side": "no", "price": 0.86, "contracts": 5.14, "fee": 0.02, "reason": "scalp", "trip": 1794239464}
+{"kind": "cancel", "ts": 1794239607.343732, "ticker": "KXNEXTPRESSECPERM-29JAN20-DALV", "reason": "time stop"}
+{"kind": "exit", "ts": 1794239607.343732, "ticker": "KXNEXTPRESSECPERM-29JAN20-DALV", "side": "no", "price": 0.74, "contracts": 6.0, "fee": 0.09, "pnl": -0.09, "reason": "time stop", "trip": 1794238701}
