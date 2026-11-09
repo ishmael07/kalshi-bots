@@ -684,3 +684,53 @@
 {"kind": "fill", "ts": 1794197382.358825, "fee": 0.02, "trip": 1794197382, "ticker": "KXTESTMATCH-26NOV042230WIBAN-WI", "side": "no", "price": 0.77, "contracts": 4.89, "fill_ts": 1794197382.052883}
 {"kind": "fill", "ts": 1794197382.358825, "fee": 0.01, "trip": 1794197382, "ticker": "KXTESTMATCH-26NOV042230WIBAN-WI", "side": "no", "price": 0.77, "contracts": 1.13, "fill_ts": 1794197383.209885}
 {"kind": "fill", "ts": 1794197382.358825, "fee": 0.01, "trip": 1794197382, "ticker": "KXTESTMATCH-26NOV042230WIBAN-WI", "side": "no", "price": 0.77, "contracts": 2.98, "fill_ts": 1794197383.209885}
+{"kind": "fill", "ts": 1794197392.358915, "fee": 0.03, "trip": 1794197386, "ticker": "KXNBASPREAD-26NOV08MIASAC-MIA11", "side": "no", "price": 0.81, "contracts": 8.0, "fill_ts": 1794197386.217232}
+{"kind": "exit", "ts": 1794197402.35906, "ticker": "KXTESTMATCH-26NOV042230WIBAN-TIE", "side": "no", "price": 0.24, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794197365}
+{"kind": "exit", "ts": 1794197402.35906, "ticker": "KXTESTMATCH-26NOV042230WIBAN-TIE", "side": "no", "price": 0.24, "contracts": 0.05, "fee": 0.01, "reason": "scalp", "trip": 1794197365}
+{"kind": "exit", "ts": 1794197402.35906, "ticker": "KXTESTMATCH-26NOV042230WIBAN-TIE", "side": "no", "price": 0.24, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794197365}
+{"kind": "exit", "ts": 1794197402.35906, "ticker": "KXTESTMATCH-26NOV042230WIBAN-TIE", "side": "no", "price": 0.24, "contracts": 0.55, "fee": 0.01, "reason": "scalp", "trip": 1794197365}
+{"kind": "exit", "ts": 1794197402.35906, "ticker": "KXTESTMATCH-26NOV042230WIBAN-TIE", "side": "no", "price": 0.24, "contracts": 2.11, "fee": 0.01, "reason": "scalp", "trip": 1794197365}
+{"kind": "exit", "ts": 1794197402.35906, "ticker": "KXTESTMATCH-26NOV042230WIBAN-TIE", "side": "no", "price": 0.24, "contracts": 4.29, "fee": 0.02, "reason": "scalp", "trip": 1794197365}
+{"kind": "cancel", "ts": 1794197402.35906, "ticker": "KXSB-27-CHI", "reason": "time stop"}
+{"kind": "exit", "ts": 1794197402.35906, "ticker": "KXSB-27-CHI", "side": "no", "price": 0.85, "contracts": 8.0, "fee": 0.08, "pnl": -0.08, "reason": "time stop", "trip": 1794196497}
+{"kind": "exit", "ts": 1794197422.762984, "ticker": "KXNBATOTAL-26NOV08MIASAC-239", "side": "yes", "price": 0.11, "contracts": 8.0, "fee": 0.02, "reason": "scalp", "trip": 1794197316}
+{"kind": "exit", "ts": 1794197422.762984, "ticker": "KXNBASPREAD-26NOV08MIASAC-MIA11", "side": "no", "price": 0.85, "contracts": 3.0, "fee": 0.01, "reason": "scalp", "trip": 1794197386}
+{"kind": "exit", "ts": 1794197422.762984, "ticker": "KXNBASPREAD-26NOV08MIASAC-MIA11", "side": "no", "price": 0.85, "contracts": 3.0, "fee": 0.01, "reason": "scalp", "trip": 1794197386}
+{"kind": "exit", "ts": 1794197422.762984, "ticker": "KXNBASPREAD-26NOV08MIASAC-MIA11", "side": "no", "price": 0.85, "contracts": 2.0, "fee": 0.01, "reason": "scalp", "trip": 1794197386}
+{"kind": "fill", "ts": 1794197435.0970569, "fee": 0.04, "trip": 1794197431, "ticker": "KXNCAAMBTOTAL-26NOV08WICHUSC-157", "side": "yes", "price": 0.43, "contracts": 8.23, "fill_ts": 1794197431.041127}
+{"kind": "fill", "ts": 1794197445.0972135, "fee": 0.04, "trip": 1794197437, "ticker": "KXNBASPREAD-26NOV08MIASAC-MIA11", "side": "no", "price": 0.73, "contracts": 9.0, "fill_ts": 1794197437.81651}
+{"kind": "exit", "ts": 1794197455.097315, "ticker": "KXTESTMATCH-26NOV042230WIBAN-WI", "side": "no", "price": 0.78, "contracts": 6.0, "fee": 0.02, "reason": "scalp", "trip": 1794197382}
+{"kind": "exit", "ts": 1794197455.097315, "ticker": "KXTESTMATCH-26NOV042230WIBAN-WI", "side": "no", "price": 0.78, "contracts": 1.19, "fee": 0.01, "reason": "scalp", "trip": 1794197382}
+{"kind": "exit", "ts": 1794197488.630643, "ticker": "KXNFLNEXTTEAM-26JTAYLOR28-NYG", "side": "no", "price": 0.77, "contracts": 6.26, "fee": 0.02, "reason": "scalp", "trip": 1794197376}
+{"kind": "exit", "ts": 1794197488.630643, "ticker": "KXNFLNEXTTEAM-26JTAYLOR28-NYG", "side": "no", "price": 0.77, "contracts": 2.74, "fee": 0.01, "reason": "scalp", "trip": 1794197376}
+{"kind": "exit", "ts": 1794197488.630643, "ticker": "KXTESTMATCH-26NOV042230WIBAN-WI", "side": "no", "price": 0.77, "contracts": 1.81, "fee": 0.01, "reason": "scalp", "trip": 1794197382}
+{"kind": "exit", "ts": 1794197508.6308606, "ticker": "KXNBASPREAD-26NOV08MIASAC-MIA11", "side": "no", "price": 0.84, "contracts": 2.62, "fee": 0.01, "reason": "scalp", "trip": 1794197437}
+{"kind": "exit", "ts": 1794197508.6308606, "ticker": "KXNBASPREAD-26NOV08MIASAC-MIA11", "side": "no", "price": 0.84, "contracts": 6.38, "fee": 0.02, "reason": "scalp", "trip": 1794197437}
+{"kind": "fill", "ts": 1794197508.6308606, "fee": 0.03, "trip": 1794197512, "ticker": "KXNCAAMBGAME-26NOV08WICHUSC-USC", "side": "no", "price": 0.21, "contracts": 9.0, "fill_ts": 1794197512.096633}
+{"kind": "fill", "ts": 1794197508.6308606, "fee": 0.01, "trip": 1794197515, "ticker": "KXTESTMATCH-26NOV042230WIBAN-TIE", "side": "yes", "price": 0.75, "contracts": 3.0, "fill_ts": 1794197515.992824}
+{"kind": "fill", "ts": 1794197522.7789822, "fee": 0.04, "trip": 1794197522, "ticker": "KXNFLNEXTTEAM-26JTAYLOR28-NYG", "side": "yes", "price": 0.26, "contracts": 10.0, "fill_ts": 1794197522.59138}
+{"kind": "fill", "ts": 1794197561.3612409, "fee": 0.04, "trip": 1794197558, "ticker": "KXTESTMATCH-26NOV042230WIBAN-WI", "side": "no", "price": 0.74, "contracts": 9.0, "fill_ts": 1794197558.83022}
+{"kind": "exit", "ts": 1794197573.416863, "ticker": "KXNCAAMBTOTAL-26NOV08WICHUSC-157", "side": "yes", "price": 0.5, "contracts": 8.23, "fee": 0.04, "reason": "scalp", "trip": 1794197431}
+{"kind": "fill", "ts": 1794197585.4720993, "fee": 0.03, "trip": 1794197598, "ticker": "KXTRUMPMENTION-26NOV08-IMPE", "side": "yes", "price": 0.21, "contracts": 9.0, "fill_ts": 1794197598.88646}
+{"kind": "fill", "ts": 1794197585.4720993, "fee": 0.01, "trip": 1794197632, "ticker": "KXNCAAMBTOTAL-26NOV08WICHUSC-157", "side": "yes", "price": 0.49, "contracts": 0.6, "fill_ts": 1794197632.262393}
+{"kind": "fill", "ts": 1794197585.4720993, "fee": 0.07, "trip": 1794197632, "ticker": "KXNCAAMBTOTAL-26NOV08WICHUSC-157", "side": "yes", "price": 0.49, "contracts": 14.4, "fill_ts": 1794197632.264524}
+{"kind": "exit", "ts": 1794197585.4720993, "ticker": "KXNBATOTAL-26NOV08MIASAC-235", "side": "no", "price": 0.91, "contracts": 3.0, "fee": 0.02, "pnl": 1.9, "reason": "time stop", "trip": 1794193748}
+{"kind": "exit", "ts": 1794197680.6183834, "ticker": "KXTRUMPMENTION-26NOV08-IMPE", "side": "yes", "price": 0.21, "contracts": 9.0, "fee": 0.03, "reason": "scalp", "trip": 1794197598}
+{"kind": "fill", "ts": 1794197680.6183834, "fee": 0.03, "trip": 1794197593, "ticker": "KXBOXING-26NOV08TURHANBAUMGA-TURHAN", "side": "no", "price": 0.75, "contracts": 7.17, "fill_ts": 1794197593.285171}
+{"kind": "fill", "ts": 1794197680.6183834, "fee": 0.01, "trip": 1794197593, "ticker": "KXBOXING-26NOV08TURHANBAUMGA-TURHAN", "side": "no", "price": 0.75, "contracts": 1.83, "fill_ts": 1794197602.314193}
+{"kind": "exit", "ts": 1794197680.6183834, "ticker": "KXBOXING-26NOV08TURHANBAUMGA-TURHAN", "side": "no", "price": 0.78, "contracts": 6.83, "fee": 0.03, "reason": "scalp", "trip": 1794197593}
+{"kind": "exit", "ts": 1794197680.6183834, "ticker": "KXBOXING-26NOV08TURHANBAUMGA-TURHAN", "side": "no", "price": 0.78, "contracts": 0.26, "fee": 0.01, "reason": "scalp", "trip": 1794197593}
+{"kind": "exit", "ts": 1794197680.6183834, "ticker": "KXBOXING-26NOV08TURHANBAUMGA-TURHAN", "side": "no", "price": 0.78, "contracts": 1.91, "fee": 0.01, "reason": "scalp", "trip": 1794197593}
+{"kind": "fill", "ts": 1794197680.6183834, "fee": 0.07, "trip": 1794197586, "ticker": "KXNCAAMBSPREAD-26NOV08WICHUSC-USC9", "side": "no", "price": 0.48, "contracts": 15.0, "fill_ts": 1794197586.483626}
+{"kind": "fill", "ts": 1794197680.6183834, "fee": 0.01, "trip": 1794197630, "ticker": "KXNFLNEXTTEAM-26JTAYLOR28-IND", "side": "yes", "price": 0.27, "contracts": 0.74, "fill_ts": 1794197630.925366}
+{"kind": "exit", "ts": 1794197680.6183834, "ticker": "KXNBATOTAL-26NOV08MIASAC-235", "side": "no", "price": 0.9, "contracts": 7.0, "fee": 0.05, "pnl": 4.36, "reason": "time stop", "trip": 1794193748}
+{"kind": "fill", "ts": 1794197692.9229324, "fee": 0.02, "trip": 1794197696, "ticker": "KXBOXING-26NOV08TURHANBAUMGA-TURHAN", "side": "no", "price": 0.76, "contracts": 5.0, "fill_ts": 1794197696.277351}
+{"kind": "fill", "ts": 1794197692.9229324, "fee": 0.01, "trip": 1794197696, "ticker": "KXBOXING-26NOV08TURHANBAUMGA-TURHAN", "side": "no", "price": 0.76, "contracts": 0.02, "fill_ts": 1794197696.277351}
+{"kind": "fill", "ts": 1794197692.9229324, "fee": 0.02, "trip": 1794197696, "ticker": "KXBOXING-26NOV08TURHANBAUMGA-TURHAN", "side": "no", "price": 0.76, "contracts": 3.98, "fill_ts": 1794197696.277351}
+{"kind": "exit", "ts": 1794197692.9229324, "ticker": "KXBOXING-26NOV08TURHANBAUMGA-TURHAN", "side": "no", "price": 0.78, "contracts": 9.0, "fee": 0.03, "reason": "scalp", "trip": 1794197696}
+{"kind": "fill", "ts": 1794197714.3524446, "fee": 0.03, "trip": 1794197709, "ticker": "KXBOXING-26NOV08TURHANBAUMGA-TURHAN", "side": "no", "price": 0.79, "contracts": 10.0, "fill_ts": 1794197709.346464}
+{"kind": "exit", "ts": 1794197725.5981328, "ticker": "KXBOXING-26NOV08TURHANBAUMGA-TURHAN", "side": "no", "price": 0.81, "contracts": 10.0, "fee": 0.03, "reason": "scalp", "trip": 1794197709}
+{"kind": "exit", "ts": 1794197736.8418803, "ticker": "KXNCAAMBSPREAD-26NOV08WICHUSC-USC9", "side": "no", "price": 0.48, "contracts": 15.0, "fee": 0.07, "reason": "scalp", "trip": 1794197586}
+{"kind": "fill", "ts": 1794197736.8418803, "fee": 0.01, "trip": 1794197731, "ticker": "KXBOXING-26NOV08TURHANBAUMGA-TURHAN", "side": "no", "price": 0.75, "contracts": 0.03, "fill_ts": 1794197731.708156}
+{"kind": "fill", "ts": 1794197736.8418803, "fee": 0.04, "trip": 1794197731, "ticker": "KXBOXING-26NOV08TURHANBAUMGA-TURHAN", "side": "no", "price": 0.75, "contracts": 9.97, "fill_ts": 1794197731.708156}
+{"kind": "exit", "ts": 1794197747.027437, "ticker": "KXBOXING-26NOV08TURHANBAUMGA-TURHAN", "side": "no", "price": 0.68, "contracts": 10.0, "fee": 0.04, "reason": "scalp", "trip": 1794197731}
