@@ -2818,3 +2818,7 @@
 {"kind": "exit", "ts": 1794218884.810098, "ticker": "KXATPCHALLENGERMATCH-26NOV09MASAND-MAS", "side": "no", "price": 0.82, "contracts": 0.13, "fee": 0.01, "reason": "scalp", "trip": 1794218849}
 {"kind": "fill", "ts": 1794219989.8003435, "fee": 0.07, "trip": 1794219988, "ticker": "KXHEGSETHIMPEACH-27JUL01-27JAN01", "side": "yes", "price": 0.66, "contracts": 17.0, "fill_ts": 1794219988.866087}
 {"kind": "settle", "ts": 1794219999.8004243, "ticker": "KXITFWMATCH-26NOV08OZEHAN-OZE", "result": "no", "pnl": -3.75, "equity": 109.0533}
+{"kind": "cancel", "ts": 1794220890.320528, "ticker": "KXHEGSETHIMPEACH-27JUL01-27JAN01", "reason": "time stop"}
+{"kind": "exit", "ts": 1794220890.320528, "ticker": "KXHEGSETHIMPEACH-27JUL01-27JAN01", "side": "yes", "price": 0.66, "contracts": 8.0, "fee": 0.13, "pnl": -0.13, "reason": "time stop", "trip": 1794219988}
+{"kind": "exit", "ts": 1794220900.320628, "ticker": "KXHEGSETHIMPEACH-27JUL01-27JAN01", "side": "yes", "price": 0.66, "contracts": 8.0, "fee": 0.13, "pnl": -0.13, "reason": "time stop", "trip": 1794219988}
+{"kind": "exit", "ts": 1794220910.3207326, "ticker": "KXHEGSETHIMPEACH-27JUL01-27JAN01", "side": "yes", "price": 0.66, "contracts": 1.0, "fee": 0.02, "pnl": -0.02, "reason": "time stop", "trip": 1794219988}
