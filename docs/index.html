@@ -33,6 +33,10 @@
   .pill .live { width: 8px; height: 8px; border-radius: 50%; background: currentColor; }
   .pill.halt { background: var(--loss-soft); color: var(--loss); }
   .hdr-right { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+  .updated { font-size: 15px; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .refresh { font: inherit; font-size: 15px; font-weight: 600; padding: 8px 16px; border-radius: 999px; cursor: pointer;
+             border: 1px solid var(--line); background: var(--card); color: var(--ink); }
+  .refresh:disabled { color: var(--muted); cursor: default; }
   .seg { display: inline-flex; background: var(--soft); border-radius: 999px; padding: 4px; gap: 4px; }
   .seg button { font: inherit; font-size: 15px; font-weight: 600; border: 0; background: transparent; color: var(--muted);
                 padding: 8px 16px; border-radius: 999px; cursor: pointer; display: inline-flex; gap: 8px; align-items: baseline; }
@@ -107,7 +111,7 @@
 <main>
   <header>
     <h1>Kalshi Bot</h1>
-    <div class="hdr-right"><div class="seg" id="acct"></div><span class="pill" id="mode"><span class="live"></span>Connecting</span></div>
+    <div class="hdr-right"><span class="updated" id="updated"></span><button class="refresh" id="refresh">Refresh</button><div class="seg" id="acct"></div><span class="pill" id="mode"><span class="live"></span>Connecting</span></div>
   </header>
   <div id="alerts"></div>
   <section class="hero">
@@ -289,9 +293,12 @@ function renderNews(s) {
 $("chips").addEventListener("click", (e) => { const g = e.target.dataset && e.target.dataset.g; if (g) { group = g; if (lastState) renderNews(lastState); } });
 
 const KIND = {cpi: "CPI", jobs: "Jobs report", gdp: "GDP", claims: "Jobless claims", fomc: "Fed decision"};
+let updatedAt = null;
+function showUpdated() { $("updated").textContent = updatedAt ? `Updated ${ago(updatedAt)}` : ""; }
 function renderState(s, a) {
   lastState = s;
   a = a || s;
+  updatedAt = a.written || a.ts || null; showUpdated();
   const stale = !a.ts || now() - (a.written || a.ts) > (STATIC ? 1200 : 150);
   $("mode").innerHTML = `<span class="live"></span>${a.halted ? "Halted" : stale ? "Not running" : a.mode === "shadow" ? `Shadow · watching ${a.markets_watched} markets` : "Live"}`;
   $("mode").className = "pill" + (a.halted || stale ? " halt" : "");
@@ -345,6 +352,12 @@ $("acct").addEventListener("click", (e) => {
 let haveTrades = false; const lastPl = {};
 async function tickTrades() { try { renderTrades(await getJSON(`/trades?acct=${acct}`)); haveTrades = true; } catch { if (!haveTrades) setTimeout(tickTrades, 1500); } }
 tickAccounts(); tickState(); tickTrades();
+$("refresh").addEventListener("click", async (e) => {
+  const b = e.currentTarget; b.disabled = true; b.textContent = "Refreshing…";
+  await Promise.all([tickAccounts(), tickState(), tickTrades()]);
+  b.disabled = false; b.textContent = "Refresh";
+});
+setInterval(showUpdated, 5000);
 setInterval(tickState, 3000); setInterval(tickTrades, 5000); setInterval(tickAccounts, 5000);
 let rz; addEventListener("resize", () => { clearTimeout(rz); rz = setTimeout(tickTrades, 200); });
 </script>
