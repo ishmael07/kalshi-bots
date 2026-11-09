@@ -2691,3 +2691,6 @@
 {"kind": "fill", "ts": 1794209993.9681673, "fee": 0.02, "trip": 1794209987, "ticker": "KXTESTMATCH-26NOV042230WIBAN-TIE", "side": "yes", "price": 0.89, "contracts": 10.0, "fill_ts": 1794209987.555341}
 {"kind": "exit", "ts": 1794210014.4440248, "ticker": "KXTESTMATCH-26NOV042230WIBAN-TIE", "side": "yes", "price": 0.9, "contracts": 2.0, "fee": 0.01, "reason": "scalp", "trip": 1794209987}
 {"kind": "exit", "ts": 1794210014.4440248, "ticker": "KXTESTMATCH-26NOV042230WIBAN-TIE", "side": "yes", "price": 0.9, "contracts": 11.0, "fee": 0.02, "reason": "scalp", "trip": 1794209987}
+{"kind": "fill", "ts": 1794210303.355235, "fee": 0.03, "trip": 1794210331, "ticker": "KXTRUMPMENTION-26NOV08-IMPE", "side": "yes", "price": 0.12, "contracts": 13.0, "fill_ts": 1794210331.821939}
+{"kind": "exit", "ts": 1794210420.5712473, "ticker": "KXTRUMPMENTION-26NOV08-IMPE", "side": "yes", "price": 0.11, "contracts": 0.14, "fee": 0.01, "reason": "scalp", "trip": 1794210331}
+{"kind": "exit", "ts": 1794210420.5712473, "ticker": "KXTRUMPMENTION-26NOV08-IMPE", "side": "yes", "price": 0.11, "contracts": 12.86, "fee": 0.03, "reason": "scalp", "trip": 1794210331}
