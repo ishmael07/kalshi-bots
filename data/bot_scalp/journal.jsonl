@@ -3041,3 +3041,34 @@
 {"kind": "exit", "ts": 1794229308.802399, "ticker": "KXTRUMPADMINLEAVE-26DEC31-PHEG", "side": "no", "price": 0.54, "contracts": 14.66, "fee": 0.26, "pnl": 0.0185, "reason": "time stop", "trip": 1794228399}
 {"kind": "exit", "ts": 1794229653.6744275, "ticker": "KXHOUSERACE-NC03-26-D", "side": "yes", "price": 0.849, "contracts": 2.32, "fee": 0.01, "reason": "scalp", "trip": 1794229056}
 {"kind": "fill", "ts": 1794229695.3248386, "fee": 0.05, "trip": 1794229690, "ticker": "KXATPCHALLENGERMATCH-26NOV09DJUTEP-DJU", "side": "yes", "price": 0.28, "contracts": 13.0, "fill_ts": 1794229690.477216}
+{"kind": "exit", "ts": 1794229705.324937, "ticker": "KXATPCHALLENGERMATCH-26NOV09DJUTEP-DJU", "side": "yes", "price": 0.27, "contracts": 0.09, "fee": 0.01, "reason": "scalp", "trip": 1794229690}
+{"kind": "exit", "ts": 1794229705.324937, "ticker": "KXATPCHALLENGERMATCH-26NOV09DJUTEP-DJU", "side": "yes", "price": 0.27, "contracts": 0.01, "fee": 0.01, "reason": "scalp", "trip": 1794229690}
+{"kind": "exit", "ts": 1794229705.324937, "ticker": "KXATPCHALLENGERMATCH-26NOV09DJUTEP-DJU", "side": "yes", "price": 0.27, "contracts": 0.01, "fee": 0.01, "reason": "scalp", "trip": 1794229690}
+{"kind": "exit", "ts": 1794229705.324937, "ticker": "KXATPCHALLENGERMATCH-26NOV09DJUTEP-DJU", "side": "yes", "price": 0.27, "contracts": 10.0, "fee": 0.04, "reason": "scalp", "trip": 1794229690}
+{"kind": "exit", "ts": 1794229705.324937, "ticker": "KXATPCHALLENGERMATCH-26NOV09DJUTEP-DJU", "side": "yes", "price": 0.27, "contracts": 0.18, "fee": 0.01, "reason": "scalp", "trip": 1794229690}
+{"kind": "exit", "ts": 1794229705.324937, "ticker": "KXATPCHALLENGERMATCH-26NOV09DJUTEP-DJU", "side": "yes", "price": 0.27, "contracts": 2.71, "fee": 0.01, "reason": "scalp", "trip": 1794229690}
+{"kind": "fill", "ts": 1794229735.9742835, "fee": 0.04, "trip": 1794229736, "ticker": "KXATPCHALLENGERMATCH-26NOV09DJUTEP-DJU", "side": "no", "price": 0.65, "contracts": 10.0, "fill_ts": 1794229736.189284}
+{"kind": "fill", "ts": 1794229735.9742835, "fee": 0.02, "trip": 1794229736, "ticker": "KXATPCHALLENGERMATCH-26NOV09DJUTEP-DJU", "side": "no", "price": 0.65, "contracts": 4.0, "fill_ts": 1794229736.189284}
+{"kind": "exit", "ts": 1794229785.9748292, "ticker": "KXATPCHALLENGERMATCH-26NOV09DJUTEP-DJU", "side": "no", "price": 0.63, "contracts": 5.0, "fee": 0.03, "reason": "scalp", "trip": 1794229736}
+{"kind": "exit", "ts": 1794229785.9748292, "ticker": "KXATPCHALLENGERMATCH-26NOV09DJUTEP-DJU", "side": "no", "price": 0.63, "contracts": 9.0, "fee": 0.04, "reason": "scalp", "trip": 1794229736}
+{"kind": "fill", "ts": 1794229795.9749715, "fee": 0.01, "trip": 1794229789, "ticker": "KXATPCHALLENGERMATCH-26NOV09BUTROL-BUT", "side": "yes", "price": 0.28, "contracts": 0.1, "fill_ts": 1794229789.856257}
+{"kind": "fill", "ts": 1794229827.623487, "fee": 0.01, "trip": 1794229824, "ticker": "KXATPCHALLENGERMATCH-26NOV09DJUTEP-DJU", "side": "yes", "price": 0.31, "contracts": 0.01, "fill_ts": 1794229824.605084}
+{"kind": "fill", "ts": 1794229827.623487, "fee": 0.01, "trip": 1794229824, "ticker": "KXATPCHALLENGERMATCH-26NOV09DJUTEP-DJU", "side": "yes", "price": 0.31, "contracts": 0.45, "fill_ts": 1794229824.605084}
+{"kind": "fill", "ts": 1794229827.623487, "fee": 0.01, "trip": 1794229824, "ticker": "KXATPCHALLENGERMATCH-26NOV09DJUTEP-DJU", "side": "yes", "price": 0.31, "contracts": 0.23, "fill_ts": 1794229824.60548}
+{"kind": "fill", "ts": 1794229827.623487, "fee": 0.01, "trip": 1794229824, "ticker": "KXATPCHALLENGERMATCH-26NOV09DJUTEP-DJU", "side": "yes", "price": 0.31, "contracts": 0.01, "fill_ts": 1794229824.60548}
+{"kind": "fill", "ts": 1794229827.623487, "fee": 0.05, "trip": 1794229824, "ticker": "KXATPCHALLENGERMATCH-26NOV09DJUTEP-DJU", "side": "yes", "price": 0.31, "contracts": 13.3, "fill_ts": 1794229824.60548}
+{"kind": "fill", "ts": 1794229837.6235993, "fee": 0.05, "trip": 1794229835, "ticker": "KXRT-AVE-85", "side": "no", "price": 0.57, "contracts": 10.91, "fill_ts": 1794229835.942367}
+{"kind": "exit", "ts": 1794229847.6237116, "ticker": "KXATPCHALLENGERMATCH-26NOV09BUTROL-BUT", "side": "yes", "price": 0.23, "contracts": 0.1, "fee": 0.01, "reason": "scalp", "trip": 1794229789}
+{"kind": "exit", "ts": 1794229867.623957, "ticker": "KXATPCHALLENGERMATCH-26NOV09DJUTEP-DJU", "side": "yes", "price": 0.26, "contracts": 14.0, "fee": 0.05, "reason": "scalp", "trip": 1794229824}
+{"kind": "fill", "ts": 1794229877.6240764, "fee": 0.04, "trip": 1794229873, "ticker": "KXATPCHALLENGERMATCH-26NOV09BUTROL-BUT", "side": "no", "price": 0.73, "contracts": 9.87, "fill_ts": 1794229873.124087}
+{"kind": "fill", "ts": 1794229877.6240764, "fee": 0.01, "trip": 1794229873, "ticker": "KXATPCHALLENGERMATCH-26NOV09BUTROL-BUT", "side": "no", "price": 0.73, "contracts": 0.13, "fill_ts": 1794229873.124087}
+{"kind": "fill", "ts": 1794229877.6240764, "fee": 0.02, "trip": 1794229873, "ticker": "KXATPCHALLENGERMATCH-26NOV09BUTROL-BUT", "side": "no", "price": 0.73, "contracts": 3.0, "fill_ts": 1794229873.124087}
+{"kind": "cancel", "ts": 1794229957.1312976, "ticker": "KXHOUSERACE-NC03-26-D", "reason": "time stop"}
+{"kind": "exit", "ts": 1794229957.1312976, "ticker": "KXHOUSERACE-NC03-26-D", "side": "yes", "price": 0.84, "contracts": 8.68, "fee": 0.09, "pnl": -0.0987, "reason": "time stop", "trip": 1794229056}
+{"kind": "cancel", "ts": 1794229957.1312976, "ticker": "KXVENEZUELALEADER-26DEC31-DROD", "reason": "time stop"}
+{"kind": "exit", "ts": 1794229957.1312976, "ticker": "KXVENEZUELALEADER-26DEC31-DROD", "side": "no", "price": 0.88, "contracts": 0.54, "fee": 0.01, "pnl": -0.0105, "reason": "time stop", "trip": 1794229046}
+{"kind": "fill", "ts": 1794229967.1314375, "fee": 0.03, "trip": 1794229971, "ticker": "KXNEXTPRESSECPERM-29JAN20-DALV", "side": "no", "price": 0.82, "contracts": 8.43, "fill_ts": 1794229971.617598}
+{"kind": "fill", "ts": 1794229967.1314375, "fee": 0.01, "trip": 1794229971, "ticker": "KXNEXTPRESSECPERM-29JAN20-DALV", "side": "no", "price": 0.82, "contracts": 0.06, "fill_ts": 1794229971.617598}
+{"kind": "fill", "ts": 1794229997.5023854, "fee": 0.03, "trip": 1794229990, "ticker": "KXATPCHALLENGERMATCH-26NOV09DJUTEP-DJU", "side": "yes", "price": 0.15, "contracts": 11.0, "fill_ts": 1794229990.183869}
+{"kind": "exit", "ts": 1794230007.5024896, "ticker": "KXATPCHALLENGERMATCH-26NOV09DJUTEP-DJU", "side": "yes", "price": 0.16, "contracts": 0.27, "fee": 0.01, "reason": "scalp", "trip": 1794229990}
+{"kind": "exit", "ts": 1794230007.5024896, "ticker": "KXATPCHALLENGERMATCH-26NOV09DJUTEP-DJU", "side": "yes", "price": 0.16, "contracts": 10.73, "fee": 0.03, "reason": "scalp", "trip": 1794229990}
