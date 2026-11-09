@@ -3018,3 +3018,9 @@
 {"kind": "exit", "ts": 1794228004.9989622, "ticker": "KXTRUMPMENTION-26NOV08-IMPE", "side": "yes", "price": 0.12, "contracts": 3.62, "fee": 0.01, "reason": "scalp", "trip": 1794227857}
 {"kind": "exit", "ts": 1794228069.6133542, "ticker": "KXTRUMPMENTION-26NOV08-IMPE", "side": "yes", "price": 0.12, "contracts": 0.13, "fee": 0.01, "reason": "scalp", "trip": 1794227857}
 {"kind": "fill", "ts": 1794228210.2614787, "fee": 0.03, "trip": 1794228204, "ticker": "KXNEXTPRESSECPERM-29JAN20-DALV", "side": "no", "price": 0.82, "contracts": 11.0, "fill_ts": 1794228204.614469}
+{"kind": "fill", "ts": 1794228230.3901906, "fee": 0.05, "trip": 1794228265, "ticker": "KXHEISMAN-27-DMENS", "side": "yes", "price": 0.24, "contracts": 13.0, "fill_ts": 1794228265.740934}
+{"kind": "cancel", "ts": 1794228324.9220064, "ticker": "KXHOUSEPOPVOTEMARGIN-27NOV03-B13", "reason": "time stop"}
+{"kind": "exit", "ts": 1794228324.9220064, "ticker": "KXHOUSEPOPVOTEMARGIN-27NOV03-B13", "side": "yes", "price": 0.17, "contracts": 8.08, "fee": 0.08, "pnl": -0.0881, "reason": "time stop", "trip": 1794227366}
+{"kind": "fill", "ts": 1794228395.0687199, "fee": 0.06, "trip": 1794228399, "ticker": "KXTRUMPADMINLEAVE-26DEC31-PHEG", "side": "no", "price": 0.521, "contracts": 12.0, "fill_ts": 1794228399.742706}
+{"kind": "fill", "ts": 1794228395.0687199, "fee": 0.01, "trip": 1794228399, "ticker": "KXTRUMPADMINLEAVE-26DEC31-PHEG", "side": "no", "price": 0.521, "contracts": 2.1, "fill_ts": 1794228399.742706}
+{"kind": "fill", "ts": 1794228395.0687199, "fee": 0.02, "trip": 1794228399, "ticker": "KXTRUMPADMINLEAVE-26DEC31-PHEG", "side": "no", "price": 0.521, "contracts": 3.9, "fill_ts": 1794228399.742706}
