@@ -2968,3 +2968,8 @@
 {"kind": "cancel", "ts": 1794225976.3425505, "ticker": "KXHEGSETHOUT-26AUG-26DEC01", "reason": "time stop"}
 {"kind": "exit", "ts": 1794225976.3425505, "ticker": "KXHEGSETHOUT-26AUG-26DEC01", "side": "yes", "price": 0.25, "contracts": 5.72, "fee": 0.08, "pnl": -0.08, "reason": "time stop", "trip": 1794225067}
 {"kind": "exit", "ts": 1794226332.7774181, "ticker": "KXTRUMPMENTION-26NOV08-IMPE", "side": "no", "price": 0.88, "contracts": 9.4, "fee": 0.02, "reason": "scalp", "trip": 1794225797}
+{"kind": "exit", "ts": 1794226647.4672296, "ticker": "KXTRUMPMENTION-26NOV08-IMPE", "side": "no", "price": 0.88, "contracts": 0.18, "fee": 0.01, "reason": "scalp", "trip": 1794225797}
+{"kind": "exit", "ts": 1794226647.4672296, "ticker": "KXTRUMPMENTION-26NOV08-IMPE", "side": "no", "price": 0.88, "contracts": 1.42, "fee": 0.01, "reason": "scalp", "trip": 1794225797}
+{"kind": "fill", "ts": 1794226647.4672296, "fee": 0.09, "trip": 1794226638, "ticker": "KXATPCHALLENGERMATCH-26NOV09GADBLA-GAD", "side": "no", "price": 0.46, "contracts": 19.0, "fill_ts": 1794226638.471513}
+{"kind": "exit", "ts": 1794226677.4675465, "ticker": "KXATPCHALLENGERMATCH-26NOV09GADBLA-GAD", "side": "no", "price": 0.39, "contracts": 0.15, "fee": 0.01, "reason": "scalp", "trip": 1794226638}
+{"kind": "exit", "ts": 1794226697.4677296, "ticker": "KXATPCHALLENGERMATCH-26NOV09GADBLA-GAD", "side": "no", "price": 0.29, "contracts": 18.85, "fee": 0.07, "reason": "scalp", "trip": 1794226638}
