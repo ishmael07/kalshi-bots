@@ -2736,3 +2736,4 @@
 {"kind": "exit", "ts": 1794213947.1821685, "ticker": "KXCEONVDA-01JAN33-01JAN27", "side": "yes", "price": 0.18, "contracts": 1.48, "fee": 0.01, "reason": "scalp", "trip": 1794213903}
 {"kind": "cancel", "ts": 1794214048.8634293, "ticker": "KXHOUSERACE-NC03-26-R", "reason": "time stop"}
 {"kind": "exit", "ts": 1794214048.8634293, "ticker": "KXHOUSERACE-NC03-26-R", "side": "no", "price": 0.84, "contracts": 11.8, "fee": 0.12, "pnl": -0.1318, "reason": "time stop", "trip": 1794213120}
+{"kind": "settle", "ts": 1794214305.8445945, "ticker": "KXNCAAMBSPREAD-26NOV08UTAHAW-HAW7", "result": "yes", "pnl": -1.21, "equity": 114.3499}
