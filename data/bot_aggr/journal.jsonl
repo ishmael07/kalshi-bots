@@ -53593,3 +53593,530 @@
 {"kind": "blocked", "ts": 1794233009.9489284, "ticker": "KXHIGHTBOS-26NOV09-B59.5", "reason": "open $80.67 > max $77.56"}
 {"kind": "blocked", "ts": 1794233009.9489284, "ticker": "KXHIGHTDAL-26NOV09-T71", "reason": "open $81.56 > max $77.56"}
 {"kind": "blocked", "ts": 1794233009.9489284, "ticker": "KXHIGHTDC-26NOV09-B65.5", "reason": "open $80.98 > max $77.56"}
+{"kind": "blocked", "ts": 1794233009.9489284, "ticker": "KXHIGHTHOU-26NOV09-B68.5", "reason": "open $81.57 > max $77.56"}
+{"kind": "blocked", "ts": 1794233009.9489284, "ticker": "KXHIGHTLV-26NOV09-B74.5", "reason": "open $80.76 > max $77.56"}
+{"kind": "blocked", "ts": 1794233009.9489284, "ticker": "KXHIGHTMIN-26NOV09-B61.5", "reason": "open $80.67 > max $77.56"}
+{"kind": "blocked", "ts": 1794233009.9489284, "ticker": "KXHIGHTMIN-26NOV09-T62", "reason": "open $80.52 > max $77.56"}
+{"kind": "blocked", "ts": 1794233009.9489284, "ticker": "KXHIGHTNOLA-26NOV09-B70.5", "reason": "open $81.56 > max $77.56"}
+{"kind": "blocked", "ts": 1794233009.9489284, "ticker": "KXHIGHTNOLA-26NOV09-B72.5", "reason": "open $81.00 > max $77.56"}
+{"kind": "blocked", "ts": 1794233009.9489284, "ticker": "KXHIGHTNOLA-26NOV09-B74.5", "reason": "open $81.56 > max $77.56"}
+{"kind": "blocked", "ts": 1794233009.9489284, "ticker": "KXHIGHTOKC-26NOV09-B69.5", "reason": "open $81.57 > max $77.56"}
+{"kind": "blocked", "ts": 1794233009.9489284, "ticker": "KXHIGHTOKC-26NOV09-B73.5", "reason": "open $81.56 > max $77.56"}
+{"kind": "blocked", "ts": 1794233009.9489284, "ticker": "KXHIGHTPHX-26NOV09-B81.5", "reason": "open $81.56 > max $77.56"}
+{"kind": "blocked", "ts": 1794233009.9489284, "ticker": "KXHIGHTPHX-26NOV09-B83.5", "reason": "open $80.27 > max $77.56"}
+{"kind": "blocked", "ts": 1794233009.9489284, "ticker": "KXHIGHTSATX-26NOV09-T63", "reason": "open $79.62 > max $77.56"}
+{"kind": "blocked", "ts": 1794233009.9489284, "ticker": "KXHIGHTSEA-26NOV09-B54.5", "reason": "open $80.98 > max $77.56"}
+{"kind": "blocked", "ts": 1794233009.9489284, "ticker": "KXHIGHTSFO-26NOV09-B68.5", "reason": "open $80.76 > max $77.56"}
+{"kind": "blocked", "ts": 1794233009.9489284, "ticker": "KXHIGHTSFO-26NOV09-B70.5", "reason": "open $80.52 > max $77.56"}
+{"kind": "blocked", "ts": 1794233009.9489284, "ticker": "KXHIGHTSFO-26NOV09-B72.5", "reason": "open $81.36 > max $77.56"}
+{"kind": "blocked", "ts": 1794233009.9489284, "ticker": "KXLOWTATL-26NOV09-B45.5", "reason": "open $81.57 > max $77.56"}
+{"kind": "blocked", "ts": 1794233009.9489284, "ticker": "KXLOWTATL-26NOV09-T46", "reason": "open $81.56 > max $77.56"}
+{"kind": "blocked", "ts": 1794233009.9489284, "ticker": "KXLOWTAUS-26NOV09-B54.5", "reason": "open $81.57 > max $77.56"}
+{"kind": "blocked", "ts": 1794233009.9489284, "ticker": "KXLOWTBOS-26NOV09-B46.5", "reason": "open $81.56 > max $77.56"}
+{"kind": "blocked", "ts": 1794233009.9489284, "ticker": "KXLOWTCHI-26NOV09-B41.5", "reason": "open $81.56 > max $77.56"}
+{"kind": "blocked", "ts": 1794233009.9489284, "ticker": "KXLOWTCHI-26NOV09-T42", "reason": "open $81.56 > max $77.56"}
+{"kind": "blocked", "ts": 1794233009.9489284, "ticker": "KXLOWTDAL-26NOV09-B51.5", "reason": "open $81.56 > max $77.56"}
+{"kind": "blocked", "ts": 1794233009.9489284, "ticker": "KXLOWTDAL-26NOV09-T54", "reason": "open $80.13 > max $77.56"}
+{"kind": "blocked", "ts": 1794233009.9489284, "ticker": "KXLOWTDC-26NOV09-T49", "reason": "open $81.56 > max $77.56"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "Soligenix Reports Financial Outlook and Phase 2a Clinical Results", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "Athena Gold Upsizes Non-Brokered Private Placement to up to CA$1.75 Million", "cats": ["Commodities"], "sev": "low"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "ONGold Resources Ltd. Announces Upcoming Meeting Dates", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "DataMEDS AI Announces Corexa Pharmacy's First Commercial Sale of Compounded Peptides", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "American Shared Hospital Services Announces Third Quarter 2026 Financial Results Conference Call", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "Phio Pharmaceuticals Presents Phase 1b Clinical Data for PH-762 at ASDS Annual Meeting", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "Military Metals Announces Non-Brokered Private Placement", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "Hannan Metals Upgrades to OTCQB Venture Market", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "JZR Gold Inc. Announces Upcoming Meeting Dates", "cats": ["Commodities"], "sev": "low"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "CytoSorbents to Participate at the 2026 Jefferies Global Healthcare Conference", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "ACP Holdings Acquisition Corp. Announces Event Featuring May Mobility", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "The Children's Place Files for Chapter 11 Bankruptcy", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "Quantum Secure Encryption Corp. Expands UK Market Presence", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "Meta Critical Minerals Inc. Joins Critical Minerals Consortium", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "Netcapital Inc. Receives Nasdaq Extension to Regain Compliance", "cats": ["Financials"], "sev": "low"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "GT Biopharma Announces Preclinical Data for GTB-5550 at SITC 2026", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "Vireo Growth Inc. Completes Acquisition of FLUENT Corp.", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "Truist Securities Reiterates Buy on Fluor, Lowers Price Target to $62", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "Benton Resources Inks Definitive Agreement to Finance and Spinout Great Burnt Project as Anchor Metals Corp.", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "Gabriel Resources Provides Corporate Update on Private Placement and Management", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "AEON Biopharma Submits IND Application for Comparative Pharmacodynamic Study of ABP-450", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "Railtown AI Expands Apple Developer Ecosystem with Open-Source Swift Framework", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "Nextech3D.ai Closes $720,000 Management-Led Private Placement", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "IGC Pharma Reports Third Quarter 2026 Financial Results and Provides Business Update", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "Sky Quarry Signs Letter of Intent with E2 Lab Services for PR Spring Facility", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "Ascent Solar Technologies Reports Third Quarter 2026 Financial Results", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "Walhalla Gold Establishes District-Scale Geological Framework", "cats": ["Commodities"], "sev": "low"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "Nevada Organic Phosphate Inc. Announces Proposed Share Consolidation", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "Trailbreaker Resources Reports Assay Results from Highlands Zone Drill Program", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "Bimergen Energy Corporation Reports Q2 2026 Financial Results", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "Tribeca Resources to Participate in Deutsche Goldmesse Fall 2026 in Frankfurt", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "Hillcrest Energy Technologies Signs First Definitive Commercial Licensing Agreement with Equipmake", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "Rubicon Organics Announces Launch of Dedicated Genetics Facility", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "Zenith Energy Reports Republic of Tunisia's Failure to Honor ICSID Arbitration Payment Obligations", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "AVITA Medical to Host Investor Webinar Briefing", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "Canaccord Genuity Raises Price Target on AVITA Medical", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "PharmAla Biotech Signs Supply and Data Agreement with Aalborg University Hospital", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "Medicenna Presents New Clinical Data for MDNA11 at SITC 2026", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "CITIC Securities Futures Releases Research Report on Precious Metals Market", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "Hyperscale Data Announces Intent to Launch Exchange Offer for Up to $50 Million in Shares", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "Edesa Biotech Enters Exclusive Licensing Agreement with KYORIN Pharmaceutical for Paridiprubart in Japan", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "CKX Lands Announces $1 Billion Investment Led by Brad Jacobs", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "Fredonia Mining Appoints Gustavo Gomes as Chief Operating Officer", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "B. Riley Adjusts Biote Price Target to $1.20 from $1.50", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "Century Lithium's Angel Island Mine Plan of Operations Deemed Complete by BLM", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "FG Nexus Reports Third Quarter 2026 Financial Results", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "QT Imaging Secures Medicare Outpatient Reimbursement for QTscan\u00ae, Effective January 2027", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "Vivid Seats Inc. Reports Third Quarter 2026 Financial Results and Announces Proposed Recapitalization", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "Tevogen Bio Extends Loan Agreement with The Patel Family, LLP", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "alpaca", "headline": "Critical One Energy Inc. Announces Assay Results from Howells Lake Antimony-Gold Project", "cats": ["Commodities"], "sev": "low"}
+{"kind": "news", "ts": 1794233100.0061917, "source": "finnhub", "headline": "Home listings pile up in October, but sellers won't slash prices", "cats": [], "sev": "none"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXLOWTDEN-26NOV09-T41", "reason": "open $80.67 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXLOWTHOU-26NOV09-B57.5", "reason": "open $81.36 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXLOWTHOU-26NOV09-B59.5", "reason": "open $80.16 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXLOWTLAX-26NOV09-B61.5", "reason": "open $81.57 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXLOWTLAX-26NOV09-T62", "reason": "open $81.56 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXLOWTLV-26NOV09-B48.5", "reason": "open $81.56 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXLOWTLV-26NOV09-B50.5", "reason": "open $81.56 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXLOWTLV-26NOV09-B52.5", "reason": "open $79.61 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXLOWTLV-26NOV09-B54.5", "reason": "open $81.56 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXLOWTLV-26NOV09-T55", "reason": "open $81.56 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXLOWTMIA-26NOV09-B73.5", "reason": "open $81.56 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXLOWTMIN-26NOV09-T40", "reason": "open $81.56 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXLOWTNOLA-26NOV09-B54.5", "reason": "open $81.56 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXLOWTNYC-26NOV09-B46.5", "reason": "open $80.27 > max $77.56"}
+{"kind": "cancel", "ts": 1794233100.0061917, "ticker": "KXLOWTNYC-26NOV09-B46.5", "side": "no", "price": 0.76, "reason": "requote"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXLOWTNYC-26NOV09-B48.5", "reason": "open $78.77 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXLOWTNYC-26NOV09-T49", "reason": "open $79.57 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXLOWTOKC-26NOV09-B42.5", "reason": "open $79.57 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXLOWTOKC-26NOV09-B44.5", "reason": "open $79.57 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXLOWTOKC-26NOV09-B46.5", "reason": "open $79.57 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXLOWTOKC-26NOV09-T47", "reason": "open $79.57 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXLOWTPHIL-26NOV09-B46.5", "reason": "open $77.99 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXLOWTPHX-26NOV09-B60.5", "reason": "open $79.57 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXLOWTSEA-26NOV09-B41.5", "reason": "open $79.57 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXLOWTSFO-26NOV09-B55.5", "reason": "open $79.57 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXLOWTSFO-26NOV09-B57.5", "reason": "open $79.57 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXLOWTSFO-26NOV09-T58", "reason": "open $79.57 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXAAAGASD-26NOV10-3.9750", "reason": "open $78.19 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXHIGHAUS-26NOV09-B64.5", "reason": "event KXHIGHAUS-26NOV09 $10.00 > max $9.80"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXHIGHCHI-26NOV09-B59.5", "reason": "open $78.56 > max $77.56"}
+{"kind": "quote", "ts": 1794233100.0061917, "ticker": "KXHIGHCHI-26NOV09-B61.5", "side": "yes", "price": 0.58, "count": 3.13, "q": 0.6173, "improved": false}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXHIGHCHI-26NOV09-T62", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXHIGHDEN-26NOV09-B68.5", "reason": "open $80.59 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXHIGHDEN-26NOV09-B70.5", "reason": "open $80.34 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXHIGHLAX-26NOV09-B84.5", "reason": "open $80.98 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXHIGHLAX-26NOV09-B86.5", "reason": "open $79.54 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXHIGHMIA-26NOV09-B85.5", "reason": "open $81.38 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXHIGHMIA-26NOV09-B87.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXHIGHNY-26NOV09-B57.5", "reason": "open $79.44 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXHIGHNY-26NOV09-B59.5", "reason": "open $80.10 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXHIGHPHIL-26NOV09-B59.5", "reason": "open $80.82 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXHIGHTATL-26NOV09-B71.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXHIGHTATL-26NOV09-T74", "reason": "open $79.44 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXHIGHTBOS-26NOV09-B57.5", "reason": "open $79.07 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXHIGHTBOS-26NOV09-B59.5", "reason": "open $80.50 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXHIGHTDAL-26NOV09-T71", "reason": "open $81.38 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXHIGHTDC-26NOV09-B65.5", "reason": "open $80.80 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXHIGHTHOU-26NOV09-B66.5", "reason": "open $80.00 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXHIGHTHOU-26NOV09-T66", "reason": "open $79.92 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXHIGHTLV-26NOV09-B74.5", "reason": "open $80.59 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXHIGHTMIN-26NOV09-B61.5", "reason": "open $80.50 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXHIGHTMIN-26NOV09-T62", "reason": "open $80.34 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXHIGHTNOLA-26NOV09-B70.5", "reason": "open $81.38 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXHIGHTNOLA-26NOV09-B72.5", "reason": "open $80.82 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXHIGHTNOLA-26NOV09-B74.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXHIGHTOKC-26NOV09-B69.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXHIGHTOKC-26NOV09-B73.5", "reason": "open $81.38 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXHIGHTPHX-26NOV09-B81.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233100.0061917, "ticker": "KXHIGHTPHX-26NOV09-B83.5", "reason": "open $80.10 > max $77.56"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "McFarlane Lake Mining Limited Completes Strategic Investment in iMetal Resources, Inc.", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "Faraday Future and FFR Announce Q3 2026 Earnings Call Dates", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "Scotia Metals Corp. Commences Maiden Drill Program at Green Wolf Lithium Target", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "Flow Metals Completes 3D Geophysical Data Compilation at Sixtymile Gold Project", "cats": ["Commodities"], "sev": "low"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "Waskahigan Oil & Gas Corp. Sets Pricing for Private Placement", "cats": ["Commodities"], "sev": "low"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "Safe Harbor Financial Reports Third Quarter 2026 Financial Results", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "Trinseo PLC Reports Third Quarter 2026 Financial Results", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "Vivakor, Inc. Completes Retirement of All Convertible Notes", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "American Critical Elements Inc. Advances Wyoming Projects and Initiates Research Discussions", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "KALA BIO Provides CEO Update and Preliminary Third Quarter 2026 Financial Results", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "Sasquatch Resources Executes Agreement to Acquire Echo Property", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "Infinitum Copper Corp. Announces Upcoming Meeting Dates", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "Trading Resumes for Silver Elephant Mining Corp.", "cats": ["Commodities"], "sev": "low"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "INEO Tech Corp. to Present at Small Cap Growth Virtual Investor Conference on November 19", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "GeoVax Announces 1-for-24 Reverse Stock Split", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "Boron One Holdings Inc. Applies for New Three-Year Exploration Licence for Piskanja Project", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "Aptevo Therapeutics Presents New Preclinical Data at SITC 2026", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "Arya Resources Identifies Priority Geophysical Targets and Expands Ramp East Property", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "Northstar Gold Announces $1.15 Million Flow-Through Private Placement", "cats": ["Commodities"], "sev": "low"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "Stardust Solar Energy Inc. Appoints Eamonn McHugh as CEO", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "Dios Exploration Inc. Adopts Semi-Annual Financial Reporting", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "GoldInxs Mining Corp. CEO Issues Shareholder Update on Fishpot Project Drill Program", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "Envoy, a Subsidiary of Dot Ai, Secures $8.5 Million Grant for New Jersey EV Expansion", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "Kapa Gold Initiates Geophysical Program at Blackhawk Gold Project", "cats": ["Commodities"], "sev": "low"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "Xcel Brands Announces Exploration of Strategic Alternatives", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "Ocean Power Technologies Announces 12-Month PowerBuoy Lease with Stanford Doerr School of Sustainability", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "Direct Communication Solutions Announces Upcoming Meeting Date", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "Metals Creek Resources Corp. Closes Non-Brokered Flow-Through Private Placement", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "Cantor Fitzgerald Europe Reduces Holding in Verici Dx PLC", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "Our Bond, Inc. Announces Third Quarter 2026 Financial Results Release Date", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "Promino Nutritional Sciences Secures US$1.19 Million Purchase Order", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "MindWave Innovations, Subsidiary of Apimeds Pharmaceuticals US, Inc., Enters Joint Venture with Skalup Capital", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "Auddia Highlights Accelerating Interest in Patented LT350 Distributed AI Datacenter Technology", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "ESS Tech, Inc. Releases Form 10-Q Financial Report", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "Arkham Intelligence Labels Yueda Digital Holding as Independent Entity", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "RBC Raises Price Target on Wendy's to $8 From $7", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "Pacific Booker Minerals Inc. Closes $12 Million Private Placement", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "Rocky Mountain Chocolate Factory Announces Houston Airport Store Opening and Aspen Lease Signing", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "Freeport Resources Launches China Roadshow for Yandera Copper Project", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "MetaVia Announces Poster Presentation on DA-1726 at ObesityWeek\u00ae 2026", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "Nevada Sunrise Metals Completes Ground Gravity Survey at Fivemile Gold Project", "cats": ["Commodities"], "sev": "low"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "Rathdowney Resources Engages Hunter Dickinson Capital for Strategic Support", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "Vistagen Provides Regulatory Update Following Type C Meeting with FDA for Fasedienol", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233145.8415732, "source": "alpaca", "headline": "Jewett-Cameron Trading Company Ltd. Reports Insider Cluster Buying", "cats": [], "sev": "none"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXHIGHTSATX-26NOV09-T63", "reason": "open $79.98 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXHIGHTSEA-26NOV09-B54.5", "reason": "open $80.80 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXHIGHTSFO-26NOV09-B68.5", "reason": "open $80.59 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXHIGHTSFO-26NOV09-B72.5", "reason": "open $81.18 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXLOWTATL-26NOV09-B45.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXLOWTATL-26NOV09-T46", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXLOWTAUS-26NOV09-B54.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXLOWTBOS-26NOV09-B46.5", "reason": "open $80.82 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXLOWTCHI-26NOV09-B41.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXLOWTCHI-26NOV09-T42", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXLOWTDAL-26NOV09-B51.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXLOWTDAL-26NOV09-T54", "reason": "open $79.95 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXLOWTDC-26NOV09-T49", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXLOWTDEN-26NOV09-T41", "reason": "open $80.50 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXLOWTHOU-26NOV09-B57.5", "reason": "open $81.18 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXLOWTHOU-26NOV09-B59.5", "reason": "open $79.98 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXLOWTLAX-26NOV09-T62", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXLOWTLV-26NOV09-B48.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXLOWTLV-26NOV09-B50.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXLOWTLV-26NOV09-B52.5", "reason": "open $79.44 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXLOWTLV-26NOV09-B54.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXLOWTLV-26NOV09-T55", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXLOWTMIA-26NOV09-B73.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXLOWTMIN-26NOV09-T40", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXLOWTNOLA-26NOV09-B54.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXLOWTNYC-26NOV09-B46.5", "reason": "open $80.10 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXLOWTNYC-26NOV09-B48.5", "reason": "open $80.59 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXLOWTNYC-26NOV09-T49", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXLOWTOKC-26NOV09-B42.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXLOWTOKC-26NOV09-B44.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXLOWTOKC-26NOV09-B46.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXLOWTOKC-26NOV09-T47", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXLOWTPHIL-26NOV09-B46.5", "reason": "open $79.44 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXLOWTPHX-26NOV09-B60.5", "reason": "open $81.38 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXLOWTSEA-26NOV09-B41.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXLOWTSFO-26NOV09-B55.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXLOWTSFO-26NOV09-B57.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXLOWTSFO-26NOV09-T58", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXHIGHAUS-26NOV09-B64.5", "reason": "open $79.07 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXHIGHCHI-26NOV09-B59.5", "reason": "open $80.37 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXHIGHCHI-26NOV09-T62", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXHIGHDEN-26NOV09-B68.5", "reason": "open $80.59 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXHIGHDEN-26NOV09-B70.5", "reason": "open $80.34 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXHIGHDEN-26NOV09-B72.5", "reason": "open $81.38 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXHIGHLAX-26NOV09-B84.5", "reason": "open $80.50 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXHIGHLAX-26NOV09-B86.5", "reason": "open $79.54 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXHIGHMIA-26NOV09-B85.5", "reason": "open $81.38 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXHIGHMIA-26NOV09-B87.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXHIGHNY-26NOV09-B57.5", "reason": "open $79.98 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXHIGHNY-26NOV09-B59.5", "reason": "open $80.82 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXHIGHPHIL-26NOV09-B59.5", "reason": "open $80.82 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXHIGHTATL-26NOV09-T74", "reason": "open $79.44 > max $77.56"}
+{"kind": "blocked", "ts": 1794233145.8415732, "ticker": "KXHIGHTBOS-26NOV09-B57.5", "reason": "open $79.07 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXHIGHTBOS-26NOV09-B59.5", "reason": "open $79.44 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXHIGHTDAL-26NOV09-T71", "reason": "open $81.38 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXHIGHTDC-26NOV09-B65.5", "reason": "open $79.92 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXHIGHTDC-26NOV09-B67.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXHIGHTHOU-26NOV09-T66", "reason": "open $80.37 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXHIGHTLV-26NOV09-B74.5", "reason": "open $80.59 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXHIGHTMIN-26NOV09-B61.5", "reason": "open $80.50 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXHIGHTMIN-26NOV09-T62", "reason": "open $80.34 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXHIGHTNOLA-26NOV09-B70.5", "reason": "open $81.38 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXHIGHTNOLA-26NOV09-B72.5", "reason": "open $80.82 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXHIGHTNOLA-26NOV09-B74.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXHIGHTOKC-26NOV09-B69.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXHIGHTOKC-26NOV09-B73.5", "reason": "open $81.38 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXHIGHTPHX-26NOV09-B81.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXHIGHTPHX-26NOV09-B83.5", "reason": "open $80.10 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXHIGHTSATX-26NOV09-T63", "reason": "open $79.98 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXHIGHTSEA-26NOV09-B54.5", "reason": "open $80.80 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXHIGHTSFO-26NOV09-B68.5", "reason": "open $80.59 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXHIGHTSFO-26NOV09-B72.5", "reason": "open $81.18 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXLOWTATL-26NOV09-T46", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXLOWTAUS-26NOV09-B54.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXLOWTCHI-26NOV09-B41.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXLOWTCHI-26NOV09-T42", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXLOWTDAL-26NOV09-B51.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXLOWTDAL-26NOV09-T54", "reason": "open $79.95 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXLOWTDC-26NOV09-T49", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXLOWTDEN-26NOV09-T41", "reason": "open $80.50 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXLOWTHOU-26NOV09-B57.5", "reason": "open $81.18 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXLOWTHOU-26NOV09-B59.5", "reason": "open $79.98 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXLOWTLV-26NOV09-B50.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXLOWTLV-26NOV09-B52.5", "reason": "open $79.44 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXLOWTLV-26NOV09-B54.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXLOWTLV-26NOV09-T55", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXLOWTMIN-26NOV09-T40", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXLOWTNOLA-26NOV09-B54.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXLOWTNYC-26NOV09-B46.5", "reason": "open $80.10 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXLOWTNYC-26NOV09-B48.5", "reason": "open $80.59 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXLOWTNYC-26NOV09-T49", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXLOWTOKC-26NOV09-B42.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXLOWTOKC-26NOV09-B44.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXLOWTOKC-26NOV09-B46.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXLOWTOKC-26NOV09-T47", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXLOWTPHIL-26NOV09-B46.5", "reason": "open $79.44 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXLOWTPHX-26NOV09-B60.5", "reason": "open $81.38 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXLOWTSATX-26NOV09-B54.5", "reason": "open $81.38 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXLOWTSEA-26NOV09-B41.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXLOWTSFO-26NOV09-B55.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXLOWTSFO-26NOV09-B57.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233189.3852696, "ticker": "KXLOWTSFO-26NOV09-T58", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXHIGHAUS-26NOV09-B64.5", "reason": "open $79.07 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXHIGHCHI-26NOV09-B59.5", "reason": "open $80.37 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXHIGHCHI-26NOV09-T62", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXHIGHDEN-26NOV09-B68.5", "reason": "open $80.59 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXHIGHDEN-26NOV09-B70.5", "reason": "open $80.34 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXHIGHDEN-26NOV09-B72.5", "reason": "open $81.38 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXHIGHLAX-26NOV09-B84.5", "reason": "open $80.50 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXHIGHLAX-26NOV09-B86.5", "reason": "open $79.54 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXHIGHMIA-26NOV09-B83.5", "reason": "open $81.18 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXHIGHMIA-26NOV09-B85.5", "reason": "open $81.38 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXHIGHMIA-26NOV09-B87.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXHIGHNY-26NOV09-B57.5", "reason": "open $79.98 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXHIGHNY-26NOV09-B59.5", "reason": "open $81.38 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXHIGHPHIL-26NOV09-B59.5", "reason": "open $80.82 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXHIGHTATL-26NOV09-T74", "reason": "open $79.44 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXHIGHTBOS-26NOV09-B57.5", "reason": "open $79.07 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXHIGHTBOS-26NOV09-B59.5", "reason": "open $79.44 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXHIGHTDAL-26NOV09-T71", "reason": "open $81.38 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXHIGHTDC-26NOV09-B65.5", "reason": "open $79.92 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXHIGHTDC-26NOV09-B67.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXHIGHTHOU-26NOV09-T66", "reason": "open $80.37 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXHIGHTLV-26NOV09-B74.5", "reason": "open $80.59 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXHIGHTMIN-26NOV09-B61.5", "reason": "open $80.50 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXHIGHTMIN-26NOV09-T62", "reason": "open $80.34 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXHIGHTNOLA-26NOV09-B70.5", "reason": "open $81.38 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXHIGHTNOLA-26NOV09-B72.5", "reason": "open $80.82 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXHIGHTNOLA-26NOV09-B74.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXHIGHTOKC-26NOV09-B69.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXHIGHTOKC-26NOV09-B73.5", "reason": "open $81.38 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXHIGHTPHX-26NOV09-B81.5", "reason": "open $81.18 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXHIGHTPHX-26NOV09-B83.5", "reason": "open $80.10 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXHIGHTSATX-26NOV09-T63", "reason": "open $79.98 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXHIGHTSEA-26NOV09-B54.5", "reason": "open $80.80 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXHIGHTSFO-26NOV09-B68.5", "reason": "open $80.59 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXHIGHTSFO-26NOV09-B72.5", "reason": "open $81.18 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXLOWTATL-26NOV09-T46", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXLOWTAUS-26NOV09-B54.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXLOWTCHI-26NOV09-B41.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXLOWTCHI-26NOV09-T42", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXLOWTDAL-26NOV09-B51.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXLOWTDAL-26NOV09-T54", "reason": "open $79.95 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXLOWTDC-26NOV09-T49", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXLOWTDEN-26NOV09-B40.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXLOWTDEN-26NOV09-T41", "reason": "open $80.50 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXLOWTHOU-26NOV09-B59.5", "reason": "open $79.98 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXLOWTLV-26NOV09-B50.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXLOWTLV-26NOV09-B52.5", "reason": "open $79.44 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXLOWTLV-26NOV09-B54.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXLOWTLV-26NOV09-T55", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXLOWTMIN-26NOV09-T40", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233233.066484, "ticker": "KXLOWTNOLA-26NOV09-B54.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "fill", "ts": 1794233276.6037395, "ticker": "KXHIGHCHI-26NOV09-B61.5", "side": "yes", "price": 0.58, "contracts": 1.25, "fill_ts": 1794233252.417142}
+{"kind": "fill", "ts": 1794233276.6037395, "ticker": "KXHIGHCHI-26NOV09-B61.5", "side": "yes", "price": 0.58, "contracts": 1.25, "fill_ts": 1794233252.420094}
+{"kind": "fill", "ts": 1794233276.6037395, "ticker": "KXHIGHCHI-26NOV09-B61.5", "side": "yes", "price": 0.58, "contracts": 0.63, "fill_ts": 1794233252.443296}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXLOWTNYC-26NOV09-B46.5", "reason": "open $80.10 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXLOWTNYC-26NOV09-B48.5", "reason": "open $80.59 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXLOWTNYC-26NOV09-T49", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXLOWTOKC-26NOV09-B42.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXLOWTOKC-26NOV09-B44.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXLOWTOKC-26NOV09-B46.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXLOWTOKC-26NOV09-T47", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXLOWTPHIL-26NOV09-B46.5", "reason": "open $79.80 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXLOWTPHX-26NOV09-B60.5", "reason": "open $81.38 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXLOWTSATX-26NOV09-B54.5", "reason": "open $81.38 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXLOWTSEA-26NOV09-B41.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXLOWTSFO-26NOV09-B55.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXLOWTSFO-26NOV09-B57.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXLOWTSFO-26NOV09-T58", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXAAAGASD-26NOV10-3.9750", "reason": "open $81.39 > max $77.56"}
+{"kind": "disagree", "ts": 1794233276.6037395, "ticker": "KXAAAGASD-26NOV10-3.9850", "side": "no", "price": 0.8, "p": 0.473, "source": "gas", "why": "AAA 4.009, trend -2.3c/day", "enforced": false}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXAAAGASD-26NOV10-3.9850", "reason": "open $81.38 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXHIGHAUS-26NOV09-B64.5", "reason": "open $79.07 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXHIGHAUS-26NOV09-B66.5", "reason": "open $79.98 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXHIGHCHI-26NOV09-B59.5", "reason": "open $79.12 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXHIGHCHI-26NOV09-B61.5", "reason": "open $80.34 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXHIGHCHI-26NOV09-T62", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXHIGHDEN-26NOV09-B68.5", "reason": "open $80.59 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXHIGHDEN-26NOV09-B70.5", "reason": "open $80.34 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXHIGHDEN-26NOV09-B72.5", "reason": "open $81.38 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXHIGHLAX-26NOV09-B84.5", "reason": "open $80.50 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXHIGHLAX-26NOV09-B86.5", "reason": "open $79.54 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXHIGHMIA-26NOV09-B83.5", "reason": "open $81.18 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXHIGHMIA-26NOV09-B85.5", "reason": "open $81.38 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXHIGHMIA-26NOV09-B87.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXHIGHNY-26NOV09-B57.5", "reason": "open $79.98 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXHIGHNY-26NOV09-B59.5", "reason": "open $81.38 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXHIGHPHIL-26NOV09-B59.5", "reason": "open $80.10 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXHIGHTATL-26NOV09-B73.5", "reason": "open $79.12 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXHIGHTATL-26NOV09-T74", "reason": "open $79.44 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXHIGHTBOS-26NOV09-B57.5", "reason": "open $79.07 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXHIGHTBOS-26NOV09-B59.5", "reason": "open $79.44 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXHIGHTDAL-26NOV09-T71", "reason": "open $81.38 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXHIGHTDC-26NOV09-B65.5", "reason": "open $80.37 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXHIGHTDC-26NOV09-B67.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXHIGHTHOU-26NOV09-T66", "reason": "open $80.80 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXHIGHTLV-26NOV09-B74.5", "reason": "open $80.59 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXHIGHTMIN-26NOV09-B61.5", "reason": "open $80.50 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXHIGHTMIN-26NOV09-T62", "reason": "open $80.34 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXHIGHTNOLA-26NOV09-B70.5", "reason": "open $81.38 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXHIGHTNOLA-26NOV09-B72.5", "reason": "open $80.82 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXHIGHTNOLA-26NOV09-B74.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXHIGHTOKC-26NOV09-B69.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXHIGHTOKC-26NOV09-B73.5", "reason": "open $81.38 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXHIGHTPHX-26NOV09-B83.5", "reason": "open $80.10 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXHIGHTSATX-26NOV09-T63", "reason": "open $79.98 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXHIGHTSEA-26NOV09-B54.5", "reason": "open $80.80 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXHIGHTSFO-26NOV09-B68.5", "reason": "open $80.59 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXHIGHTSFO-26NOV09-B72.5", "reason": "open $81.18 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXLOWTATL-26NOV09-T46", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXLOWTAUS-26NOV09-B54.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233276.6037395, "ticker": "KXLOWTBOS-26NOV09-B46.5", "reason": "open $80.82 > max $77.56"}
+{"kind": "fill", "ts": 1794233320.309896, "ticker": "KXLOWTPHIL-26NOV09-T47", "side": "no", "price": 0.58, "contracts": 2.23, "fill_ts": 1794233277.983292}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXLOWTCHI-26NOV09-B41.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXLOWTCHI-26NOV09-T42", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXLOWTDAL-26NOV09-B51.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXLOWTDAL-26NOV09-B53.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXLOWTDC-26NOV09-T49", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXLOWTDEN-26NOV09-B40.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXLOWTDEN-26NOV09-T41", "reason": "open $80.50 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXLOWTHOU-26NOV09-B59.5", "reason": "open $79.98 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXLOWTLV-26NOV09-B50.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXLOWTLV-26NOV09-B52.5", "reason": "open $79.44 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXLOWTLV-26NOV09-B54.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXLOWTLV-26NOV09-T55", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXLOWTMIN-26NOV09-T40", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXLOWTNOLA-26NOV09-B54.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXLOWTNYC-26NOV09-B46.5", "reason": "open $80.10 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXLOWTNYC-26NOV09-B48.5", "reason": "open $80.59 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXLOWTNYC-26NOV09-T49", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXLOWTOKC-26NOV09-B42.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXLOWTOKC-26NOV09-B44.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXLOWTOKC-26NOV09-B46.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXLOWTOKC-26NOV09-T47", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXLOWTPHIL-26NOV09-B46.5", "reason": "open $79.44 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXLOWTPHX-26NOV09-B60.5", "reason": "open $81.38 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXLOWTSATX-26NOV09-B54.5", "reason": "open $80.10 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXLOWTSEA-26NOV09-B41.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXLOWTSFO-26NOV09-B55.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXLOWTSFO-26NOV09-B57.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXLOWTSFO-26NOV09-T58", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXAAAGASD-26NOV10-3.9750", "reason": "open $80.65 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXAAAGASD-26NOV10-3.9850", "reason": "open $81.38 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXHIGHAUS-26NOV09-B64.5", "reason": "open $79.07 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXHIGHAUS-26NOV09-B66.5", "reason": "open $79.98 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXHIGHCHI-26NOV09-B59.5", "reason": "open $79.12 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXHIGHCHI-26NOV09-B61.5", "reason": "open $79.95 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXHIGHCHI-26NOV09-T62", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXHIGHDEN-26NOV09-B68.5", "reason": "open $80.59 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXHIGHDEN-26NOV09-B70.5", "reason": "open $80.34 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXHIGHDEN-26NOV09-B72.5", "reason": "open $81.38 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXHIGHLAX-26NOV09-B84.5", "reason": "open $80.50 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXHIGHLAX-26NOV09-B86.5", "reason": "open $79.54 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXHIGHMIA-26NOV09-B83.5", "reason": "open $81.38 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXHIGHMIA-26NOV09-B85.5", "reason": "open $80.82 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXHIGHNY-26NOV09-B57.5", "reason": "open $79.98 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXHIGHNY-26NOV09-B59.5", "reason": "open $81.38 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXHIGHPHIL-26NOV09-B59.5", "reason": "open $80.10 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXHIGHTATL-26NOV09-B73.5", "reason": "open $79.12 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXHIGHTATL-26NOV09-T74", "reason": "open $79.44 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXHIGHTBOS-26NOV09-B57.5", "reason": "open $79.07 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXHIGHTBOS-26NOV09-B59.5", "reason": "open $79.44 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXHIGHTDAL-26NOV09-T71", "reason": "open $81.38 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXHIGHTDC-26NOV09-B65.5", "reason": "open $79.92 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXHIGHTHOU-26NOV09-T66", "reason": "open $80.80 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXHIGHTLV-26NOV09-B74.5", "reason": "open $80.59 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXHIGHTMIN-26NOV09-B61.5", "reason": "open $80.50 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXHIGHTMIN-26NOV09-T62", "reason": "open $80.34 > max $77.56"}
+{"kind": "blocked", "ts": 1794233320.309896, "ticker": "KXHIGHTNOLA-26NOV09-B70.5", "reason": "open $81.38 > max $77.56"}
+{"kind": "news", "ts": 1794233400.378557, "source": "alpaca", "headline": "Orthofix Medical Q3 2026 Earnings Call Transcript", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233400.378557, "source": "alpaca", "headline": "NewcelX Announces $1.55M Private Placement Of 347,134 Shares And 347,134 Warrants At A Price Of $3.29 Per Share", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233400.378557, "source": "alpaca", "headline": "Ocular Therapeutix Q3 2026 Earnings Call Transcript", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233400.378557, "source": "alpaca", "headline": "LifeStance Health Group Prices Secondary Offering Of 45M Common shares At $13.12 Per Share", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233400.378557, "source": "alpaca", "headline": "Onterris Acquires Permian Basin Environmental Lab; Terms Not DIsclosed", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233400.378557, "source": "alpaca", "headline": "Capstone Holding Announces Agreement With 3i, LP To Extend Maturity Of Its Remaining Convertible Note From October 22, 2026, To December 13, 2027.", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233400.378557, "source": "alpaca", "headline": "RBC Capital Maintains Outperform on Trisura Group, Lowers Price Target to C$42", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233400.378557, "source": "alpaca", "headline": "Quantum X Labs Announces 20% Fewer Logical Decoding Errors In Preliminary Benchmarks Through Experimental Data From IBM Quantum Processors", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233400.378557, "source": "alpaca", "headline": "Quanterix Q3 EPS $(0.46) Misses $(0.43) Estimate, Sales $34.974M Beat $33.853M Estimate", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233400.378557, "source": "alpaca", "headline": "Truist Securities Maintains Hold on ICF International, Raises Price Target to $90", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233400.378557, "source": "alpaca", "headline": "Adobe Partners With Walt Disney To Enhance Storytelling Through Technologies, Experiences", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233400.378557, "source": "alpaca", "headline": "Lisata\u2019s Subsidiary Marea Therapeutics Reports Phase 2b TYDAL-TIMI 78 Data Showing Up To 72.2% Triglyceride Reduction With MAR001, Meeting All Part A Objectives", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233400.378557, "source": "alpaca", "headline": "Planet Labs Signs Multi-Launch Agreement With Developer Of Reusable Launch Vehicles Stoke Space Technologies To Expand Launch Capacity For Its Constellation Fleet", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233400.378557, "source": "alpaca", "headline": "Truist Securities Maintains Buy on Globus Medical, Lowers Price Target to $90", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233400.378557, "source": "alpaca", "headline": "Envista Holdings Files Prospectus For Offering Mixed Shelf; Terms Undisclosed", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233400.378557, "source": "alpaca", "headline": "RBC Capital Maintains Sector Perform on Wendy's, Raises Price Target to $8", "cats": [], "sev": "none"}
+{"kind": "news", "ts": 1794233400.378557, "source": "alpaca", "headline": "ServiceNow Tapped By Florida's Broward County To Roll Out ServiceNow IT Service Management, Workflow Data Fabric For IT Teams", "cats": [], "sev": "none"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXHIGHTNOLA-26NOV09-B72.5", "reason": "open $80.82 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXHIGHTNOLA-26NOV09-B74.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXHIGHTOKC-26NOV09-B69.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXHIGHTOKC-26NOV09-B73.5", "reason": "open $81.38 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXHIGHTPHX-26NOV09-B81.5", "reason": "open $81.18 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXHIGHTPHX-26NOV09-B83.5", "reason": "open $80.10 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXHIGHTSATX-26NOV09-T63", "reason": "open $79.98 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXHIGHTSEA-26NOV09-B54.5", "reason": "open $80.80 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXHIGHTSFO-26NOV09-B68.5", "reason": "open $80.00 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXHIGHTSFO-26NOV09-B70.5", "reason": "open $80.34 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXHIGHTSFO-26NOV09-B72.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXLOWTATL-26NOV09-T46", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXLOWTAUS-26NOV09-B54.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXLOWTCHI-26NOV09-B41.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXLOWTCHI-26NOV09-T42", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXLOWTDAL-26NOV09-B53.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXLOWTDC-26NOV09-T49", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXLOWTDEN-26NOV09-B40.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXLOWTDEN-26NOV09-T41", "reason": "open $80.50 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXLOWTLV-26NOV09-B50.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXLOWTLV-26NOV09-B52.5", "reason": "open $79.44 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXLOWTLV-26NOV09-B54.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXLOWTLV-26NOV09-T55", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXLOWTMIN-26NOV09-T40", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXLOWTNOLA-26NOV09-B54.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXLOWTNYC-26NOV09-B46.5", "reason": "open $80.10 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXLOWTNYC-26NOV09-B48.5", "reason": "open $80.59 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXLOWTNYC-26NOV09-T49", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXLOWTOKC-26NOV09-B42.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXLOWTOKC-26NOV09-B44.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXLOWTOKC-26NOV09-B46.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXLOWTOKC-26NOV09-T47", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXLOWTPHIL-26NOV09-B46.5", "reason": "open $79.80 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXLOWTSATX-26NOV09-B54.5", "reason": "open $80.10 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXLOWTSEA-26NOV09-B41.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXLOWTSFO-26NOV09-B55.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXLOWTSFO-26NOV09-B57.5", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXLOWTSFO-26NOV09-T58", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXAAAGASD-26NOV10-3.9750", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXAAAGASD-26NOV10-3.9800", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXAAAGASD-26NOV10-3.9850", "reason": "open $81.38 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXHIGHAUS-26NOV09-B64.5", "reason": "open $79.07 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXHIGHAUS-26NOV09-B66.5", "reason": "open $79.98 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXHIGHCHI-26NOV09-B59.5", "reason": "open $79.12 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXHIGHCHI-26NOV09-B61.5", "reason": "open $79.95 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXHIGHCHI-26NOV09-T62", "reason": "open $81.39 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXHIGHDEN-26NOV09-B68.5", "reason": "open $80.59 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXHIGHDEN-26NOV09-B70.5", "reason": "open $80.34 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXHIGHDEN-26NOV09-B72.5", "reason": "open $81.38 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXHIGHLAX-26NOV09-B84.5", "reason": "open $80.50 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXHIGHLAX-26NOV09-B86.5", "reason": "open $79.54 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXHIGHMIA-26NOV09-B83.5", "reason": "open $81.38 > max $77.56"}
+{"kind": "blocked", "ts": 1794233400.378557, "ticker": "KXHIGHMIA-26NOV09-B85.5", "reason": "open $80.82 > max $77.56"}
+{"kind": "blocked", "ts": 1794233444.323623, "ticker": "KXHIGHNY-26NOV09-B57.5", "reason": "open $79.98 > max $77.56"}
+{"kind": "blocked", "ts": 1794233444.323623, "ticker": "KXHIGHPHIL-26NOV09-B59.5", "reason": "open $80.10 > max $77.56"}
+{"kind": "blocked", "ts": 1794233444.323623, "ticker": "KXHIGHTATL-26NOV09-B73.5", "reason": "open $79.12 > max $77.56"}
+{"kind": "blocked", "ts": 1794233444.323623, "ticker": "KXHIGHTATL-26NOV09-T74", "reason": "open $79.44 > max $77.56"}
+{"kind": "blocked", "ts": 1794233444.323623, "ticker": "KXHIGHTBOS-26NOV09-B57.5", "reason": "open $79.07 > max $77.56"}
+{"kind": "blocked", "ts": 1794233444.323623, "ticker": "KXHIGHTBOS-26NOV09-B59.5", "reason": "open $79.44 > max $77.56"}
+{"kind": "blocked", "ts": 1794233444.323623, "ticker": "KXHIGHTDAL-26NOV09-T71", "reason": "open $81.38 > max $77.56"}
+{"kind": "blocked", "ts": 1794233444.323623, "ticker": "KXHIGHTDC-26NOV09-B65.5", "reason": "open $79.92 > max $77.56"}
