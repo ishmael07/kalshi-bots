@@ -2799,3 +2799,14 @@
 {"kind": "exit", "ts": 1794216979.342886, "ticker": "KXTESTMATCH-26NOV082330SRIPAK-PAK", "side": "no", "price": 0.67, "contracts": 2.0, "fee": 0.04, "pnl": 0.0, "reason": "time stop", "trip": 1794215994}
 {"kind": "exit", "ts": 1794216989.342985, "ticker": "KXTESTMATCH-26NOV082330SRIPAK-PAK", "side": "no", "price": 0.67, "contracts": 1.0, "fee": 0.02, "pnl": 0.0, "reason": "time stop", "trip": 1794215994}
 {"kind": "fill", "ts": 1794217686.8524466, "fee": 0.05, "trip": 1794217681, "ticker": "KXTESTMATCH-26NOV082330SRIPAK-PAK", "side": "no", "price": 0.66, "contracts": 12.38, "fill_ts": 1794217681.424423}
+{"kind": "exit", "ts": 1794218544.7313633, "ticker": "KXCEONVDA-01JAN33-01JAN27", "side": "yes", "price": 0.15, "contracts": 12.52, "fee": 0.12, "pnl": -0.3704, "reason": "time stop", "trip": 1794213903}
+{"kind": "cancel", "ts": 1794218642.852382, "ticker": "KXTESTMATCH-26NOV082330SRIPAK-PAK", "reason": "time stop"}
+{"kind": "exit", "ts": 1794218642.852382, "ticker": "KXTESTMATCH-26NOV082330SRIPAK-PAK", "side": "no", "price": 0.67, "contracts": 1.0, "fee": 0.02, "pnl": -0.01, "reason": "time stop", "trip": 1794217681}
+{"kind": "exit", "ts": 1794218652.8524826, "ticker": "KXTESTMATCH-26NOV082330SRIPAK-PAK", "side": "no", "price": 0.67, "contracts": 1.0, "fee": 0.02, "pnl": -0.01, "reason": "time stop", "trip": 1794217681}
+{"kind": "exit", "ts": 1794218662.8525894, "ticker": "KXTESTMATCH-26NOV082330SRIPAK-PAK", "side": "no", "price": 0.67, "contracts": 1.0, "fee": 0.02, "pnl": -0.01, "reason": "time stop", "trip": 1794217681}
+{"kind": "exit", "ts": 1794218672.8526974, "ticker": "KXTESTMATCH-26NOV082330SRIPAK-PAK", "side": "no", "price": 0.67, "contracts": 1.0, "fee": 0.02, "pnl": -0.01, "reason": "time stop", "trip": 1794217681}
+{"kind": "exit", "ts": 1794218682.8528087, "ticker": "KXTESTMATCH-26NOV082330SRIPAK-PAK", "side": "no", "price": 0.67, "contracts": 1.0, "fee": 0.02, "pnl": -0.01, "reason": "time stop", "trip": 1794217681}
+{"kind": "exit", "ts": 1794218692.852913, "ticker": "KXTESTMATCH-26NOV082330SRIPAK-PAK", "side": "no", "price": 0.67, "contracts": 1.0, "fee": 0.02, "pnl": -0.01, "reason": "time stop", "trip": 1794217681}
+{"kind": "exit", "ts": 1794218702.8530173, "ticker": "KXTESTMATCH-26NOV082330SRIPAK-PAK", "side": "no", "price": 0.67, "contracts": 1.0, "fee": 0.02, "pnl": -0.01, "reason": "time stop", "trip": 1794217681}
+{"kind": "exit", "ts": 1794218712.8531141, "ticker": "KXTESTMATCH-26NOV082330SRIPAK-PAK", "side": "no", "price": 0.67, "contracts": 5.38, "fee": 0.09, "pnl": -0.0362, "reason": "time stop", "trip": 1794217681}
+{"kind": "fill", "ts": 1794218853.9550316, "fee": 0.04, "trip": 1794218849, "ticker": "KXATPCHALLENGERMATCH-26NOV09MASAND-MAS", "side": "no", "price": 0.83, "contracts": 13.0, "fill_ts": 1794218849.082083}
