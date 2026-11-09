@@ -3371,3 +3371,11 @@
 {"kind": "fill", "ts": 1794236147.9595675, "fee": 0.07, "trip": 1794236147, "ticker": "KXTRUMPADMINLEAVE-26DEC31-PHEG", "side": "yes", "price": 0.461, "contracts": 15.0, "fill_ts": 1794236147.388824}
 {"kind": "fill", "ts": 1794236147.9595675, "fee": 0.01, "trip": 1794236147, "ticker": "KXTRUMPADMINLEAVE-26DEC31-PHEG", "side": "yes", "price": 0.461, "contracts": 2.0, "fill_ts": 1794236147.388824}
 {"kind": "exit", "ts": 1794236207.9604034, "ticker": "KXTRUMPADMINLEAVE-26DEC31-PHEG", "side": "yes", "price": 0.479, "contracts": 4.02, "fee": 0.02, "reason": "scalp", "trip": 1794236147}
+{"kind": "cancel", "ts": 1794236448.9142091, "ticker": "KXVENEZUELALEADER-26DEC31-DROD", "reason": "time stop"}
+{"kind": "exit", "ts": 1794236448.9142091, "ticker": "KXVENEZUELALEADER-26DEC31-DROD", "side": "no", "price": 0.88, "contracts": 10.0, "fee": 0.08, "pnl": -0.09, "reason": "time stop", "trip": 1794235544}
+{"kind": "exit", "ts": 1794236582.9824498, "ticker": "KXTRUMPADMINLEAVE-26DEC31-PHEG", "side": "yes", "price": 0.469, "contracts": 12.98, "fee": 0.06, "reason": "scalp", "trip": 1794236147}
+{"kind": "fill", "ts": 1794236606.8540878, "fee": 0.03, "trip": 1794236588, "ticker": "KXTRUMPADMINLEAVE-26DEC31-PHEG", "side": "no", "price": 0.531, "contracts": 6.0, "fill_ts": 1794236588.385818}
+{"kind": "fill", "ts": 1794236606.8540878, "fee": 0.04, "trip": 1794236588, "ticker": "KXTRUMPADMINLEAVE-26DEC31-PHEG", "side": "no", "price": 0.531, "contracts": 7.49, "fill_ts": 1794236588.385818}
+{"kind": "fill", "ts": 1794236606.8540878, "fee": 0.01, "trip": 1794236588, "ticker": "KXTRUMPADMINLEAVE-26DEC31-PHEG", "side": "no", "price": 0.531, "contracts": 1.5, "fill_ts": 1794236588.385818}
+{"kind": "fill", "ts": 1794236606.8540878, "fee": 0.01, "trip": 1794236588, "ticker": "KXTRUMPADMINLEAVE-26DEC31-PHEG", "side": "no", "price": 0.531, "contracts": 1.01, "fill_ts": 1794236596.783843}
+{"kind": "exit", "ts": 1794236616.854208, "ticker": "KXTRUMPADMINLEAVE-26DEC31-PHEG", "side": "no", "price": 0.569, "contracts": 16.0, "fee": 0.07, "reason": "scalp", "trip": 1794236588}
