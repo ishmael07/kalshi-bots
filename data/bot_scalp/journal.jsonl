@@ -2965,3 +2965,6 @@
 {"kind": "fill", "ts": 1794225814.0978181, "fee": 0.04, "trip": 1794225835, "ticker": "KXNFLNFCEAST-27-NYG", "side": "no", "price": 0.39, "contracts": 8.17, "fill_ts": 1794225835.088471}
 {"kind": "exit", "ts": 1794225966.342442, "ticker": "KXHEGSETHOUT-26AUG-26DEC01", "side": "yes", "price": 0.26, "contracts": 1.13, "fee": 0.01, "reason": "scalp", "trip": 1794225067}
 {"kind": "exit", "ts": 1794225966.342442, "ticker": "KXHEGSETHOUT-26AUG-26DEC01", "side": "yes", "price": 0.26, "contracts": 7.15, "fee": 0.03, "reason": "scalp", "trip": 1794225067}
+{"kind": "cancel", "ts": 1794225976.3425505, "ticker": "KXHEGSETHOUT-26AUG-26DEC01", "reason": "time stop"}
+{"kind": "exit", "ts": 1794225976.3425505, "ticker": "KXHEGSETHOUT-26AUG-26DEC01", "side": "yes", "price": 0.25, "contracts": 5.72, "fee": 0.08, "pnl": -0.08, "reason": "time stop", "trip": 1794225067}
+{"kind": "exit", "ts": 1794226332.7774181, "ticker": "KXTRUMPMENTION-26NOV08-IMPE", "side": "no", "price": 0.88, "contracts": 9.4, "fee": 0.02, "reason": "scalp", "trip": 1794225797}
