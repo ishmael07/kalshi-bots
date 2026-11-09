@@ -99,7 +99,8 @@ def build(journal: Path, state: dict, titles: Titles) -> dict:
             if k == "quote":
                 quotes[(d["ticker"], d["side"])] = d.get("q")
             elif k == "fill":
-                f = fills[(d["ticker"], d["side"])]
+                f = fills[(d["ticker"], d["side"], d.get("trip"))]
+                f["proceeds"] -= d.get("fee", 0.0)
                 f["n"] += d["contracts"]
                 f["cost"] += d["contracts"] * d["price"]
                 ts = d.get("fill_ts") or d["ts"]
@@ -107,7 +108,7 @@ def build(journal: Path, state: dict, titles: Titles) -> dict:
                 f["last"] = ts
                 model_q.setdefault((d["ticker"], d["side"]), quotes.get((d["ticker"], d["side"])))
             elif k == "exit":
-                f = fills[(d["ticker"], d["side"])]
+                f = fills[(d["ticker"], d["side"], d.get("trip"))]
                 f["sold"] += d["contracts"]
                 f["proceeds"] += d["contracts"] * d["price"] - d.get("fee", 0.0)
                 f["sold_ts"] = d["ts"]
@@ -117,7 +118,7 @@ def build(journal: Path, state: dict, titles: Titles) -> dict:
     marks = state.get("marks") or {}
     budget = [titles.per_call]
     rows = []
-    for (tk, side), f in fills.items():
+    for (tk, side, trip), f in fills.items():
         if f["n"] <= 0:
             continue
         info = titles.market(tk, catalog, budget)
@@ -127,9 +128,9 @@ def build(journal: Path, state: dict, titles: Titles) -> dict:
         row = dict(ticker=tk, side=side, contracts=round(f["n"], 2), price=round(avg, 4), cost=round(f["cost"], 2),
                    title=(info.get("title") or tk).replace("**", ""), sub=info.get("sub", ""), series=ser,
                    close_ts=info.get("close_ts"), opened=f["first"], q=model_q.get((tk, side)),
-                   url=kalshi_url(ser, titles.series(ser, budget), ev))
+                   url=kalshi_url(ser, titles.series(ser, budget), ev), trip=trip)
         left = max(f["n"] - f["sold"], 0.0)
-        if tk in results:
+        if tk in results and (trip is None or left > 1e-6):       # a finished scalp stays a scalp when its market settles
             res, ts = results[tk]
             won = res == side
             row.update(status="won" if won else "lost", settled=ts,

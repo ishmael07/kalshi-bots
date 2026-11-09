@@ -7,6 +7,7 @@
   train     learn the cell win-rate table for the live bot
   run       always-on bot (shadow mode: live public data, virtual money)
   dash      local dashboard (http://127.0.0.1:8789)
+  scalp     two-sided in-and-out paper account across every active market
   export    static dashboard for GitHub Pages (docs/)
   wxcheck   would a weather-forecast veto have helped? (stored fills vs day-ahead forecasts)
   citycheck does the model make money on cities it never saw? (out-of-sample)
@@ -23,6 +24,7 @@ COMMANDS = {
     "run": ("kalshi.run_bot", "cmd_run"),
     "dash": ("kalshi.run_bot", "cmd_dash"),
     "export": ("kalshi.run_bot", "cmd_export"),
+    "scalp": ("kalshi.run_bot", "cmd_scalp"),
     "wxcheck": ("kalshi.wx_check", "main"),
     "citycheck": ("kalshi.city_check", "main"),
     "scalpcheck": ("kalshi.scalp_check", "main"),

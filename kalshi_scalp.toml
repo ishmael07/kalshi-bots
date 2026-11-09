@@ -1,0 +1,21 @@
+# SCALPER account: two-sided, in and out, every active Kalshi market (see kalshi/scalp.py). Virtual money only.
+# `kalshi scalpcheck` lost money at a 60s reaction in every group but econ/TSA, on guessed quotes. This is the forward test.
+[bot]
+label = "Scalper"
+series = []
+start_equity = 75.0
+fill_share = 0.25
+discover_every_s = 600
+out_dir = "data/bot_scalp"
+
+[scalp]
+top_n = 12
+frac = 0.10           # 10% of equity per trade
+open_cap_frac = 1.0
+min_spread = 0.02
+min_volume = 500
+max_hold_s = 900      # 15 minutes, then sell into the bid
+stop_before_s = 600
+
+[api]
+rps = 4

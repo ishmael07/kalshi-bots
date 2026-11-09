@@ -37,7 +37,7 @@
   .refresh { font: inherit; font-size: 15px; font-weight: 600; padding: 8px 16px; border-radius: 999px; cursor: pointer;
              border: 1px solid var(--line); background: var(--card); color: var(--ink); }
   .refresh:disabled { color: var(--muted); cursor: default; }
-  .seg { display: inline-flex; background: var(--soft); border-radius: 999px; padding: 4px; gap: 4px; }
+  .seg { display: inline-flex; flex-wrap: wrap; max-width: 100%; background: var(--soft); border-radius: 22px; padding: 4px; gap: 4px; }
   .seg button { font: inherit; font-size: 15px; font-weight: 600; border: 0; background: transparent; color: var(--muted);
                 padding: 8px 16px; border-radius: 999px; cursor: pointer; display: inline-flex; gap: 8px; align-items: baseline; }
   .seg button.on { background: var(--card); color: var(--ink); box-shadow: 0 1px 3px rgba(0,0,0,.12); }
@@ -223,7 +223,7 @@ function renderTrades(d) {
   $("settled-count").textContent = d.settled.length || "";
   $("settled-list").innerHTML = d.settled.length ? d.settled.slice(0, 60).map((r) => `
     <div class="trade"><div>${market(r)}
-      <div class="mk-meta" style="margin-top:4px"><span class="badge ${r.status === "sold" ? "lost" : r.status}">${r.status === "won" ? "✓ Won" : r.status === "sold" ? "↘ Sold early" : "✕ Lost"}</span>${r.contracts} @ ${cents(r.price)} · ${when(r.settled)}</div></div>
+      <div class="mk-meta" style="margin-top:4px"><span class="badge ${r.status === "sold" ? (r.trip != null && r.pnl > 0 ? "won" : "lost") : r.status}">${r.status === "won" ? "✓ Won" : r.status !== "sold" ? "✕ Lost" : r.trip != null ? "⇄ Scalped" : "↘ Sold early"}</span>${r.contracts} @ ${cents(r.price)} · ${when(r.settled)}</div></div>
       <div><div class="pl ${tone(r.pnl)}">${signed(r.pnl)}</div><div class="money"><div class="sub">${money(r.cost)} staked</div></div></div></div>`).join("")
     : empty("Weather bets settle each morning");
   drawCurve(d.curve);
@@ -294,7 +294,11 @@ $("chips").addEventListener("click", (e) => { const g = e.target.dataset && e.ta
 
 const KIND = {cpi: "CPI", jobs: "Jobs report", gdp: "GDP", claims: "Jobless claims", fomc: "Fed decision"};
 let updatedAt = null;
-function showUpdated() { $("updated").textContent = updatedAt ? `Updated ${ago(updatedAt)}` : ""; }
+function showUpdated() {
+  if (!updatedAt) { $("updated").textContent = ""; return; }
+  const left = STATIC ? updatedAt + 400 - now() : 0;      // Pages gets new data about every 6.5 minutes
+  $("updated").textContent = `Updated ${ago(updatedAt)}` + (left > 60 ? ` · next in ${Math.ceil(left / 60)}m` : STATIC ? " · next any moment" : "");
+}
 function renderState(s, a) {
   lastState = s;
   a = a || s;
@@ -338,7 +342,7 @@ async function tickAccounts() {
     $("acct").innerHTML = names.map((n) => {
       const x = acc[n];
       const pnl = x && x.equity != null ? x.equity - x.start : null;
-      return `<button class="${n === acct ? "on" : ""}" data-a="${n}">${n === "steady" ? "Steady" : "Aggressive"}` +
+      return `<button class="${n === acct ? "on" : ""}" data-a="${n}">${n[0].toUpperCase() + n.slice(1)}` +
              (pnl != null ? ` <span class="${pnl > 0.004 ? "win" : pnl < -0.004 ? "loss" : ""}">${signed(pnl)}</span>` : "") + `</button>`;
     }).join("");
   } catch {}
@@ -353,9 +357,10 @@ let haveTrades = false; const lastPl = {};
 async function tickTrades() { try { renderTrades(await getJSON(`/trades?acct=${acct}`)); haveTrades = true; } catch { if (!haveTrades) setTimeout(tickTrades, 1500); } }
 tickAccounts(); tickState(); tickTrades();
 $("refresh").addEventListener("click", async (e) => {
-  const b = e.currentTarget; b.disabled = true; b.textContent = "Refreshing…";
+  const b = e.currentTarget, was = updatedAt; b.disabled = true; b.textContent = "Checking…";
   await Promise.all([tickAccounts(), tickState(), tickTrades()]);
-  b.disabled = false; b.textContent = "Refresh";
+  b.textContent = updatedAt !== was ? "New data" : "Up to date";
+  setTimeout(() => { b.disabled = false; b.textContent = "Refresh"; }, 1800);
 });
 setInterval(showUpdated, 5000);
 setInterval(tickState, 3000); setInterval(tickTrades, 5000); setInterval(tickAccounts, 5000);

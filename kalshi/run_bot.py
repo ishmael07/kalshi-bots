@@ -175,7 +175,7 @@ def cmd_run(argv):
     send("Kalshi bot stopped")
 
 
-ACCOUNT_DIRS = {"steady": Path("data/bot"), "aggressive": Path("data/bot_aggr")}
+ACCOUNT_DIRS = {"steady": Path("data/bot"), "aggressive": Path("data/bot_aggr"), "scalper": Path("data/bot_scalp")}
 
 
 def accounts_summary(accounts) -> dict:
@@ -209,6 +209,32 @@ def cmd_export(argv):
     (out / "data" / "accounts.json").write_text(json.dumps(accounts_summary(ACCOUNT_DIRS)))
     shutil.copy(Path(__file__).parent / "dashboard.html", out / "index.html")
     (out / ".nojekyll").write_text("")
+
+
+def cmd_scalp(argv):
+    import argparse
+    from .api import KalshiPublic
+    from .bot import BotConfig
+    from .scalp import ScalpBot, ScalpExecutor, ScalpParams
+    ap = argparse.ArgumentParser(prog="kalshi scalp")
+    ap.add_argument("--config", default="kalshi_scalp.toml")
+    ap.add_argument("--interval", type=float, default=10.0)
+    ap.add_argument("--once", action="store_true")
+    a = ap.parse_args(argv)
+    raw = load_cfg(a.config)
+    cfg = BotConfig(**{k: v for k, v in raw.get("bot", {}).items() if k in BotConfig.__dataclass_fields__})
+    bot = ScalpBot(cfg, KalshiPublic(rps=float(raw.get("api", {}).get("rps", 4))), ScalpExecutor(cfg.fill_share),
+                   ScalpParams(**raw.get("scalp", {})))
+    stop = {"flag": False}
+    signal.signal(signal.SIGTERM, lambda *_: stop.update(flag=True))
+    signal.signal(signal.SIGINT, lambda *_: stop.update(flag=True))
+    print(f"scalper running; state -> {cfg.out_dir}/state.json", flush=True)
+    while not stop["flag"]:
+        t0 = time.time()
+        bot.step(t0)
+        if a.once:
+            break
+        time.sleep(max(1.0, a.interval - (time.time() - t0)))
 
 
 def cmd_dash(argv):

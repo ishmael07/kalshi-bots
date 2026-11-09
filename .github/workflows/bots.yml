@@ -48,9 +48,11 @@ jobs:
           P1=$!
           (timeout -s TERM 338m python -u -m kalshi run --config kalshi_aggressive.toml --interval 30 2>&1 | sed -u 's/^/[aggr] /') &
           P2=$!
+          (timeout -s TERM 338m python -u -m kalshi scalp --interval 10 2>&1 | sed -u 's/^/[scalp] /') &
+          P3=$!
           sleep 90; publish || echo "publish failed"
           queued=""
-          while kill -0 "$P1" 2>/dev/null || kill -0 "$P2" 2>/dev/null; do
+          while kill -0 "$P1" 2>/dev/null || kill -0 "$P2" 2>/dev/null || kill -0 "$P3" 2>/dev/null; do
             sleep 360; publish || echo "publish failed"
             # queue the next run once this one has proved healthy (it waits in the concurrency group), so the
             # chain doesn't depend on GitHub's cron, which often fires hours late; a crash can't loop this way
