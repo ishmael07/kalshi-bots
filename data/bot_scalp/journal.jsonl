@@ -3362,3 +3362,12 @@
 {"kind": "fill", "ts": 1794235211.2452402, "fee": 0.03, "trip": 1794235202, "ticker": "KXT20MATCH-26NOV090615KGOCRH-CRH", "side": "no", "price": 0.8, "contracts": 8.0, "fill_ts": 1794235202.741227}
 {"kind": "exit", "ts": 1794235261.2459679, "ticker": "KXT20MATCH-26NOV090615KGOCRH-CRH", "side": "no", "price": 0.79, "contracts": 11.0, "fee": 0.04, "reason": "scalp", "trip": 1794235202}
 {"kind": "fill", "ts": 1794235544.9754238, "fee": 0.02, "trip": 1794235544, "ticker": "KXVENEZUELALEADER-26DEC31-DROD", "side": "no", "price": 0.881, "contracts": 10.0, "fill_ts": 1794235544.902426}
+{"kind": "cancel", "ts": 1794235956.6352885, "ticker": "KXNEXTPRESSECPERM-29JAN20-DALV", "reason": "time stop"}
+{"kind": "exit", "ts": 1794235956.6352885, "ticker": "KXNEXTPRESSECPERM-29JAN20-DALV", "side": "no", "price": 0.8, "contracts": 11.0, "fee": 0.13, "pnl": -0.24, "reason": "time stop", "trip": 1794234976}
+{"kind": "cancel", "ts": 1794235956.6352885, "ticker": "KXTRUMPADMINLEAVE-26DEC31-PHEG", "reason": "time stop"}
+{"kind": "exit", "ts": 1794235956.6352885, "ticker": "KXTRUMPADMINLEAVE-26DEC31-PHEG", "side": "no", "price": 0.51, "contracts": 17.0, "fee": 0.3, "pnl": -0.317, "reason": "time stop", "trip": 1794235037}
+{"kind": "fill", "ts": 1794236137.9594567, "fee": 0.01, "trip": 1794236133, "ticker": "KXNFLDPOTY-27-AREESE52", "side": "yes", "price": 0.09, "contracts": 1.0, "fill_ts": 1794236133.904631}
+{"kind": "fill", "ts": 1794236137.9594567, "fee": 0.02, "trip": 1794236133, "ticker": "KXNFLDPOTY-27-AREESE52", "side": "yes", "price": 0.09, "contracts": 9.0, "fill_ts": 1794236133.904631}
+{"kind": "fill", "ts": 1794236147.9595675, "fee": 0.07, "trip": 1794236147, "ticker": "KXTRUMPADMINLEAVE-26DEC31-PHEG", "side": "yes", "price": 0.461, "contracts": 15.0, "fill_ts": 1794236147.388824}
+{"kind": "fill", "ts": 1794236147.9595675, "fee": 0.01, "trip": 1794236147, "ticker": "KXTRUMPADMINLEAVE-26DEC31-PHEG", "side": "yes", "price": 0.461, "contracts": 2.0, "fill_ts": 1794236147.388824}
+{"kind": "exit", "ts": 1794236207.9604034, "ticker": "KXTRUMPADMINLEAVE-26DEC31-PHEG", "side": "yes", "price": 0.479, "contracts": 4.02, "fee": 0.02, "reason": "scalp", "trip": 1794236147}
