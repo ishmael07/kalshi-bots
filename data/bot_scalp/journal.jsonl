@@ -2855,3 +2855,5 @@
 {"kind": "cancel", "ts": 1794224085.7790556, "ticker": "KXRT-AVE-85", "reason": "time stop"}
 {"kind": "exit", "ts": 1794224085.7790556, "ticker": "KXRT-AVE-85", "side": "no", "price": 0.56, "contracts": 6.03, "fee": 0.11, "pnl": -0.1703, "reason": "time stop", "trip": 1794223153}
 {"kind": "fill", "ts": 1794224125.7794588, "fee": 0.04, "trip": 1794224116, "ticker": "KXNFLNFCEAST-27-NYG", "side": "yes", "price": 0.59, "contracts": 7.24, "fill_ts": 1794224116.413185}
+{"kind": "fill", "ts": 1794224510.5600429, "fee": 0.03, "trip": 1794224507, "ticker": "KXRT-AVE-85", "side": "yes", "price": 0.42, "contracts": 5.03, "fill_ts": 1794224507.886581}
+{"kind": "fill", "ts": 1794224601.7370343, "fee": 0.03, "trip": 1794224666, "ticker": "KXISRAELPM-26OCT27-BNET", "side": "yes", "price": 0.11, "contracts": 12.0, "fill_ts": 1794224666.257157}
