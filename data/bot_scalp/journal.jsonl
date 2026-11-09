@@ -2638,3 +2638,6 @@
 {"kind": "exit", "ts": 1794207794.7177474, "ticker": "KXITFWMATCH-26NOV08NUGMIY-MIY", "side": "yes", "price": 0.21, "contracts": 3.03, "fee": 0.01, "reason": "scalp", "trip": 1794207737}
 {"kind": "exit", "ts": 1794207794.7177474, "ticker": "KXITFWMATCH-26NOV08NUGMIY-MIY", "side": "yes", "price": 0.21, "contracts": 3.16, "fee": 0.01, "reason": "scalp", "trip": 1794207737}
 {"kind": "fill", "ts": 1794208115.3485255, "fee": 0.03, "trip": 1794208112, "ticker": "KXNFLNEXTTEAM-26JTAYLOR28-MIN", "side": "no", "price": 0.9, "contracts": 13.0, "fill_ts": 1794208112.678236}
+{"kind": "fill", "ts": 1794208328.974383, "fee": 0.01, "trip": 1794208328, "ticker": "KXTESTMATCH-26NOV042230WIBAN-TIE", "side": "no", "price": 0.19, "contracts": 2.0, "fill_ts": 1794208328.203364}
+{"kind": "fill", "ts": 1794208371.6194592, "fee": 0.08, "trip": 1794208364, "ticker": "KXNFLNFCEAST-27-NYG", "side": "no", "price": 0.37, "contracts": 19.0, "fill_ts": 1794208364.462398}
+{"kind": "exit", "ts": 1794208435.6617193, "ticker": "KXTESTMATCH-26NOV042230WIBAN-TIE", "side": "no", "price": 0.14, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794208328}
