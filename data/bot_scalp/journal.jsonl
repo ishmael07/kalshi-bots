@@ -2854,3 +2854,4 @@
 {"kind": "exit", "ts": 1794223902.1079822, "ticker": "KXUCL-27-PSG", "side": "no", "price": 0.8, "contracts": 13.0, "fee": 0.15, "pnl": -0.28, "reason": "time stop", "trip": 1794222990}
 {"kind": "cancel", "ts": 1794224085.7790556, "ticker": "KXRT-AVE-85", "reason": "time stop"}
 {"kind": "exit", "ts": 1794224085.7790556, "ticker": "KXRT-AVE-85", "side": "no", "price": 0.56, "contracts": 6.03, "fee": 0.11, "pnl": -0.1703, "reason": "time stop", "trip": 1794223153}
+{"kind": "fill", "ts": 1794224125.7794588, "fee": 0.04, "trip": 1794224116, "ticker": "KXNFLNFCEAST-27-NYG", "side": "yes", "price": 0.59, "contracts": 7.24, "fill_ts": 1794224116.413185}
