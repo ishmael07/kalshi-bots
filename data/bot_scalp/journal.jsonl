@@ -8198,3 +8198,5 @@
 {"kind": "exit", "ts": 1794332744.3515484, "ticker": "KXNCAAWBTOTAL-26NOV10YSUTOL-126", "side": "yes", "price": 0.54, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794332726}
 {"kind": "exit", "ts": 1794332804.3522294, "ticker": "KXNCAAWBTOTAL-26NOV10BELLBGSU-140", "side": "no", "price": 0.48, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794332696}
 {"kind": "fill", "ts": 1794336973.1645038, "fee": 0.01, "trip": 1794336967, "ticker": "KXFEATURE-26GTA6-BAD", "side": "no", "price": 0.44, "contracts": 1.0, "fill_ts": 1794336967.847262}
+{"kind": "cancel", "ts": 1794337875.7389965, "ticker": "KXFEATURE-26GTA6-BAD", "reason": "time stop"}
+{"kind": "exit", "ts": 1794337875.7389965, "ticker": "KXFEATURE-26GTA6-BAD", "side": "no", "price": 0.38, "contracts": 1.0, "fee": 0.02, "pnl": -0.08, "reason": "time stop", "trip": 1794336967}
