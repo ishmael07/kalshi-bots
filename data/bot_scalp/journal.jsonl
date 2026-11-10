@@ -8108,3 +8108,11 @@
 {"kind": "fill", "ts": 1794276765.357521, "fee": 0.01, "trip": 1794276756, "ticker": "KXNBAPTS-26NOV09LALATL-LALLDONCIC77-35", "side": "no", "price": 0.49, "contracts": 0.6, "fill_ts": 1794276756.764922}
 {"kind": "fill", "ts": 1794276765.357521, "fee": 0.01, "trip": 1794276756, "ticker": "KXNBAPTS-26NOV09LALATL-LALLDONCIC77-35", "side": "no", "price": 0.49, "contracts": 0.4, "fill_ts": 1794276756.764922}
 {"kind": "exit", "ts": 1794276765.357521, "ticker": "KXNBAPTS-26NOV09LALATL-LALLDONCIC77-35", "side": "no", "price": 0.52, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794276756}
+{"kind": "fill", "ts": 1794276975.3597267, "fee": 0.01, "trip": 1794276967, "ticker": "KXNBAPTS-26NOV09LALATL-LALLDONCIC77-35", "side": "yes", "price": 0.48, "contracts": 1.0, "fill_ts": 1794276967.86004}
+{"kind": "exit", "ts": 1794276995.3599598, "ticker": "KXNBAPTS-26NOV09LALATL-LALLDONCIC77-35", "side": "yes", "price": 0.53, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794276967}
+{"kind": "fill", "ts": 1794277135.3611996, "fee": 0.01, "trip": 1794277126, "ticker": "KXNBAPTS-26NOV09LALATL-LALLDONCIC77-35", "side": "no", "price": 0.47, "contracts": 1.0, "fill_ts": 1794277126.65856}
+{"kind": "exit", "ts": 1794277135.3611996, "ticker": "KXNBAPTS-26NOV09LALATL-LALLDONCIC77-35", "side": "no", "price": 0.51, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794277126}
+{"kind": "fill", "ts": 1794277145.361284, "fee": 0.01, "trip": 1794277135, "ticker": "KXNBAPTS-26NOV09LALATL-LALLDONCIC77-35", "side": "no", "price": 0.5, "contracts": 1.0, "fill_ts": 1794277135.733074}
+{"kind": "exit", "ts": 1794277145.361284, "ticker": "KXNBAPTS-26NOV09LALATL-LALLDONCIC77-35", "side": "no", "price": 0.52, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794277135}
+{"kind": "fill", "ts": 1794277155.3614116, "fee": 0.01, "trip": 1794277148, "ticker": "KXNBAPTS-26NOV09LALATL-LALLDONCIC77-35", "side": "yes", "price": 0.48, "contracts": 1.0, "fill_ts": 1794277148.299513}
+{"kind": "exit", "ts": 1794277165.3615086, "ticker": "KXNBAPTS-26NOV09LALATL-LALLDONCIC77-35", "side": "yes", "price": 0.48, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794277148}
