@@ -8100,3 +8100,5 @@
 {"kind": "fill", "ts": 1794275707.6505878, "fee": 0.01, "trip": 1794275701, "ticker": "KXITFWMATCH-26NOV09JEOABE-JEO", "side": "no", "price": 0.48, "contracts": 0.66, "fill_ts": 1794275701.766949}
 {"kind": "exit", "ts": 1794275727.6507516, "ticker": "KXITFWMATCH-26NOV09JEOABE-JEO", "side": "no", "price": 0.42, "contracts": 0.16, "fee": 0.01, "reason": "scalp", "trip": 1794275701}
 {"kind": "exit", "ts": 1794275727.6507516, "ticker": "KXITFWMATCH-26NOV09JEOABE-JEO", "side": "no", "price": 0.42, "contracts": 0.5, "fee": 0.01, "reason": "scalp", "trip": 1794275701}
+{"kind": "fill", "ts": 1794276087.7684033, "fee": 0.01, "trip": 1794276081, "ticker": "KXNCAAMBGAME-26NOV09MINNCIN-CIN", "side": "yes", "price": 0.5, "contracts": 1.0, "fill_ts": 1794276081.265169}
+{"kind": "exit", "ts": 1794276097.7684793, "ticker": "KXNCAAMBGAME-26NOV09MINNCIN-CIN", "side": "yes", "price": 0.44, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794276081}
