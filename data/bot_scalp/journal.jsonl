@@ -8077,3 +8077,5 @@
 {"kind": "exit", "ts": 1794274800.3621771, "ticker": "KXNFL1HSPREAD-26NOV09BUFMIN-BUF3", "side": "yes", "price": 0.56, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794274791}
 {"kind": "fill", "ts": 1794274810.362294, "fee": 0.01, "trip": 1794274802, "ticker": "KXNFLSPREAD-26NOV09BUFMIN-BUF4", "side": "no", "price": 0.44, "contracts": 1.0, "fill_ts": 1794274802.30184}
 {"kind": "exit", "ts": 1794274810.362294, "ticker": "KXNFLSPREAD-26NOV09BUFMIN-BUF4", "side": "no", "price": 0.48, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794274802}
+{"kind": "settle", "ts": 1794275363.1346898, "ticker": "KXNCAAWBGAME-26NOV09DELTOWS-TOWS", "result": "yes", "pnl": -0.08, "equity": 5.3744}
+{"kind": "settle", "ts": 1794275363.1346898, "ticker": "KXNCAAWBGAME-26NOV09DELTOWS-DEL", "result": "no", "pnl": -0.08, "equity": 5.2944}
