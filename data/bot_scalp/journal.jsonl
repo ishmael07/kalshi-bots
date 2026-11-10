@@ -8121,3 +8121,11 @@
 {"kind": "exit", "ts": 1794278735.5701218, "ticker": "KXNFLSPREAD-26NOV09BUFMIN-BUF4", "side": "no", "price": 0.34, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794278529}
 {"kind": "fill", "ts": 1794281325.317334, "fee": 0.01, "trip": 1794281316, "ticker": "KXNBASPREAD-26NOV09INDDAL-DAL5", "side": "yes", "price": 0.47, "contracts": 1.0, "fill_ts": 1794281316.824161}
 {"kind": "exit", "ts": 1794281345.3175764, "ticker": "KXNBASPREAD-26NOV09INDDAL-DAL5", "side": "yes", "price": 0.53, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794281316}
+{"kind": "fill", "ts": 1794281874.1765974, "fee": 0.01, "trip": 1794281864, "ticker": "KXNBASPREAD-26NOV09INDDAL-DAL5", "side": "no", "price": 0.42, "contracts": 1.0, "fill_ts": 1794281864.347437}
+{"kind": "exit", "ts": 1794281874.1765974, "ticker": "KXNBASPREAD-26NOV09INDDAL-DAL5", "side": "no", "price": 0.75, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794281864}
+{"kind": "fill", "ts": 1794281884.1766787, "fee": 0.01, "trip": 1794281874, "ticker": "KXNBASPREAD-26NOV09INDDAL-DAL5", "side": "no", "price": 0.45, "contracts": 1.0, "fill_ts": 1794281874.552167}
+{"kind": "exit", "ts": 1794281884.1766787, "ticker": "KXNBASPREAD-26NOV09INDDAL-DAL5", "side": "no", "price": 0.54, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794281874}
+{"kind": "fill", "ts": 1794281894.1767704, "fee": 0.01, "trip": 1794281884, "ticker": "KXNBASPREAD-26NOV09INDDAL-DAL5", "side": "yes", "price": 0.48, "contracts": 1.0, "fill_ts": 1794281884.779982}
+{"kind": "exit", "ts": 1794281894.1767704, "ticker": "KXNBASPREAD-26NOV09INDDAL-DAL5", "side": "yes", "price": 0.52, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794281884}
+{"kind": "fill", "ts": 1794281904.176883, "fee": 0.01, "trip": 1794281899, "ticker": "KXNBASPREAD-26NOV09INDDAL-DAL5", "side": "yes", "price": 0.43, "contracts": 1.0, "fill_ts": 1794281899.547746}
+{"kind": "exit", "ts": 1794281914.1769583, "ticker": "KXNBASPREAD-26NOV09INDDAL-DAL5", "side": "yes", "price": 0.08, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794281899}
