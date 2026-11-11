@@ -8410,3 +8410,10 @@
 {"kind": "exit", "ts": 1794411743.6609054, "ticker": "KXITFMATCH-26NOV11ALBDUT-ALB", "side": "no", "price": 0.49, "contracts": 0.27, "fee": 0.01, "reason": "scalp", "trip": 1794411732}
 {"kind": "exit", "ts": 1794411743.6609054, "ticker": "KXITFMATCH-26NOV11ALBDUT-ALB", "side": "no", "price": 0.49, "contracts": 0.01, "fee": 0.01, "reason": "scalp", "trip": 1794411732}
 {"kind": "exit", "ts": 1794411743.6609054, "ticker": "KXITFMATCH-26NOV11ALBDUT-ALB", "side": "no", "price": 0.49, "contracts": 0.7, "fee": 0.01, "reason": "scalp", "trip": 1794411732}
+{"kind": "fill", "ts": 1794414400.060364, "fee": 0.01, "trip": 1794414391, "ticker": "KXITFMATCH-26NOV11ALBDUT-ALB", "side": "no", "price": 0.48, "contracts": 1.0, "fill_ts": 1794414391.399414}
+{"kind": "exit", "ts": 1794414400.060364, "ticker": "KXITFMATCH-26NOV11ALBDUT-ALB", "side": "no", "price": 0.56, "contracts": 0.06, "fee": 0.01, "reason": "scalp", "trip": 1794414391}
+{"kind": "exit", "ts": 1794414400.060364, "ticker": "KXITFMATCH-26NOV11ALBDUT-ALB", "side": "no", "price": 0.56, "contracts": 0.94, "fee": 0.01, "reason": "scalp", "trip": 1794414391}
+{"kind": "fill", "ts": 1794414410.060451, "fee": 0.01, "trip": 1794414402, "ticker": "KXITFMATCH-26NOV11ALBDUT-ALB", "side": "yes", "price": 0.43, "contracts": 0.36, "fill_ts": 1794414402.251161}
+{"kind": "fill", "ts": 1794414410.060451, "fee": 0.01, "trip": 1794414402, "ticker": "KXITFMATCH-26NOV11ALBDUT-ALB", "side": "yes", "price": 0.43, "contracts": 0.35, "fill_ts": 1794414402.251161}
+{"kind": "fill", "ts": 1794414410.060451, "fee": 0.01, "trip": 1794414402, "ticker": "KXITFMATCH-26NOV11ALBDUT-ALB", "side": "yes", "price": 0.43, "contracts": 0.29, "fill_ts": 1794414402.251161}
+{"kind": "exit", "ts": 1794414410.060451, "ticker": "KXITFMATCH-26NOV11ALBDUT-ALB", "side": "yes", "price": 0.53, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794414402}
