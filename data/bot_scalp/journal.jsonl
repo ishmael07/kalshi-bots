@@ -8265,3 +8265,5 @@
 {"kind": "exit", "ts": 1794363024.6938658, "ticker": "KXNCAAMBSPREAD-26NOV10HARVNE-HARV3", "side": "no", "price": 0.73, "contracts": 0.95, "fee": 0.01, "reason": "scalp", "trip": 1794362925}
 {"kind": "fill", "ts": 1794367345.270749, "fee": 0.01, "trip": 1794367335, "ticker": "KXNBATOTAL-26NOV10BOSPHI-218", "side": "yes", "price": 0.41, "contracts": 1.0, "fill_ts": 1794367335.480159}
 {"kind": "exit", "ts": 1794367355.2708519, "ticker": "KXNBATOTAL-26NOV10BOSPHI-218", "side": "yes", "price": 0.26, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794367335}
+{"kind": "fill", "ts": 1794370453.0943222, "fee": 0.01, "trip": 1794370444, "ticker": "KXITFWMATCH-26NOV10NUGTSA-TSA", "side": "no", "price": 0.46, "contracts": 1.0, "fill_ts": 1794370444.69892}
+{"kind": "exit", "ts": 1794370493.0947075, "ticker": "KXITFWMATCH-26NOV10NUGTSA-TSA", "side": "no", "price": 0.39, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794370444}
