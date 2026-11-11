@@ -8484,3 +8484,5 @@
 {"kind": "exit", "ts": 1794435130.057751, "ticker": "KXNCAAMBSPREAD-26NOV11LCHIAFA-AFA14", "side": "yes", "price": 0.6, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794435123}
 {"kind": "fill", "ts": 1794435340.059727, "fee": 0.01, "trip": 1794435331, "ticker": "KXNCAAMBSPREAD-26NOV11USFJOES-JOES2", "side": "yes", "price": 0.46, "contracts": 1.0, "fill_ts": 1794435331.194457}
 {"kind": "exit", "ts": 1794435360.0599046, "ticker": "KXNCAAMBSPREAD-26NOV11USFJOES-JOES2", "side": "yes", "price": 0.72, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794435331}
+{"kind": "fill", "ts": 1794435759.0402975, "fee": 0.01, "trip": 1794435751, "ticker": "KXNCAAMBTOTAL-26NOV11USFJOES-166", "side": "no", "price": 0.42, "contracts": 1.0, "fill_ts": 1794435751.282237}
+{"kind": "exit", "ts": 1794435759.0402975, "ticker": "KXNCAAMBTOTAL-26NOV11USFJOES-166", "side": "no", "price": 0.49, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794435751}
