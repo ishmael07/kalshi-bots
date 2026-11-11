@@ -8258,3 +8258,4 @@
 {"kind": "exit", "ts": 1794354486.9181752, "ticker": "KXNCAAMB1HSPREAD-26NOV10FLAFSU-FLA6", "side": "yes", "price": 0.37, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794354444}
 {"kind": "fill", "ts": 1794359542.2087922, "fee": 0.01, "trip": 1794359540, "ticker": "KXNCAAMBSPREAD-26NOV10FLAFSU-FLA9", "side": "no", "price": 0.46, "contracts": 1.0, "fill_ts": 1794359540.281596}
 {"kind": "exit", "ts": 1794359552.2088985, "ticker": "KXNCAAMBSPREAD-26NOV10FLAFSU-FLA9", "side": "no", "price": 0.45, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794359540}
+{"kind": "fill", "ts": 1794361505.0715747, "fee": 0.01, "trip": 1794361497, "ticker": "KXNCAAMBTOTAL-26NOV10MSUDUKE-148", "side": "no", "price": 0.44, "contracts": 1.0, "fill_ts": 1794361497.371251}
