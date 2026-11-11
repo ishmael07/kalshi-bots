@@ -8425,3 +8425,15 @@
 {"kind": "exit", "ts": 1794415471.7740285, "ticker": "KXNCAAMBTOTAL-26NOV11FDUETAM-138", "side": "yes", "price": 0.51, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794415469}
 {"kind": "fill", "ts": 1794415531.7745905, "fee": 0.01, "trip": 1794415522, "ticker": "KXITFMATCH-26NOV11DEAVAN-VAN", "side": "no", "price": 0.47, "contracts": 1.0, "fill_ts": 1794415522.498868}
 {"kind": "exit", "ts": 1794415541.7746975, "ticker": "KXITFMATCH-26NOV11DEAVAN-VAN", "side": "no", "price": 0.51, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794415522}
+{"kind": "fill", "ts": 1794415661.7758868, "fee": 0.01, "trip": 1794415653, "ticker": "KXITFMATCH-26NOV11DEAVAN-VAN", "side": "no", "price": 0.46, "contracts": 0.47, "fill_ts": 1794415653.156116}
+{"kind": "fill", "ts": 1794415661.7758868, "fee": 0.01, "trip": 1794415653, "ticker": "KXITFMATCH-26NOV11DEAVAN-VAN", "side": "no", "price": 0.46, "contracts": 0.53, "fill_ts": 1794415653.156116}
+{"kind": "exit", "ts": 1794415661.7758868, "ticker": "KXITFMATCH-26NOV11DEAVAN-VAN", "side": "no", "price": 0.51, "contracts": 0.01, "fee": 0.01, "reason": "scalp", "trip": 1794415653}
+{"kind": "exit", "ts": 1794415661.7758868, "ticker": "KXITFMATCH-26NOV11DEAVAN-VAN", "side": "no", "price": 0.51, "contracts": 0.22, "fee": 0.01, "reason": "scalp", "trip": 1794415653}
+{"kind": "exit", "ts": 1794415661.7758868, "ticker": "KXITFMATCH-26NOV11DEAVAN-VAN", "side": "no", "price": 0.51, "contracts": 0.77, "fee": 0.01, "reason": "scalp", "trip": 1794415653}
+{"kind": "fill", "ts": 1794415671.775996, "fee": 0.01, "trip": 1794415665, "ticker": "KXITFMATCH-26NOV11DEAVAN-VAN", "side": "yes", "price": 0.49, "contracts": 1.0, "fill_ts": 1794415665.242437}
+{"kind": "exit", "ts": 1794415721.7764962, "ticker": "KXITFMATCH-26NOV11DEAVAN-VAN", "side": "yes", "price": 0.48, "contracts": 0.01, "fee": 0.01, "reason": "scalp", "trip": 1794415665}
+{"kind": "exit", "ts": 1794415721.7764962, "ticker": "KXITFMATCH-26NOV11DEAVAN-VAN", "side": "yes", "price": 0.48, "contracts": 0.99, "fee": 0.01, "reason": "scalp", "trip": 1794415665}
+{"kind": "fill", "ts": 1794415751.776801, "fee": 0.01, "trip": 1794415747, "ticker": "KXITFMATCH-26NOV11DEAVAN-VAN", "side": "yes", "price": 0.49, "contracts": 0.01, "fill_ts": 1794415747.464492}
+{"kind": "fill", "ts": 1794415751.776801, "fee": 0.01, "trip": 1794415747, "ticker": "KXITFMATCH-26NOV11DEAVAN-VAN", "side": "yes", "price": 0.49, "contracts": 0.44, "fill_ts": 1794415747.464492}
+{"kind": "fill", "ts": 1794415751.776801, "fee": 0.01, "trip": 1794415747, "ticker": "KXITFMATCH-26NOV11DEAVAN-VAN", "side": "yes", "price": 0.49, "contracts": 0.55, "fill_ts": 1794415747.465791}
+{"kind": "exit", "ts": 1794415761.7768831, "ticker": "KXITFMATCH-26NOV11DEAVAN-VAN", "side": "yes", "price": 0.46, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794415747}
