@@ -8302,3 +8302,7 @@
 {"kind": "exit", "ts": 1794374624.1563835, "ticker": "KXNBATOTAL-26NOV10ORLSAC-206", "side": "yes", "price": 0.51, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794374605}
 {"kind": "fill", "ts": 1794374644.156597, "fee": 0.01, "trip": 1794374635, "ticker": "KXITFWMATCH-26NOV10SAWSHI-SHI", "side": "yes", "price": 0.52, "contracts": 0.25, "fill_ts": 1794374635.317415}
 {"kind": "fill", "ts": 1794374644.156597, "fee": 0.01, "trip": 1794374635, "ticker": "KXITFWMATCH-26NOV10SAWSHI-SHI", "side": "yes", "price": 0.52, "contracts": 0.75, "fill_ts": 1794374635.317415}
+{"kind": "exit", "ts": 1794374724.1573968, "ticker": "KXITFWMATCH-26NOV10SAWSHI-SHI", "side": "yes", "price": 0.56, "contracts": 0.36, "fee": 0.01, "reason": "scalp", "trip": 1794374635}
+{"kind": "exit", "ts": 1794374724.1573968, "ticker": "KXITFWMATCH-26NOV10SAWSHI-SHI", "side": "yes", "price": 0.56, "contracts": 0.06, "fee": 0.01, "reason": "scalp", "trip": 1794374635}
+{"kind": "exit", "ts": 1794374724.1573968, "ticker": "KXITFWMATCH-26NOV10SAWSHI-SHI", "side": "yes", "price": 0.56, "contracts": 0.08, "fee": 0.01, "reason": "scalp", "trip": 1794374635}
+{"kind": "exit", "ts": 1794374724.1573968, "ticker": "KXITFWMATCH-26NOV10SAWSHI-SHI", "side": "yes", "price": 0.56, "contracts": 0.5, "fee": 0.01, "reason": "scalp", "trip": 1794374635}
