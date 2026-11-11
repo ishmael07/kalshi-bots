@@ -8353,3 +8353,5 @@
 {"kind": "fill", "ts": 1794383397.4996107, "fee": 0.01, "trip": 1794383335, "ticker": "KXT20MATCH-26NOV102315FFTINSHNBATEAM-FFTINS", "side": "no", "price": 0.49, "contracts": 0.48, "fill_ts": 1794383335.76215}
 {"kind": "fill", "ts": 1794383397.4996107, "fee": 0.01, "trip": 1794383335, "ticker": "KXT20MATCH-26NOV102315FFTINSHNBATEAM-FFTINS", "side": "no", "price": 0.49, "contracts": 0.52, "fill_ts": 1794383335.76215}
 {"kind": "exit", "ts": 1794383407.499692, "ticker": "KXT20MATCH-26NOV102315FFTINSHNBATEAM-FFTINS", "side": "no", "price": 0.51, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794383335}
+{"kind": "fill", "ts": 1794383577.501354, "fee": 0.01, "trip": 1794383572, "ticker": "KXT20MATCH-26NOV102315FFTINSHNBATEAM-FFTINS", "side": "yes", "price": 0.46, "contracts": 1.0, "fill_ts": 1794383572.406343}
+{"kind": "exit", "ts": 1794383597.5015275, "ticker": "KXT20MATCH-26NOV102315FFTINSHNBATEAM-FFTINS", "side": "yes", "price": 0.31, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794383572}
