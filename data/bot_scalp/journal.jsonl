@@ -8364,3 +8364,5 @@
 {"kind": "exit", "ts": 1794387861.5466516, "ticker": "KXITFMATCH-26NOV11HAIRAD-HAI", "side": "no", "price": 0.55, "contracts": 0.8, "fee": 0.01, "reason": "scalp", "trip": 1794387841}
 {"kind": "fill", "ts": 1794388494.7210388, "fee": 0.01, "trip": 1794388484, "ticker": "KXITFMATCH-26NOV11HAIRAD-HAI", "side": "no", "price": 0.48, "contracts": 1.0, "fill_ts": 1794388484.800126}
 {"kind": "exit", "ts": 1794388524.7213297, "ticker": "KXITFMATCH-26NOV11HAIRAD-HAI", "side": "no", "price": 0.4, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794388484}
+{"kind": "fill", "ts": 1794392118.8293152, "fee": 0.01, "trip": 1794392110, "ticker": "KXITFWMATCH-26NOV11PEDARG-ARG", "side": "no", "price": 0.46, "contracts": 1.0, "fill_ts": 1794392110.584198}
+{"kind": "exit", "ts": 1794392158.8296962, "ticker": "KXITFWMATCH-26NOV11PEDARG-ARG", "side": "no", "price": 0.46, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794392110}
