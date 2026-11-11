@@ -8379,3 +8379,9 @@
 {"kind": "fill", "ts": 1794405793.0984657, "fee": 0.01, "trip": 1794405785, "ticker": "KXWT20MATCH-26NOV110600USAWNAMW-USAW", "side": "no", "price": 0.46, "contracts": 1.0, "fill_ts": 1794405785.357887}
 {"kind": "exit", "ts": 1794405823.0987725, "ticker": "KXWT20MATCH-26NOV110600USAWNAMW-USAW", "side": "no", "price": 0.52, "contracts": 0.31, "fee": 0.01, "reason": "scalp", "trip": 1794405785}
 {"kind": "exit", "ts": 1794405823.0987725, "ticker": "KXWT20MATCH-26NOV110600USAWNAMW-USAW", "side": "no", "price": 0.52, "contracts": 0.69, "fee": 0.01, "reason": "scalp", "trip": 1794405785}
+{"kind": "fill", "ts": 1794406364.4405756, "fee": 0.01, "trip": 1794406354, "ticker": "KXATPSETWINNER-26NOV11SONTAB-2-TAB", "side": "yes", "price": 0.23, "contracts": 1.0, "fill_ts": 1794406354.466891}
+{"kind": "exit", "ts": 1794406364.4405756, "ticker": "KXATPSETWINNER-26NOV11SONTAB-2-TAB", "side": "yes", "price": 0.57, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794406354}
+{"kind": "fill", "ts": 1794406574.4426918, "fee": 0.01, "trip": 1794406566, "ticker": "KXWT20MATCH-26NOV110600USAWNAMW-USAW", "side": "no", "price": 0.49, "contracts": 1.0, "fill_ts": 1794406566.972186}
+{"kind": "exit", "ts": 1794406574.4426918, "ticker": "KXWT20MATCH-26NOV110600USAWNAMW-USAW", "side": "no", "price": 0.53, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794406566}
+{"kind": "fill", "ts": 1794406604.4430304, "fee": 0.01, "trip": 1794406599, "ticker": "KXWT20MATCH-26NOV110600USAWNAMW-USAW", "side": "no", "price": 0.48, "contracts": 1.0, "fill_ts": 1794406599.331343}
+{"kind": "exit", "ts": 1794406614.4431531, "ticker": "KXWT20MATCH-26NOV110600USAWNAMW-USAW", "side": "no", "price": 0.5, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794406599}
