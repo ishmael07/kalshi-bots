@@ -8306,3 +8306,5 @@
 {"kind": "exit", "ts": 1794374724.1573968, "ticker": "KXITFWMATCH-26NOV10SAWSHI-SHI", "side": "yes", "price": 0.56, "contracts": 0.06, "fee": 0.01, "reason": "scalp", "trip": 1794374635}
 {"kind": "exit", "ts": 1794374724.1573968, "ticker": "KXITFWMATCH-26NOV10SAWSHI-SHI", "side": "yes", "price": 0.56, "contracts": 0.08, "fee": 0.01, "reason": "scalp", "trip": 1794374635}
 {"kind": "exit", "ts": 1794374724.1573968, "ticker": "KXITFWMATCH-26NOV10SAWSHI-SHI", "side": "yes", "price": 0.56, "contracts": 0.5, "fee": 0.01, "reason": "scalp", "trip": 1794374635}
+{"kind": "fill", "ts": 1794375149.7150285, "fee": 0.01, "trip": 1794375145, "ticker": "KXNBAGAME-26NOV10OKCPOR-OKC", "side": "no", "price": 0.51, "contracts": 1.0, "fill_ts": 1794375145.065958}
+{"kind": "exit", "ts": 1794375159.7151115, "ticker": "KXNBAGAME-26NOV10OKCPOR-OKC", "side": "no", "price": 0.51, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794375145}
