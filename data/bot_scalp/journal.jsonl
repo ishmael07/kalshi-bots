@@ -8447,3 +8447,5 @@
 {"kind": "exit", "ts": 1794416868.0068867, "ticker": "KXNEWZEALANDPARLI-26DEC31-NAT", "side": "no", "price": 0.529, "contracts": 0.5, "fee": 0.01, "reason": "scalp", "trip": 1794416543}
 {"kind": "fill", "ts": 1794416928.007499, "fee": 0.01, "trip": 1794416923, "ticker": "KXNEWZEALANDPARLI-26DEC31-NAT", "side": "yes", "price": 0.361, "contracts": 1.0, "fill_ts": 1794416923.841095}
 {"kind": "exit", "ts": 1794416978.0080206, "ticker": "KXNEWZEALANDPARLI-26DEC31-NAT", "side": "yes", "price": 0.359, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794416923}
+{"kind": "fill", "ts": 1794417316.3271534, "fee": 0.01, "trip": 1794417314, "ticker": "KXNCAAMBSPREAD-26NOV11UMKCFAMU-UMKC9", "side": "yes", "price": 0.49, "contracts": 1.0, "fill_ts": 1794417314.214199}
+{"kind": "exit", "ts": 1794417336.3273492, "ticker": "KXNCAAMBSPREAD-26NOV11UMKCFAMU-UMKC9", "side": "yes", "price": 0.52, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794417314}
