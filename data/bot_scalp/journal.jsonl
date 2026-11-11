@@ -8476,3 +8476,11 @@
 {"kind": "exit", "ts": 1794427380.976648, "ticker": "KXNCAAMBSPREAD-26NOV11DARTALBY-DART8", "side": "yes", "price": 0.54, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794427366}
 {"kind": "fill", "ts": 1794427420.9770608, "fee": 0.01, "trip": 1794427412, "ticker": "KXNCAAMBSPREAD-26NOV11DARTALBY-DART8", "side": "no", "price": 0.46, "contracts": 1.0, "fill_ts": 1794427412.727843}
 {"kind": "exit", "ts": 1794427450.9773226, "ticker": "KXNCAAMBSPREAD-26NOV11DARTALBY-DART8", "side": "no", "price": 0.21, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794427412}
+{"kind": "fill", "ts": 1794435100.0574918, "fee": 0.01, "trip": 1794435095, "ticker": "KXNCAAMBTOTAL-26NOV11LCHIAFA-197", "side": "no", "price": 0.29, "contracts": 1.0, "fill_ts": 1794435095.14101}
+{"kind": "fill", "ts": 1794435110.0575826, "fee": 0.01, "trip": 1794435100, "ticker": "KXNCAAMBSPREAD-26NOV11LCHIAFA-AFA14", "side": "no", "price": 0.45, "contracts": 1.0, "fill_ts": 1794435100.853915}
+{"kind": "exit", "ts": 1794435120.057672, "ticker": "KXNCAAMBTOTAL-26NOV11LCHIAFA-197", "side": "no", "price": 0.33, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794435095}
+{"kind": "exit", "ts": 1794435120.057672, "ticker": "KXNCAAMBSPREAD-26NOV11LCHIAFA-AFA14", "side": "no", "price": 0.53, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794435100}
+{"kind": "fill", "ts": 1794435130.057751, "fee": 0.01, "trip": 1794435123, "ticker": "KXNCAAMBSPREAD-26NOV11LCHIAFA-AFA14", "side": "yes", "price": 0.45, "contracts": 1.0, "fill_ts": 1794435123.087121}
+{"kind": "exit", "ts": 1794435130.057751, "ticker": "KXNCAAMBSPREAD-26NOV11LCHIAFA-AFA14", "side": "yes", "price": 0.6, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794435123}
+{"kind": "fill", "ts": 1794435340.059727, "fee": 0.01, "trip": 1794435331, "ticker": "KXNCAAMBSPREAD-26NOV11USFJOES-JOES2", "side": "yes", "price": 0.46, "contracts": 1.0, "fill_ts": 1794435331.194457}
+{"kind": "exit", "ts": 1794435360.0599046, "ticker": "KXNCAAMBSPREAD-26NOV11USFJOES-JOES2", "side": "yes", "price": 0.72, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794435331}
