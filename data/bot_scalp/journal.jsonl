@@ -8566,3 +8566,11 @@
 {"kind": "exit", "ts": 1794440939.1494503, "ticker": "KXBRASILEIROBGAME-26NOV11LONNAU-TIE", "side": "no", "price": 0.47, "contracts": 0.06, "fee": 0.01, "reason": "scalp", "trip": 1794440929}
 {"kind": "fill", "ts": 1794440949.1495526, "fee": 0.01, "trip": 1794440946, "ticker": "KXNCAAMBSPREAD-26NOV11COOKSDSU-SDSU11", "side": "no", "price": 0.52, "contracts": 1.0, "fill_ts": 1794440946.601807}
 {"kind": "exit", "ts": 1794440969.1500566, "ticker": "KXNCAAMBSPREAD-26NOV11COOKSDSU-SDSU11", "side": "no", "price": 0.51, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794440946}
+{"kind": "fill", "ts": 1794441453.9801364, "fee": 0.01, "trip": 1794441345, "ticker": "KXNCAAMBTOTAL-26NOV11COOKSDSU-162", "side": "yes", "price": 0.34, "contracts": 1.0, "fill_ts": 1794441345.403165}
+{"kind": "exit", "ts": 1794441453.9801364, "ticker": "KXNCAAMBTOTAL-26NOV11COOKSDSU-162", "side": "yes", "price": 0.49, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794441345}
+{"kind": "fill", "ts": 1794441463.9802785, "fee": 0.01, "trip": 1794441456, "ticker": "KXNCAAMBTOTAL-26NOV11COOKSDSU-162", "side": "yes", "price": 0.46, "contracts": 1.0, "fill_ts": 1794441456.725531}
+{"kind": "exit", "ts": 1794441483.9804482, "ticker": "KXNCAAMBTOTAL-26NOV11COOKSDSU-162", "side": "yes", "price": 0.55, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794441456}
+{"kind": "fill", "ts": 1794441493.980567, "fee": 0.01, "trip": 1794441484, "ticker": "KXNCAAMBTOTAL-26NOV11COOKSDSU-162", "side": "no", "price": 0.47, "contracts": 1.0, "fill_ts": 1794441484.560833}
+{"kind": "exit", "ts": 1794441493.980567, "ticker": "KXNCAAMBTOTAL-26NOV11COOKSDSU-162", "side": "no", "price": 0.5, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794441484}
+{"kind": "fill", "ts": 1794441503.9806666, "fee": 0.01, "trip": 1794441499, "ticker": "KXNCAAMBTOTAL-26NOV11COOKSDSU-162", "side": "no", "price": 0.45, "contracts": 1.0, "fill_ts": 1794441499.381465}
+{"kind": "exit", "ts": 1794441543.981071, "ticker": "KXNCAAMBTOTAL-26NOV11COOKSDSU-162", "side": "no", "price": 0.32, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794441499}
