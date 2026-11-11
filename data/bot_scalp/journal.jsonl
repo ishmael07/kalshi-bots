@@ -8370,3 +8370,4 @@
 {"kind": "exit", "ts": 1794393672.6609328, "ticker": "KXCS2SPREAD-26NOV110430G2MOUZ-MOUZ2", "side": "no", "price": 0.51, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794393242}
 {"kind": "fill", "ts": 1794396834.6654208, "fee": 0.01, "trip": 1794396827, "ticker": "KXCS2SPREAD-26NOV110430G2MOUZ-MOUZ2", "side": "no", "price": 0.42, "contracts": 1.0, "fill_ts": 1794396827.205808}
 {"kind": "exit", "ts": 1794397004.6669927, "ticker": "KXCS2SPREAD-26NOV110430G2MOUZ-MOUZ2", "side": "no", "price": 0.35, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794396827}
+{"kind": "settle", "ts": 1794397613.896416, "ticker": "KXNBA4Q-26NOV10OKCPOR-POR", "result": "yes", "pnl": -0.17, "equity": 4.6263}
