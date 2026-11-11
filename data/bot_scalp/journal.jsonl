@@ -8531,3 +8531,13 @@
 {"kind": "exit", "ts": 1794439097.9074712, "ticker": "KXNCAAMBTOTAL-26NOV11NCATECU-131", "side": "no", "price": 0.43, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794439080}
 {"kind": "fill", "ts": 1794439107.9076374, "fee": 0.01, "trip": 1794439102, "ticker": "KXNCAAMBTOTAL-26NOV11NCATECU-131", "side": "no", "price": 0.1, "contracts": 1.0, "fill_ts": 1794439102.577297}
 {"kind": "exit", "ts": 1794439117.9077632, "ticker": "KXNCAAMBTOTAL-26NOV11NCATECU-131", "side": "no", "price": 0.22, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794439102}
+{"kind": "fill", "ts": 1794439740.4143634, "fee": 0.01, "trip": 1794439731, "ticker": "KXITFWMATCH-26NOV11LIUSCH-SCH", "side": "yes", "price": 0.46, "contracts": 1.0, "fill_ts": 1794439731.456328}
+{"kind": "exit", "ts": 1794439750.4144402, "ticker": "KXITFWMATCH-26NOV11LIUSCH-SCH", "side": "yes", "price": 0.42, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794439731}
+{"kind": "fill", "ts": 1794439870.4156275, "fee": 0.01, "trip": 1794439861, "ticker": "KXITFWMATCH-26NOV11LIUSCH-SCH", "side": "yes", "price": 0.51, "contracts": 1.0, "fill_ts": 1794439861.707638}
+{"kind": "exit", "ts": 1794439890.415803, "ticker": "KXITFWMATCH-26NOV11LIUSCH-SCH", "side": "yes", "price": 0.47, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794439861}
+{"kind": "fill", "ts": 1794439900.416004, "fee": 0.01, "trip": 1794439895, "ticker": "KXITFWMATCH-26NOV11LIUSCH-SCH", "side": "no", "price": 0.52, "contracts": 1.0, "fill_ts": 1794439895.989013}
+{"kind": "exit", "ts": 1794439930.416279, "ticker": "KXITFWMATCH-26NOV11LIUSCH-SCH", "side": "no", "price": 0.48, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794439895}
+{"kind": "fill", "ts": 1794439950.4164772, "fee": 0.01, "trip": 1794439942, "ticker": "KXITFWMATCH-26NOV11LIUSCH-SCH", "side": "no", "price": 0.47, "contracts": 1.0, "fill_ts": 1794439942.169344}
+{"kind": "exit", "ts": 1794439980.4167526, "ticker": "KXITFWMATCH-26NOV11LIUSCH-SCH", "side": "no", "price": 0.48, "contracts": 0.13, "fee": 0.01, "reason": "scalp", "trip": 1794439942}
+{"kind": "exit", "ts": 1794439980.4167526, "ticker": "KXITFWMATCH-26NOV11LIUSCH-SCH", "side": "no", "price": 0.48, "contracts": 0.01, "fee": 0.01, "reason": "scalp", "trip": 1794439942}
+{"kind": "exit", "ts": 1794439980.4167526, "ticker": "KXITFWMATCH-26NOV11LIUSCH-SCH", "side": "no", "price": 0.48, "contracts": 0.86, "fee": 0.01, "reason": "scalp", "trip": 1794439942}
