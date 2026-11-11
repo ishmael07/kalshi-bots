@@ -8355,3 +8355,10 @@
 {"kind": "exit", "ts": 1794383407.499692, "ticker": "KXT20MATCH-26NOV102315FFTINSHNBATEAM-FFTINS", "side": "no", "price": 0.51, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794383335}
 {"kind": "fill", "ts": 1794383577.501354, "fee": 0.01, "trip": 1794383572, "ticker": "KXT20MATCH-26NOV102315FFTINSHNBATEAM-FFTINS", "side": "yes", "price": 0.46, "contracts": 1.0, "fill_ts": 1794383572.406343}
 {"kind": "exit", "ts": 1794383597.5015275, "ticker": "KXT20MATCH-26NOV102315FFTINSHNBATEAM-FFTINS", "side": "yes", "price": 0.31, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794383572}
+{"kind": "fill", "ts": 1794387741.5455177, "fee": 0.01, "trip": 1794387731, "ticker": "KXITFMATCH-26NOV11HAIRAD-HAI", "side": "no", "price": 0.48, "contracts": 0.47, "fill_ts": 1794387731.870198}
+{"kind": "fill", "ts": 1794387741.5455177, "fee": 0.01, "trip": 1794387731, "ticker": "KXITFMATCH-26NOV11HAIRAD-HAI", "side": "no", "price": 0.48, "contracts": 0.53, "fill_ts": 1794387731.870198}
+{"kind": "exit", "ts": 1794387751.5456233, "ticker": "KXITFMATCH-26NOV11HAIRAD-HAI", "side": "no", "price": 0.46, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794387731}
+{"kind": "fill", "ts": 1794387851.5465596, "fee": 0.01, "trip": 1794387841, "ticker": "KXITFMATCH-26NOV11HAIRAD-HAI", "side": "no", "price": 0.47, "contracts": 1.0, "fill_ts": 1794387841.787804}
+{"kind": "exit", "ts": 1794387861.5466516, "ticker": "KXITFMATCH-26NOV11HAIRAD-HAI", "side": "no", "price": 0.55, "contracts": 0.15, "fee": 0.01, "reason": "scalp", "trip": 1794387841}
+{"kind": "exit", "ts": 1794387861.5466516, "ticker": "KXITFMATCH-26NOV11HAIRAD-HAI", "side": "no", "price": 0.55, "contracts": 0.05, "fee": 0.01, "reason": "scalp", "trip": 1794387841}
+{"kind": "exit", "ts": 1794387861.5466516, "ticker": "KXITFMATCH-26NOV11HAIRAD-HAI", "side": "no", "price": 0.55, "contracts": 0.8, "fee": 0.01, "reason": "scalp", "trip": 1794387841}
