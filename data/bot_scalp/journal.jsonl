@@ -8314,3 +8314,9 @@
 {"kind": "exit", "ts": 1794375619.7202036, "ticker": "KXITFMATCH-26NOV10VANNAK-NAK", "side": "yes", "price": 0.44, "contracts": 0.28, "fee": 0.01, "reason": "scalp", "trip": 1794375601}
 {"kind": "exit", "ts": 1794375619.7202036, "ticker": "KXITFMATCH-26NOV10VANNAK-NAK", "side": "yes", "price": 0.44, "contracts": 0.72, "fee": 0.01, "reason": "scalp", "trip": 1794375601}
 {"kind": "fill", "ts": 1794375718.3225608, "fee": 0.01, "trip": 1794375636, "ticker": "KXFEATURE-26GTA6-BAD", "side": "no", "price": 0.51, "contracts": 1.0, "fill_ts": 1794375636.922267}
+{"kind": "fill", "ts": 1794376340.2813663, "fee": 0.01, "trip": 1794376231, "ticker": "KXITFWMATCH-26NOV10LUOSHI-SHI", "side": "yes", "price": 0.51, "contracts": 0.24, "fill_ts": 1794376231.904328}
+{"kind": "fill", "ts": 1794376340.2813663, "fee": 0.01, "trip": 1794376231, "ticker": "KXITFWMATCH-26NOV10LUOSHI-SHI", "side": "yes", "price": 0.51, "contracts": 0.76, "fill_ts": 1794376231.904328}
+{"kind": "exit", "ts": 1794376340.2813663, "ticker": "KXITFWMATCH-26NOV10LUOSHI-SHI", "side": "yes", "price": 0.53, "contracts": 0.02, "fee": 0.01, "reason": "scalp", "trip": 1794376231}
+{"kind": "exit", "ts": 1794376340.2813663, "ticker": "KXITFWMATCH-26NOV10LUOSHI-SHI", "side": "yes", "price": 0.53, "contracts": 0.98, "fee": 0.01, "reason": "scalp", "trip": 1794376231}
+{"kind": "cancel", "ts": 1794376540.283501, "ticker": "KXFEATURE-26GTA6-BAD", "reason": "time stop"}
+{"kind": "exit", "ts": 1794376540.283501, "ticker": "KXFEATURE-26GTA6-BAD", "side": "no", "price": 0.46, "contracts": 1.0, "fee": 0.02, "pnl": -0.07, "reason": "time stop", "trip": 1794375636}
