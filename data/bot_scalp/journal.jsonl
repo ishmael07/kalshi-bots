@@ -8470,3 +8470,9 @@
 {"kind": "exit", "ts": 1794427260.97558, "ticker": "KXNCAAMBSPREAD-26NOV11DARTALBY-DART8", "side": "no", "price": 0.49, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794427250}
 {"kind": "fill", "ts": 1794427270.975664, "fee": 0.01, "trip": 1794427262, "ticker": "KXNCAAMBSPREAD-26NOV11DARTALBY-DART8", "side": "no", "price": 0.42, "contracts": 1.0, "fill_ts": 1794427262.364594}
 {"kind": "exit", "ts": 1794427270.975664, "ticker": "KXNCAAMBSPREAD-26NOV11DARTALBY-DART8", "side": "no", "price": 0.5, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794427262}
+{"kind": "fill", "ts": 1794427350.9763482, "fee": 0.01, "trip": 1794427344, "ticker": "KXNCAAMBTOTAL-26NOV11DARTALBY-162", "side": "yes", "price": 0.46, "contracts": 1.0, "fill_ts": 1794427344.219893}
+{"kind": "exit", "ts": 1794427370.9765534, "ticker": "KXNCAAMBTOTAL-26NOV11DARTALBY-162", "side": "yes", "price": 0.2, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794427344}
+{"kind": "fill", "ts": 1794427370.9765534, "fee": 0.01, "trip": 1794427366, "ticker": "KXNCAAMBSPREAD-26NOV11DARTALBY-DART8", "side": "yes", "price": 0.5, "contracts": 1.0, "fill_ts": 1794427366.030183}
+{"kind": "exit", "ts": 1794427380.976648, "ticker": "KXNCAAMBSPREAD-26NOV11DARTALBY-DART8", "side": "yes", "price": 0.54, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794427366}
+{"kind": "fill", "ts": 1794427420.9770608, "fee": 0.01, "trip": 1794427412, "ticker": "KXNCAAMBSPREAD-26NOV11DARTALBY-DART8", "side": "no", "price": 0.46, "contracts": 1.0, "fill_ts": 1794427412.727843}
+{"kind": "exit", "ts": 1794427450.9773226, "ticker": "KXNCAAMBSPREAD-26NOV11DARTALBY-DART8", "side": "no", "price": 0.21, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794427412}
