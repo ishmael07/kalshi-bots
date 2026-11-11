@@ -8505,3 +8505,10 @@
 {"kind": "fill", "ts": 1794436372.0430086, "fee": 0.01, "trip": 1794436368, "ticker": "KXNCAAMBSPREAD-26NOV11COOKSDSU-SDSU18", "side": "yes", "price": 0.5, "contracts": 0.01, "fill_ts": 1794436368.791031}
 {"kind": "exit", "ts": 1794436412.04336, "ticker": "KXNCAAMBSPREAD-26NOV11COOKSDSU-SDSU18", "side": "yes", "price": 0.53, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794436368}
 {"kind": "fill", "ts": 1794436542.044475, "fee": 0.01, "trip": 1794436534, "ticker": "KXNCAAMBSPREAD-26NOV11COOKSDSU-SDSU18", "side": "yes", "price": 0.51, "contracts": 1.0, "fill_ts": 1794436534.929654}
+{"kind": "exit", "ts": 1794436562.0446713, "ticker": "KXNCAAMBSPREAD-26NOV11COOKSDSU-SDSU18", "side": "yes", "price": 0.55, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794436534}
+{"kind": "fill", "ts": 1794436582.044848, "fee": 0.01, "trip": 1794436572, "ticker": "KXNCAAMBSPREAD-26NOV11COOKSDSU-SDSU18", "side": "no", "price": 0.46, "contracts": 1.0, "fill_ts": 1794436572.913732}
+{"kind": "exit", "ts": 1794436592.0449362, "ticker": "KXNCAAMBSPREAD-26NOV11COOKSDSU-SDSU18", "side": "no", "price": 0.48, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794436572}
+{"kind": "fill", "ts": 1794436602.0450265, "fee": 0.01, "trip": 1794436597, "ticker": "KXNCAAMBSPREAD-26NOV11COOKSDSU-SDSU18", "side": "yes", "price": 0.52, "contracts": 1.0, "fill_ts": 1794436597.38617}
+{"kind": "exit", "ts": 1794436682.045744, "ticker": "KXNCAAMBSPREAD-26NOV11COOKSDSU-SDSU18", "side": "yes", "price": 0.48, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794436597}
+{"kind": "fill", "ts": 1794436862.2134385, "fee": 0.01, "trip": 1794436854, "ticker": "KXNCAAMBSPREAD-26NOV11COOKSDSU-SDSU18", "side": "yes", "price": 0.47, "contracts": 1.0, "fill_ts": 1794436854.860417}
+{"kind": "exit", "ts": 1794436892.2137098, "ticker": "KXNCAAMBSPREAD-26NOV11COOKSDSU-SDSU18", "side": "yes", "price": 0.45, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794436854}
