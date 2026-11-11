@@ -8402,3 +8402,5 @@
 {"kind": "exit", "ts": 1794407170.6562636, "ticker": "KXWT20MATCH-26NOV110600USAWNAMW-USAW", "side": "no", "price": 0.53, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794407166}
 {"kind": "fill", "ts": 1794407180.6563742, "fee": 0.01, "trip": 1794407171, "ticker": "KXWT20MATCH-26NOV110600USAWNAMW-USAW", "side": "no", "price": 0.48, "contracts": 1.0, "fill_ts": 1794407171.481259}
 {"kind": "exit", "ts": 1794407180.6563742, "ticker": "KXWT20MATCH-26NOV110600USAWNAMW-USAW", "side": "no", "price": 0.53, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794407171}
+{"kind": "fill", "ts": 1794408043.1310027, "fee": 0.01, "trip": 1794408033, "ticker": "KXITFMATCH-26NOV11CHEPAO-CHE", "side": "no", "price": 0.48, "contracts": 1.0, "fill_ts": 1794408033.170016}
+{"kind": "exit", "ts": 1794408043.1310027, "ticker": "KXITFMATCH-26NOV11CHEPAO-CHE", "side": "no", "price": 0.56, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794408033}
