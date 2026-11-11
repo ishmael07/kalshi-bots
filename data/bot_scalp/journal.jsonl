@@ -8516,3 +8516,5 @@
 {"kind": "exit", "ts": 1794437511.7676327, "ticker": "KXNCAAMBTOTAL-26NOV11NCATECU-140", "side": "yes", "price": 0.46, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794437495}
 {"kind": "fill", "ts": 1794437541.7679067, "fee": 0.01, "trip": 1794437537, "ticker": "KXNCAAMBTOTAL-26NOV11NCATECU-140", "side": "yes", "price": 0.48, "contracts": 1.0, "fill_ts": 1794437537.682025}
 {"kind": "exit", "ts": 1794437551.7679968, "ticker": "KXNCAAMBTOTAL-26NOV11NCATECU-140", "side": "yes", "price": 0.47, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794437537}
+{"kind": "fill", "ts": 1794438548.4905124, "fee": 0.01, "trip": 1794438539, "ticker": "KXWTASETWINNER-26NOV11SABAND-1-SAB", "side": "no", "price": 0.5, "contracts": 1.0, "fill_ts": 1794438539.746013}
+{"kind": "exit", "ts": 1794438548.4905124, "ticker": "KXWTASETWINNER-26NOV11SABAND-1-SAB", "side": "no", "price": 0.53, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794438539}
