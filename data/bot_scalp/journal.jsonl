@@ -8417,3 +8417,11 @@
 {"kind": "fill", "ts": 1794414410.060451, "fee": 0.01, "trip": 1794414402, "ticker": "KXITFMATCH-26NOV11ALBDUT-ALB", "side": "yes", "price": 0.43, "contracts": 0.35, "fill_ts": 1794414402.251161}
 {"kind": "fill", "ts": 1794414410.060451, "fee": 0.01, "trip": 1794414402, "ticker": "KXITFMATCH-26NOV11ALBDUT-ALB", "side": "yes", "price": 0.43, "contracts": 0.29, "fill_ts": 1794414402.251161}
 {"kind": "exit", "ts": 1794414410.060451, "ticker": "KXITFMATCH-26NOV11ALBDUT-ALB", "side": "yes", "price": 0.53, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794414402}
+{"kind": "fill", "ts": 1794415371.7730224, "fee": 0.01, "trip": 1794415364, "ticker": "KXITFMATCH-26NOV11DEAVAN-VAN", "side": "yes", "price": 0.49, "contracts": 0.25, "fill_ts": 1794415364.276436}
+{"kind": "fill", "ts": 1794415371.7730224, "fee": 0.01, "trip": 1794415364, "ticker": "KXITFMATCH-26NOV11DEAVAN-VAN", "side": "yes", "price": 0.49, "contracts": 0.01, "fill_ts": 1794415364.276436}
+{"kind": "exit", "ts": 1794415441.773728, "ticker": "KXITFMATCH-26NOV11DEAVAN-VAN", "side": "yes", "price": 0.48, "contracts": 0.05, "fee": 0.01, "reason": "scalp", "trip": 1794415364}
+{"kind": "exit", "ts": 1794415441.773728, "ticker": "KXITFMATCH-26NOV11DEAVAN-VAN", "side": "yes", "price": 0.48, "contracts": 0.21, "fee": 0.01, "reason": "scalp", "trip": 1794415364}
+{"kind": "fill", "ts": 1794415471.7740285, "fee": 0.01, "trip": 1794415469, "ticker": "KXNCAAMBTOTAL-26NOV11FDUETAM-138", "side": "yes", "price": 0.49, "contracts": 1.0, "fill_ts": 1794415469.390518}
+{"kind": "exit", "ts": 1794415471.7740285, "ticker": "KXNCAAMBTOTAL-26NOV11FDUETAM-138", "side": "yes", "price": 0.51, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794415469}
+{"kind": "fill", "ts": 1794415531.7745905, "fee": 0.01, "trip": 1794415522, "ticker": "KXITFMATCH-26NOV11DEAVAN-VAN", "side": "no", "price": 0.47, "contracts": 1.0, "fill_ts": 1794415522.498868}
+{"kind": "exit", "ts": 1794415541.7746975, "ticker": "KXITFMATCH-26NOV11DEAVAN-VAN", "side": "no", "price": 0.51, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794415522}
