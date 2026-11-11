@@ -8453,3 +8453,6 @@
 {"kind": "exit", "ts": 1794419067.2377617, "ticker": "KXCS2GAME-26NOV111000BAKSNXS-NXS", "side": "yes", "price": 0.5, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794419047}
 {"kind": "fill", "ts": 1794420909.7095516, "fee": 0.01, "trip": 1794420906, "ticker": "KXITFWMATCH-26NOV11ROCSAH-ROC", "side": "yes", "price": 0.45, "contracts": 1.0, "fill_ts": 1794420906.083338}
 {"kind": "exit", "ts": 1794420949.7099402, "ticker": "KXITFWMATCH-26NOV11ROCSAH-ROC", "side": "yes", "price": 0.41, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794420906}
+{"kind": "fill", "ts": 1794426624.0057383, "fee": 0.01, "trip": 1794426616, "ticker": "KXITFMATCH-26NOV11SHECOR-COR", "side": "no", "price": 0.45, "contracts": 0.25, "fill_ts": 1794426616.009603}
+{"kind": "fill", "ts": 1794426624.0057383, "fee": 0.01, "trip": 1794426616, "ticker": "KXITFMATCH-26NOV11SHECOR-COR", "side": "no", "price": 0.45, "contracts": 0.75, "fill_ts": 1794426616.009603}
+{"kind": "exit", "ts": 1794426734.0066178, "ticker": "KXITFMATCH-26NOV11SHECOR-COR", "side": "no", "price": 0.31, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794426616}
