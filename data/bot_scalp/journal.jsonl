@@ -8368,3 +8368,4 @@
 {"kind": "exit", "ts": 1794392158.8296962, "ticker": "KXITFWMATCH-26NOV11PEDARG-ARG", "side": "no", "price": 0.46, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794392110}
 {"kind": "fill", "ts": 1794393243.3605165, "fee": 0.01, "trip": 1794393242, "ticker": "KXCS2SPREAD-26NOV110430G2MOUZ-MOUZ2", "side": "no", "price": 0.35, "contracts": 1.0, "fill_ts": 1794393242.274902}
 {"kind": "exit", "ts": 1794393672.6609328, "ticker": "KXCS2SPREAD-26NOV110430G2MOUZ-MOUZ2", "side": "no", "price": 0.51, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794393242}
+{"kind": "fill", "ts": 1794396834.6654208, "fee": 0.01, "trip": 1794396827, "ticker": "KXCS2SPREAD-26NOV110430G2MOUZ-MOUZ2", "side": "no", "price": 0.42, "contracts": 1.0, "fill_ts": 1794396827.205808}
