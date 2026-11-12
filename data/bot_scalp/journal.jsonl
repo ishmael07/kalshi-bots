@@ -8690,3 +8690,4 @@
 {"kind": "exit", "ts": 1794523636.150409, "ticker": "KXNCAAWBTOTAL-26NOV12HCBRWN-121", "side": "no", "price": 0.55, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794523622}
 {"kind": "fill", "ts": 1794523666.1507936, "fee": 0.01, "trip": 1794523657, "ticker": "KXNCAAWBTOTAL-26NOV12HCBRWN-121", "side": "no", "price": 0.44, "contracts": 1.0, "fill_ts": 1794523657.590345}
 {"kind": "exit", "ts": 1794523676.1509078, "ticker": "KXNCAAWBTOTAL-26NOV12HCBRWN-121", "side": "no", "price": 0.39, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794523657}
+{"kind": "fill", "ts": 1794527069.8112254, "fee": 0.01, "trip": 1794527064, "ticker": "KXITFMATCH-26NOV12DEATHO-DEA", "side": "yes", "price": 0.48, "contracts": 1.0, "fill_ts": 1794527064.466691}
