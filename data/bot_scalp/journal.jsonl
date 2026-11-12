@@ -8616,3 +8616,5 @@
 {"kind": "exit", "ts": 1794453879.9900541, "ticker": "KXNBASPREAD-26NOV11DENMEM-DEN4", "side": "no", "price": 0.44, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794453863}
 {"kind": "fill", "ts": 1794455135.3086188, "fee": 0.01, "trip": 1794455125, "ticker": "KXITFWMATCH-26NOV11RODWOL-WOL", "side": "no", "price": 0.47, "contracts": 1.0, "fill_ts": 1794455125.700432}
 {"kind": "exit", "ts": 1794455135.3086188, "ticker": "KXITFWMATCH-26NOV11RODWOL-WOL", "side": "no", "price": 0.53, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794455125}
+{"kind": "fill", "ts": 1794457302.3265963, "fee": 0.01, "trip": 1794457295, "ticker": "KXNBATOTAL-26NOV11GSWHOU-217", "side": "yes", "price": 0.47, "contracts": 1.0, "fill_ts": 1794457295.199202}
+{"kind": "exit", "ts": 1794457342.326993, "ticker": "KXNBATOTAL-26NOV11GSWHOU-217", "side": "yes", "price": 0.48, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794457295}
