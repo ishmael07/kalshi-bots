@@ -8603,3 +8603,6 @@
 {"kind": "exit", "ts": 1794443156.543258, "ticker": "KXNCAAMBSPREAD-26NOV11MARQMICH-MICH4", "side": "no", "price": 0.52, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794442901}
 {"kind": "fill", "ts": 1794443523.3018458, "fee": 0.01, "trip": 1794443515, "ticker": "KXNCAAMBGAME-26NOV11MILWINST-MILW", "side": "no", "price": 0.49, "contracts": 1.0, "fill_ts": 1794443515.82121}
 {"kind": "exit", "ts": 1794443593.3026211, "ticker": "KXNCAAMBGAME-26NOV11MILWINST-MILW", "side": "no", "price": 0.38, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794443515}
+{"kind": "fill", "ts": 1794446057.2702472, "fee": 0.01, "trip": 1794446055, "ticker": "KXNCAAFTOTAL-26NOV11MASSTOL-52", "side": "no", "price": 0.42, "contracts": 1.0, "fill_ts": 1794446055.994603}
+{"kind": "exit", "ts": 1794446087.2705534, "ticker": "KXNCAAFTOTAL-26NOV11MASSTOL-52", "side": "no", "price": 0.51, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794446055}
+{"kind": "fill", "ts": 1794446097.2706332, "fee": 0.01, "trip": 1794446089, "ticker": "KXNCAAFTOTAL-26NOV11MASSTOL-52", "side": "yes", "price": 0.46, "contracts": 0.01, "fill_ts": 1794446089.432228}
