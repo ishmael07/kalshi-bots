@@ -8619,3 +8619,8 @@
 {"kind": "fill", "ts": 1794457302.3265963, "fee": 0.01, "trip": 1794457295, "ticker": "KXNBATOTAL-26NOV11GSWHOU-217", "side": "yes", "price": 0.47, "contracts": 1.0, "fill_ts": 1794457295.199202}
 {"kind": "exit", "ts": 1794457342.326993, "ticker": "KXNBATOTAL-26NOV11GSWHOU-217", "side": "yes", "price": 0.48, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794457295}
 {"kind": "settle", "ts": 1794458688.430446, "ticker": "KXBRASILEIROBTOTAL-26NOV11LONNAU-1", "result": "yes", "pnl": -0.5, "equity": 4.3884}
+{"kind": "fill", "ts": 1794502148.488014, "fee": 0.01, "trip": 1794502143, "ticker": "KXAFCONTOTAL-26NOV12GHASOM-3", "side": "yes", "price": 0.37, "contracts": 1.0, "fill_ts": 1794502143.966364}
+{"kind": "exit", "ts": 1794502158.4881825, "ticker": "KXAFCONTOTAL-26NOV12GHASOM-3", "side": "yes", "price": 0.35, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794502143}
+{"kind": "fill", "ts": 1794502208.488825, "fee": 0.01, "trip": 1794502204, "ticker": "KXAFCONTOTAL-26NOV12GHASOM-3", "side": "yes", "price": 0.38, "contracts": 0.5, "fill_ts": 1794502204.542036}
+{"kind": "fill", "ts": 1794502208.488825, "fee": 0.01, "trip": 1794502204, "ticker": "KXAFCONTOTAL-26NOV12GHASOM-3", "side": "yes", "price": 0.38, "contracts": 0.5, "fill_ts": 1794502204.542036}
+{"kind": "exit", "ts": 1794502218.4889536, "ticker": "KXAFCONTOTAL-26NOV12GHASOM-3", "side": "yes", "price": 0.46, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794502204}
