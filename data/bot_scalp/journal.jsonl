@@ -8588,3 +8588,6 @@
 {"kind": "exit", "ts": 1794442279.3439198, "ticker": "KXNBA1QSPREAD-26NOV11BOSTOR-BOS2", "side": "no", "price": 0.47, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794442094}
 {"kind": "fill", "ts": 1794442289.344007, "fee": 0.01, "trip": 1794442279, "ticker": "KXNBA1QSPREAD-26NOV11BOSTOR-BOS2", "side": "no", "price": 0.46, "contracts": 1.0, "fill_ts": 1794442279.443135}
 {"kind": "exit", "ts": 1794442309.3441794, "ticker": "KXRAIN-26NOV11-CMH", "side": "no", "price": 0.48, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794442201}
+{"kind": "fill", "ts": 1794442349.3445582, "fee": 0.01, "trip": 1794442346, "ticker": "KXRAIN-26NOV11-CMH", "side": "no", "price": 0.47, "contracts": 1.0, "fill_ts": 1794442346.028758}
+{"kind": "exit", "ts": 1794442379.344817, "ticker": "KXRAIN-26NOV11-CMH", "side": "no", "price": 0.48, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794442346}
+{"kind": "exit", "ts": 1794442449.345584, "ticker": "KXNBA1QSPREAD-26NOV11BOSTOR-BOS2", "side": "no", "price": 0.37, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794442279}
