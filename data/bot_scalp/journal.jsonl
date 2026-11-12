@@ -8607,3 +8607,8 @@
 {"kind": "exit", "ts": 1794446087.2705534, "ticker": "KXNCAAFTOTAL-26NOV11MASSTOL-52", "side": "no", "price": 0.51, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794446055}
 {"kind": "fill", "ts": 1794446097.2706332, "fee": 0.01, "trip": 1794446089, "ticker": "KXNCAAFTOTAL-26NOV11MASSTOL-52", "side": "yes", "price": 0.46, "contracts": 0.01, "fill_ts": 1794446089.432228}
 {"kind": "exit", "ts": 1794446552.8312361, "ticker": "KXNCAAFTOTAL-26NOV11MASSTOL-52", "side": "yes", "price": 0.39, "contracts": 0.01, "fee": 0.01, "reason": "scalp", "trip": 1794446089}
+{"kind": "fill", "ts": 1794453432.229636, "fee": 0.01, "trip": 1794453424, "ticker": "KXNBATOTAL-26NOV11SASCHI-240", "side": "yes", "price": 0.45, "contracts": 1.0, "fill_ts": 1794453424.263312}
+{"kind": "exit", "ts": 1794453442.2297366, "ticker": "KXNBATOTAL-26NOV11SASCHI-240", "side": "yes", "price": 0.38, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794453424}
+{"kind": "fill", "ts": 1794453452.2298987, "fee": 0.01, "trip": 1794453447, "ticker": "KXNBATOTAL-26NOV11SASCHI-240", "side": "no", "price": 0.4, "contracts": 1.0, "fill_ts": 1794453447.536881}
+{"kind": "exit", "ts": 1794453452.2298987, "ticker": "KXNBATOTAL-26NOV11SASCHI-240", "side": "no", "price": 0.54, "contracts": 0.01, "fee": 0.01, "reason": "scalp", "trip": 1794453447}
+{"kind": "exit", "ts": 1794453452.2298987, "ticker": "KXNBATOTAL-26NOV11SASCHI-240", "side": "no", "price": 0.54, "contracts": 0.99, "fee": 0.01, "reason": "scalp", "trip": 1794453447}
