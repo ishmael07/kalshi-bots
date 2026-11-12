@@ -8628,3 +8628,9 @@
 {"kind": "exit", "ts": 1794519587.3748562, "ticker": "KXUEFANLSPREAD-26NOV12CZEESP-ESP2", "side": "no", "price": 0.6, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794519577}
 {"kind": "fill", "ts": 1794519597.375008, "fee": 0.01, "trip": 1794519588, "ticker": "KXUEFANLTOTAL-26NOV12CZEESP-2", "side": "no", "price": 0.1, "contracts": 1.0, "fill_ts": 1794519588.811524}
 {"kind": "exit", "ts": 1794519597.375008, "ticker": "KXUEFANLTOTAL-26NOV12CZEESP-2", "side": "no", "price": 0.63, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794519588}
+{"kind": "fill", "ts": 1794519986.7380264, "fee": 0.01, "trip": 1794519985, "ticker": "KXWTASETWINNER-26NOV12KOSGAU-2-KOS", "side": "yes", "price": 0.5, "contracts": 1.0, "fill_ts": 1794519985.069286}
+{"kind": "exit", "ts": 1794520006.7382727, "ticker": "KXWTASETWINNER-26NOV12KOSGAU-2-KOS", "side": "yes", "price": 0.49, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794519985}
+{"kind": "fill", "ts": 1794520066.7389832, "fee": 0.01, "trip": 1794520057, "ticker": "KXNCAAMBSPREAD-26NOV12UMKCGMU-GMU13", "side": "yes", "price": 0.46, "contracts": 1.0, "fill_ts": 1794520057.381875}
+{"kind": "exit", "ts": 1794520076.7391138, "ticker": "KXNCAAMBSPREAD-26NOV12UMKCGMU-GMU13", "side": "yes", "price": 0.46, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794520057}
+{"kind": "fill", "ts": 1794520086.7392397, "fee": 0.01, "trip": 1794520077, "ticker": "KXNCAAMBSPREAD-26NOV12UMKCGMU-GMU13", "side": "no", "price": 0.49, "contracts": 1.0, "fill_ts": 1794520077.381376}
+{"kind": "exit", "ts": 1794520086.7392397, "ticker": "KXNCAAMBSPREAD-26NOV12UMKCGMU-GMU13", "side": "no", "price": 0.54, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794520077}
