@@ -8624,3 +8624,7 @@
 {"kind": "fill", "ts": 1794502208.488825, "fee": 0.01, "trip": 1794502204, "ticker": "KXAFCONTOTAL-26NOV12GHASOM-3", "side": "yes", "price": 0.38, "contracts": 0.5, "fill_ts": 1794502204.542036}
 {"kind": "fill", "ts": 1794502208.488825, "fee": 0.01, "trip": 1794502204, "ticker": "KXAFCONTOTAL-26NOV12GHASOM-3", "side": "yes", "price": 0.38, "contracts": 0.5, "fill_ts": 1794502204.542036}
 {"kind": "exit", "ts": 1794502218.4889536, "ticker": "KXAFCONTOTAL-26NOV12GHASOM-3", "side": "yes", "price": 0.46, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794502204}
+{"kind": "fill", "ts": 1794519587.3748562, "fee": 0.01, "trip": 1794519577, "ticker": "KXUEFANLSPREAD-26NOV12CZEESP-ESP2", "side": "no", "price": 0.32, "contracts": 1.0, "fill_ts": 1794519577.610631}
+{"kind": "exit", "ts": 1794519587.3748562, "ticker": "KXUEFANLSPREAD-26NOV12CZEESP-ESP2", "side": "no", "price": 0.6, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794519577}
+{"kind": "fill", "ts": 1794519597.375008, "fee": 0.01, "trip": 1794519588, "ticker": "KXUEFANLTOTAL-26NOV12CZEESP-2", "side": "no", "price": 0.1, "contracts": 1.0, "fill_ts": 1794519588.811524}
+{"kind": "exit", "ts": 1794519597.375008, "ticker": "KXUEFANLTOTAL-26NOV12CZEESP-2", "side": "no", "price": 0.63, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794519588}
