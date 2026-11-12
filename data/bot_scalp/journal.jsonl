@@ -8652,3 +8652,9 @@
 {"kind": "exit", "ts": 1794521224.012381, "ticker": "KXNCAAWBGAME-26NOV12HCBRWN-HC", "side": "yes", "price": 0.5, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794521212}
 {"kind": "fill", "ts": 1794521224.012381, "fee": 0.01, "trip": 1794521218, "ticker": "KXNCAAWBGAME-26NOV12HCBRWN-BRWN", "side": "yes", "price": 0.49, "contracts": 1.0, "fill_ts": 1794521218.71588}
 {"kind": "exit", "ts": 1794521244.0126073, "ticker": "KXNCAAWBGAME-26NOV12HCBRWN-BRWN", "side": "yes", "price": 0.5, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794521218}
+{"kind": "fill", "ts": 1794522979.1377275, "fee": 0.01, "trip": 1794522976, "ticker": "KXITFWMATCH-26NOV12MOEMAL-MAL", "side": "no", "price": 0.48, "contracts": 1.0, "fill_ts": 1794522976.289178}
+{"kind": "fill", "ts": 1794522979.1377275, "fee": 0.01, "trip": 1794522976, "ticker": "KXNCAAWBTOTAL-26NOV12HCBRWN-121", "side": "yes", "price": 0.49, "contracts": 1.0, "fill_ts": 1794522976.841469}
+{"kind": "exit", "ts": 1794522999.1379733, "ticker": "KXNCAAWBTOTAL-26NOV12HCBRWN-121", "side": "yes", "price": 0.51, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794522976}
+{"kind": "fill", "ts": 1794523009.1380937, "fee": 0.01, "trip": 1794523010, "ticker": "KXNCAAWBTOTAL-26NOV12HCBRWN-121", "side": "no", "price": 0.49, "contracts": 1.0, "fill_ts": 1794523010.019194}
+{"kind": "exit", "ts": 1794523019.1382124, "ticker": "KXNCAAWBTOTAL-26NOV12HCBRWN-121", "side": "no", "price": 0.51, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794523010}
+{"kind": "exit", "ts": 1794523039.138423, "ticker": "KXITFWMATCH-26NOV12MOEMAL-MAL", "side": "no", "price": 0.42, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794522976}
