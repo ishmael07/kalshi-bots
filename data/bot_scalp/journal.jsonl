@@ -8574,3 +8574,6 @@
 {"kind": "exit", "ts": 1794441493.980567, "ticker": "KXNCAAMBTOTAL-26NOV11COOKSDSU-162", "side": "no", "price": 0.5, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794441484}
 {"kind": "fill", "ts": 1794441503.9806666, "fee": 0.01, "trip": 1794441499, "ticker": "KXNCAAMBTOTAL-26NOV11COOKSDSU-162", "side": "no", "price": 0.45, "contracts": 1.0, "fill_ts": 1794441499.381465}
 {"kind": "exit", "ts": 1794441543.981071, "ticker": "KXNCAAMBTOTAL-26NOV11COOKSDSU-162", "side": "no", "price": 0.32, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794441499}
+{"kind": "fill", "ts": 1794441573.981316, "fee": 0.01, "trip": 1794441566, "ticker": "KXNCAAMBTOTAL-26NOV11COOKSDSU-162", "side": "no", "price": 0.45, "contracts": 1.0, "fill_ts": 1794441566.230736}
+{"kind": "exit", "ts": 1794441573.981316, "ticker": "KXNCAAMBTOTAL-26NOV11COOKSDSU-162", "side": "no", "price": 0.51, "contracts": 0.85, "fee": 0.01, "reason": "scalp", "trip": 1794441566}
+{"kind": "exit", "ts": 1794441573.981316, "ticker": "KXNCAAMBTOTAL-26NOV11COOKSDSU-162", "side": "no", "price": 0.51, "contracts": 0.15, "fee": 0.01, "reason": "scalp", "trip": 1794441566}
