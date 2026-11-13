@@ -8701,3 +8701,5 @@
 {"kind": "exit", "ts": 1794527916.5224996, "ticker": "KXITFMATCH-26NOV12DEATHO-THO", "side": "no", "price": 0.42, "contracts": 0.75, "fee": 0.01, "reason": "scalp", "trip": 1794527839}
 {"kind": "exit", "ts": 1794527916.5224996, "ticker": "KXITFMATCH-26NOV12DEATHO-THO", "side": "no", "price": 0.42, "contracts": 0.01, "fee": 0.01, "reason": "scalp", "trip": 1794527839}
 {"kind": "exit", "ts": 1794527916.5224996, "ticker": "KXITFMATCH-26NOV12DEATHO-THO", "side": "no", "price": 0.42, "contracts": 0.1, "fee": 0.01, "reason": "scalp", "trip": 1794527839}
+{"kind": "fill", "ts": 1794528555.6665158, "fee": 0.01, "trip": 1794528546, "ticker": "KXNCAAMBSPREAD-26NOV12MORGUMBC-UMBC7", "side": "no", "price": 0.48, "contracts": 1.0, "fill_ts": 1794528546.831862}
+{"kind": "exit", "ts": 1794528605.6671426, "ticker": "KXNCAAMBSPREAD-26NOV12MORGUMBC-UMBC7", "side": "no", "price": 0.51, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794528546}
