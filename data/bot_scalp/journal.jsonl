@@ -8722,3 +8722,5 @@
 {"kind": "exit", "ts": 1794633940.3403568, "ticker": "KXNCAAMBGAME-26NOV13ETAMPORT-PORT", "side": "no", "price": 0.37, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794633921}
 {"kind": "fill", "ts": 1794694370.9250324, "fee": 0.01, "trip": 1794694325, "ticker": "KXNCAAF1HSPREAD-26NOV14MIZZUGA-UGA28", "side": "yes", "price": 0.26, "contracts": 1.0, "fill_ts": 1794694325.179556}
 {"kind": "exit", "ts": 1794694370.9250324, "ticker": "KXNCAAF1HSPREAD-26NOV14MIZZUGA-UGA28", "side": "yes", "price": 0.63, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794694325}
+{"kind": "fill", "ts": 1794695514.362011, "fee": 0.01, "trip": 1794695526, "ticker": "KXNCAAMBSPREAD-26NOV14LSUGONZ-GONZ6", "side": "yes", "price": 0.45, "contracts": 1.0, "fill_ts": 1794695526.897546}
+{"kind": "exit", "ts": 1794695641.0944045, "ticker": "KXNCAAMBSPREAD-26NOV14LSUGONZ-GONZ6", "side": "yes", "price": 0.18, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794695526}
