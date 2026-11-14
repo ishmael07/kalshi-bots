@@ -8718,3 +8718,5 @@
 {"kind": "exit", "ts": 1794541266.391005, "ticker": "KXNFLSPREAD-26NOV12WASNYG-NYG2", "side": "no", "price": 0.38, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794541237}
 {"kind": "fill", "ts": 1794541929.748915, "fee": 0.01, "trip": 1794541922, "ticker": "KXNFLTEAMTOTAL-26NOV12WASNYG-WAS21", "side": "yes", "price": 0.4, "contracts": 1.0, "fill_ts": 1794541922.569538}
 {"kind": "exit", "ts": 1794541949.749124, "ticker": "KXNFLTEAMTOTAL-26NOV12WASNYG-WAS21", "side": "yes", "price": 0.33, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794541922}
+{"kind": "fill", "ts": 1794633930.3402498, "fee": 0.01, "trip": 1794633921, "ticker": "KXNCAAMBGAME-26NOV13ETAMPORT-PORT", "side": "no", "price": 0.35, "contracts": 1.0, "fill_ts": 1794633921.148652}
+{"kind": "exit", "ts": 1794633940.3403568, "ticker": "KXNCAAMBGAME-26NOV13ETAMPORT-PORT", "side": "no", "price": 0.37, "contracts": 1.0, "fee": 0.01, "reason": "scalp", "trip": 1794633921}
